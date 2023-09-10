@@ -66,6 +66,24 @@ nav {
     font-size: 12px;
 }
 
+.dropdown:hover .dropdown-menu{
+    display: flex;
+}
+.dropdown-service .dropdown-menu {
+    display: none;
+}
+.dropdown-service{
+    margin: 10px 0 0 -300px;
+}
+.dropdown {
+    margin-top: -7px;
+}
+.left-service,.mid-service,.right-service{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
 /* Background Area */
 .hospital {
     margin-top: -40px;
