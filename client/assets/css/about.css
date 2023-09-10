@@ -37,6 +37,8 @@ span {
     margin-left: 20px;
 }
 
+
+
 /* Navbar */
 nav {
     display: flex;
@@ -69,6 +71,38 @@ nav {
     font-size: 12px;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-service .dropdown-menu {
+    display: none;
+}
+
+.dropdown-service {
+    margin: 10px 0 0 -300px;
+}
+
+.dropdown {
+    margin-top: -7px;
+}
+
+.left-service,
+.mid-service,
+.right-service {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+#lang-dropdown {
+    flex-direction: column;
+}
+
+#selectedLanguage {
+    font-weight: bold;
+}
 /* Breadcrumb Area */
 .breadcrumb-container{
     display: flex;

@@ -19,3 +19,7 @@ modal.style.display = "none";
 img01.className = "modal-content";
 }, 400);
 }
+
+  function changeLanguage(language) {
+    document.getElementById('languageDropdown').textContent = language;
+ }

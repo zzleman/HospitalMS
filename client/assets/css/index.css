@@ -84,6 +84,13 @@ nav {
     gap: 5px;
     padding: 10px;
 }
+
+#lang-dropdown{
+    flex-direction: column;
+}
+#selectedLanguage {
+    font-weight: bold;
+}
 /* Background Area */
 .hospital {
     margin-top: -40px;

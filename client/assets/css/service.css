@@ -37,6 +37,8 @@ span {
     margin-left: 20px;
 }
 
+
+
 /* Navbar */
 nav {
     display: flex;
@@ -126,103 +128,65 @@ nav {
     font-size: 25px;
 }
 
-/* Contact Us Area */
-.contact-container{
+/* Service Cards Area */
+.service-container{
+    margin-top: 80px;
+}
+.service-card-area{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    margin: 40px;
     gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    width: 1400px;
 }
-.contact-us{
-    background-color: whitesmoke;
-    width: 550px;
-    height: 600px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    border-radius: 25px
+.service-card{
+    border-radius: 20px;
+    background-color: white;
+    height: max-content;
+    width: 22rem;
+    max-width: 100%;
 }
-.contact-us h2{
-    font-size: 42px;
-    color: #707070;
-    font-weight: 900;
+.card-body{
+    margin:20px 0 0 15px;
+    margin: 15px;
 }
-.contact-item{
-    display: flex;
-    gap: 20px;
+.service-card .card-img-top{
+    width: 22rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.contact-item p{
-    color: #606060;
+.moving-hover{
+    margin: -50px 0 0 30px;
+    transition: ease 1s;
+    position: absolute;
 }
-.contact-item h4{
-    font-weight: 900;
+.service-card:hover .moving-hover{
+    margin-left: 50px;
+    transition: ease 1s;
 }
-.contact-hr{
-    margin-top: -25px;
+.inner{
+    overflow: hidden;
 }
-.contact-us span{
+.inner img{
+    transition: all 1.2s ease;
+}
+.service-card:hover .card-img-top{
+    transform: scale(1.2);
+}
+#service-btn{
+    margin-top: -40px;
+    background-color: transparent;
+    border: none;
+    color: #245BCD;
+}
+.service-information{
     text-align: center;
-    color: #245BCD;
-    font-size: 25px;
 }
-.fa-envelope,.fa-location-dot,.fa-phone{
-    color: #245BCD;
-    font-size: 40px;
-    padding-top: 10px;
+.service-information h1{
+    font-weight: bolder;
 }
-.map {
-    filter: grayscale(0%) invert(100%) contrast(73%);
-    border-radius: 25px;
-}
-
-/* Send Message Area */
-.send-msg{
-    padding:40px 0 40px 20px;
-    background-color: whitesmoke;
-    width: 1140px;
-    display:flex ;
-    margin: 70px 0 0  160px;
-    flex-direction: column;
-    border-radius: 25px;
-}
-.send-area{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.basic-input{
-    border: none;
-    background-color: white;
-    width: 500px;
-    height: 40px;
-    padding-left: 10px;
-    border-radius: 12px;
-
-}
-.basic-textarea{
-    border: none;
-    background-color: white;
-    width: 500px;
-    height: 70px;
-    padding-left: 10px;
-    border-radius: 12px;
-}
-.send-btn button{
-    height: 50px;
-    width: 180px;
-    border: none;
-    border-radius: 6px;
-    margin-right: 30px;
-    background-color: #245BCD;
-    color: white;
-}
-.send-title{
-    font-size: 25px;
-    font-weight: 900;
-}
-
 
 /* Book Now Area */
 .book-now {
