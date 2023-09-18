@@ -1,6 +1,212 @@
-﻿@{
+﻿@model HomeVM
+@{
 
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!-- Background Area Start --> 
+<div class="hospital" style="background-image:url('../assets/img/image-bg.jpg')">
+    <p class="bannerSubtitle"><img src="./assets/icons/pulse-icon.png" alt=""> Best Care, Best Service</p>
+    <p class="bannerTitle">Best Hospital With Best <br> Professionals</p>
+    <p class="bannerText">
+        We are able to provide services for our physicians whose appointments <br>
+        are available in all branches.
+    </p>
+    <button class="appointment-button" style="background-color: #245BCD; color: white;">Make Appointment</button>
+    <a href="./contact.html"><button class="appointment-button" style="background-color: white;">Contact Us</button></a>
+</div>
+<!-- Background Area End -->
+
+<!-- About Area Start -->
+<div class="aboutArea">
+    <img class="collabImg" src="./assets/img/collab-photo.png" alt="">
+    <div class="aboutAreaInfo">
+        <p class="aboutHeadText">A Great place of medical care hospital center.</p>
+        <p class="aboutMainText">
+            Private Family Hospital, in its functional and modern building with its renewed
+            infrastructure and service concept: It produces modern health solutions with its advanced technology,
+            specialist physicians, experienced nurses and administrative staff.
+        </p>
+        <div class="aboutAreaOptions">
+            <div class="eachOption">
+                <img class="editIcon" src="./assets/icons/emergency-icon.png" alt="">
+                <div class="eachOptionText">
+                    <p>Emergency Support</p>
+                    <p>We are at your side in emergencies.</p>
+                </div>
+            </div>
+            <div class="eachOption">
+                <img class="editIcon" src="./assets/icons/support-icon.png" alt="">
+                <div class="eachOptionText">
+                    <p>24/7 Support</p>
+                    <p>We provide 24/7 uninterrupted support.</p>
+                </div>
+            </div>
+            <div class="eachOption">
+                <img class="editIcon" src="./assets/icons/checkup-icon.png" alt="">
+                <div class="eachOptionText">
+                    <p>Free Chekup</p>
+                    <p>Start getting a treatment from our physicians.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About Area End -->
+
+<!-- Counter Area Start -->
+<div class="counterArea" style="background-image: url('../assets/img/counter-bg.jpeg')">
+    <div class="imageDoc">
+        <img src="./assets/img/doctors-video.png" alt="Intro">
+        <a class="playBtn" href="https://www.youtube.com/watch?v=74DWwSxsVSs&list=LL&index=1" target="_blank">
+            <i class="fa fa-play changeColor"></i>
+        </a>
+    </div>
+    <div class="counter">
+        <div class="counterLeft">
+            <div class="counterInfo">
+                <img class="counterIcons" src="./assets/icons/group-icon.png" alt="">
+                <div class="counterText">
+                    <p class="akhiValue" data-target="67013">0</p>
+                    <p class="labelText">Total Patients</p>
+                </div>
+            </div>
+            <div class="counterInfo">
+                <img class="counterIcons" src="./assets/icons/business-icon.png" alt="">
+                <div class="counterText">
+                    <p class="akhiValue" data-target="689">0</p>
+                    <p class="labelText">Our Business Partners</p>
+                </div>
+            </div>
+        </div>
+        <div class="counterRight">
+            <div class="counterInfo">
+                <img class="counterIcons" src="./assets/icons/patient-icon.png" alt="">
+                <div class="counterText">
+                    <p class="akhiValue" data-target="58962">0</p>
+                    <p class="labelText">Satisfied Patients</p>
+                </div>
+            </div>
+            <div class="counterInfo">
+                <img class="counterIcons" src="./assets/icons/medal-icon.png" alt="">
+                <div class="counterText">
+                    <p class="akhiValue" data-target="8712">0</p>
+                    <p class="labelText">Total Operation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Counter Area End -->
+
+<!-- Services Area Start -->
+<div class="servies">
+    <p class="servicesSubText">Our Medical Services</p>
+    <p class="servicesMainText">All the service details we have provided in our hospital are listed below.</p>
+
+
+    <div class="card-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                @foreach (var service in Model.Services.Take(6))
+                {
+                    <div class="card swiper-slide">
+                        <img src="@service.ImagePath" class="card-img-top" alt="Surgery Service">
+                        <div class="card-body">
+                            <h5 class="service-title">@service.Title</h5>
+                            <p class="service-content">
+                                @service.Description
+                            </p>
+                            <a href="#" class="service-btn">View details</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+<!-- Services Area End -->
+
+<!-- Gallery Area Start -->
+<div class="gallery-container" style="background-image: url('../assets/img/gallery-bg.png');">
+    <div class="gallery-content">
+        <p class="gallery_title">Our Service Gallery</p>
+        <p class="gallery_text">You can find all the services we provide as ZeusMed here.</p>
+    </div>
+
+    <div class="gallery-area">
+        <a href="">
+            <div class="gallery_img">
+                <img class="service_img" src="./assets/img/infection-services.jpeg" alt="">
+                <div class="show_up_text">
+                    <div class="text">Infectious Diseases</div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="gallery_img">
+                <img class="service_img" src="./assets/img/emergency-service.png" alt="">
+                <div class="show_up_text">
+                    <div class="text">Emergency Service</div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="gallery_img">
+                <img class="service_img" src="./assets/img/checkup-services.jpeg" alt="">
+                <div class="show_up_text">
+                    <div class="text">Check-Up</div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="gallery_img">
+                <img class="service_img" src="./assets/img/surgery-services.jpeg" alt="">
+                <div class="show_up_text">
+                    <div class="text">Surgery</div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="gallery_img">
+                <img class="service_img" src="./assets/img/chest-diseases-services.png" alt="">
+                <div class="show_up_text">
+                    <div class="text">Chest Diseases</div>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="gallery_img">
+                <img class="service_img" src="./assets/img/cardiovascular-surgery-services.jpeg" alt="">
+                <div class="show_up_text">
+                    <div class="text">Cardiovascular Surgery</div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<!-- Gallery Area End -->
+
+<!-- Doctors Area Start -->
+<div class="doctors-container">
+    <div class="doctors-content"
+        <p class="doctors_title">Our Doctors</p>
+        <p class="doctors_text">You can find the list of all our doctors working in our organization here.</p>
+    </div>
+    <div class="doctors-area">
+        @foreach (var doctor in Model.Doctors)
+        {
+            <div class="doctors-info">
+                <img class="doctors_img" src="@doctor.ImagePath" alt="">
+                <p class="doctor_name">@doctor.Fullname</p>
+                <p class="doctor_department">@doctor.Department</p>
+                <div class="show_up_button">
+                    <button class="doctors_button">View Profile</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<!-- Doctors Area End -->

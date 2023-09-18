@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/ZeusMed.DataAccess.csproj": {}
+  },
+  "projects": {
+    "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/ZeusMed.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/ZeusMed.Core.csproj",
+        "projectName": "ZeusMed.Core",
+        "projectPath": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/ZeusMed.Core.csproj",
+        "packagesPath": "/Users/leman/.nuget/packages/",
+        "outputPath": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/ZeusMed.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/ZeusMed.DataAccess.csproj",
+        "projectName": "ZeusMed.DataAccess",
+        "projectPath": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/ZeusMed.DataAccess.csproj",
+        "packagesPath": "/Users/leman/.nuget/packages/",
+        "outputPath": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/ZeusMed.Core.csproj": {
+                "projectPath": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/ZeusMed.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

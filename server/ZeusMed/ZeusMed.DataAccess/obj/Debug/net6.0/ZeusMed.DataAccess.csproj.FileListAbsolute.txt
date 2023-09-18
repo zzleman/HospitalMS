@@ -1,0 +1,17 @@
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/bin/Debug/net6.0/ZeusMed.DataAccess.deps.json
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/bin/Debug/net6.0/ZeusMed.DataAccess.runtimeconfig.json
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/bin/Debug/net6.0/ZeusMed.DataAccess.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/bin/Debug/net6.0/ZeusMed.DataAccess.pdb
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/bin/Debug/net6.0/ZeusMed.Core.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/bin/Debug/net6.0/ZeusMed.Core.pdb
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.csproj.AssemblyReference.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.AssemblyInfoInputs.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.AssemblyInfo.cs
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.csproj.CoreCompileInputs.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.csproj.CopyComplete
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/refint/ZeusMed.DataAccess.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.pdb
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ZeusMed.DataAccess.genruntimeconfig.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.DataAccess/obj/Debug/net6.0/ref/ZeusMed.DataAccess.dll

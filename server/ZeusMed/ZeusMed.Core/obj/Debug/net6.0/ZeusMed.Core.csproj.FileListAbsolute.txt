@@ -1,0 +1,12 @@
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/bin/Debug/net6.0/ZeusMed.Core.deps.json
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/bin/Debug/net6.0/ZeusMed.Core.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/bin/Debug/net6.0/ZeusMed.Core.pdb
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ZeusMed.Core.csproj.AssemblyReference.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ZeusMed.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ZeusMed.Core.AssemblyInfoInputs.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ZeusMed.Core.AssemblyInfo.cs
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ZeusMed.Core.csproj.CoreCompileInputs.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ZeusMed.Core.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/refint/ZeusMed.Core.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ZeusMed.Core.pdb
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.Core/obj/Debug/net6.0/ref/ZeusMed.Core.dll

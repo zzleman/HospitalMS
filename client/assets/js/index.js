@@ -62,7 +62,7 @@ var swiper = new Swiper(".slide-content", {
     0: {
       slidesPerView: 1,
     },
-    520: {
+    768: {
       slidesPerView: 2,
     },
     1000: {
