@@ -17,6 +17,7 @@
     <None Remove="Areas\ZeusMedAdmin\Controllers\" />
     <None Remove="Areas\ZeusMedAdmin\Views\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Shared\" />
+    <None Remove="Areas\ZeusMedAdmin\Views\Dashboard\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -30,9 +31,12 @@
     <Folder Include="Areas\ZeusMedAdmin\Controllers\" />
     <Folder Include="Areas\ZeusMedAdmin\Views\" />
     <Folder Include="Areas\ZeusMedAdmin\Views\Shared\" />
+    <Folder Include="Areas\ZeusMedAdmin\Views\Dashboard\" />
+    <Folder Include="wwwroot\admin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\admin\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZeusMed.DataAccess\ZeusMed.DataAccess.csproj">

@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL1NoYXJlZC9fQWRtaW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL19WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
