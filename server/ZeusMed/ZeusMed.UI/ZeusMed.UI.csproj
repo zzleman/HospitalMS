@@ -18,6 +18,7 @@
     <None Remove="Areas\ZeusMedAdmin\Views\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Shared\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Dashboard\" />
+    <None Remove="Areas\ZeusMedAdmin\Views\Doctor\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -33,6 +34,7 @@
     <Folder Include="Areas\ZeusMedAdmin\Views\Shared\" />
     <Folder Include="Areas\ZeusMedAdmin\Views\Dashboard\" />
     <Folder Include="wwwroot\admin\" />
+    <Folder Include="Areas\ZeusMedAdmin\Views\Doctor\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

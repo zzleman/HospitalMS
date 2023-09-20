@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0RvY3Rvci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL1NoYXJlZC9fQWRtaW5MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
