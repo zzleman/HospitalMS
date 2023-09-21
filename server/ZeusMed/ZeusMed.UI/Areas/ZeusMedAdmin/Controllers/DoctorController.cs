@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.DataAccess.Contexts;
+using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.Controllers;
 [Area("ZeusMedAdmin")]
@@ -25,9 +26,9 @@ public class DoctorController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create()
+    public IActionResult Create(DoctorPostVM doctorPost)
     {
-        return View();
+        return Content($"{doctorPost.Fullname}{doctorPost.Department}{doctorPost.ImagePath}");
     }
 
     public IActionResult Delete()

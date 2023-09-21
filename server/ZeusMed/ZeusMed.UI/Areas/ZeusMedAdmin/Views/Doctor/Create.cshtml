@@ -14,51 +14,39 @@
             <div class="card-body">
                 <form>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Fullname</label>
+                        <label asp-for="Fullname" class="col-sm-2 col-form-label">Fullname</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                                 <span id="basic-icon-default-fullname2" class="input-group-text">
                                     <i class="bx bx-user"></i>
                                 </span>
-                                <input type="text"
+                                <input asp-for="Fullname"
                                        class="form-control"
-                                       name="Fullname"
-                                       id="basic-icon-default-fullname"
-                                       placeholder="John Doe"
-                                       aria-label="John Doe"
-                                       aria-describedby="basic-icon-default-fullname2" />
+                                       placeholder="John Doe" />
                             </div>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label" for="basic-icon-default-company">Department</label>
+                        <label asp-for="Department" class="col-sm-2 col-form-label" for="basic-icon-default-company">Department</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                                 <span id="basic-icon-default-company2" class="input-group-text">
                                     <i class="bx bx-buildings"></i>
                                 </span>
-                                <input type="text"
-                                       id="basic-icon-default-company"
-                                       name="Department"
+                                <input asp-for="Department"
                                        class="form-control"
-                                       placeholder="Cardiology"
-                                       aria-label="Cardiology"
-                                       aria-describedby="basic-icon-default-company2" />
+                                       placeholder="Cardiology" />
                             </div>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label" for="basic-icon-default-email">Image</label>
+                        <label asp-for="ImagePath" class="col-sm-2 col-form-label" for="basic-icon-default-email">Image</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                                 <span class="input-group-text"><i class="bx bx-image-alt"></i></span>
-                                <input type="text"
-                                       id="basic-icon-default-email"
+                                <input asp-for="ImagePath"
                                        class="form-control"
-                                       name="ImagePath"
-                                       placeholder="john.doe"
-                                       aria-label="john.doe"
-                                       aria-describedby="basic-icon-default-email2" />
+                                       placeholder="johndoe.png" />
                             </div>
                             <div class="form-text">You can use letters, numbers & periods</div>
                         </div>
