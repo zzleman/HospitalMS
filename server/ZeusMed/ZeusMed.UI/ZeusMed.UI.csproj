@@ -19,6 +19,8 @@
     <None Remove="Areas\ZeusMedAdmin\Views\Shared\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Dashboard\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Doctor\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\DoctorViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -35,10 +37,20 @@
     <Folder Include="Areas\ZeusMedAdmin\Views\Dashboard\" />
     <Folder Include="wwwroot\admin\" />
     <Folder Include="Areas\ZeusMedAdmin\Views\Doctor\" />
+    <Folder Include="wwwroot\admin\css\" />
+    <Folder Include="wwwroot\admin\js\" />
+    <Folder Include="wwwroot\admin\vendor\" />
+    <Folder Include="wwwroot\admin\img\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\DoctorViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\admin\" />
+    <Content Remove="wwwroot\admin\css\" />
+    <Content Remove="wwwroot\admin\js\" />
+    <Content Remove="wwwroot\admin\vendor\" />
+    <Content Remove="wwwroot\admin\img\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZeusMed.DataAccess\ZeusMed.DataAccess.csproj">

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8IHLCIGq8tL/qz+qGobQPtUIYG/qqIl2yNI7dOL86KU=",
+  "Hash": "aq936o7RTX887UhyG1+D6atgtVC1VkEAQItvhJBH0fE=",
   "Source": "ZeusMed.UI",
   "BasePath": "_content/ZeusMed.UI",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/css/demo.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/css/demo.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/css/demo.css",
+      "RelativePath": "admin/css/demo.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/css/demo.css"
+      "OriginalItemSpec": "wwwroot/admin/css/demo.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/avatars/1.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/1.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/avatars/1.png",
+      "RelativePath": "admin/img/avatars/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/avatars/1.png"
+      "OriginalItemSpec": "wwwroot/admin/img/avatars/1.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/avatars/5.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/5.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/avatars/5.png",
+      "RelativePath": "admin/img/avatars/5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/avatars/5.png"
+      "OriginalItemSpec": "wwwroot/admin/img/avatars/5.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/avatars/6.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/6.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/avatars/6.png",
+      "RelativePath": "admin/img/avatars/6.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/avatars/6.png"
+      "OriginalItemSpec": "wwwroot/admin/img/avatars/6.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/avatars/7.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/7.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/avatars/7.png",
+      "RelativePath": "admin/img/avatars/7.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/avatars/7.png"
+      "OriginalItemSpec": "wwwroot/admin/img/avatars/7.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/backgrounds/18.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/backgrounds/18.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/backgrounds/18.jpg",
+      "RelativePath": "admin/img/backgrounds/18.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/backgrounds/18.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/backgrounds/18.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/1.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/1.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/1.jpg",
+      "RelativePath": "admin/img/elements/1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/1.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/1.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/11.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/11.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/11.jpg",
+      "RelativePath": "admin/img/elements/11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/11.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/11.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/12.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/12.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/12.jpg",
+      "RelativePath": "admin/img/elements/12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/12.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/12.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/13.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/13.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/13.jpg",
+      "RelativePath": "admin/img/elements/13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/13.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/13.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/17.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/17.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/17.jpg",
+      "RelativePath": "admin/img/elements/17.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/17.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/17.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/18.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/18.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/18.jpg",
+      "RelativePath": "admin/img/elements/18.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/18.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/18.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/19.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/19.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/19.jpg",
+      "RelativePath": "admin/img/elements/19.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/19.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/19.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/2.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/2.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/2.jpg",
+      "RelativePath": "admin/img/elements/2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/2.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/2.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/20.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/20.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/20.jpg",
+      "RelativePath": "admin/img/elements/20.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/20.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/20.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/3.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/3.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/3.jpg",
+      "RelativePath": "admin/img/elements/3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/3.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/3.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/4.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/4.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/4.jpg",
+      "RelativePath": "admin/img/elements/4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/4.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/4.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/5.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/5.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/5.jpg",
+      "RelativePath": "admin/img/elements/5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/5.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/5.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/elements/7.jpg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/7.jpg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/elements/7.jpg",
+      "RelativePath": "admin/img/elements/7.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/elements/7.jpg"
+      "OriginalItemSpec": "wwwroot/admin/img/elements/7.jpg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/favicon/favicon.ico",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/favicon/favicon.ico",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/favicon/favicon.ico",
+      "RelativePath": "admin/img/favicon/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/favicon/favicon.ico"
+      "OriginalItemSpec": "wwwroot/admin/img/favicon/favicon.ico"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/asana.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/asana.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/asana.png",
+      "RelativePath": "admin/img/icons/brands/asana.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/asana.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/asana.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/behance.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/behance.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/behance.png",
+      "RelativePath": "admin/img/icons/brands/behance.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/behance.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/behance.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/dribbble.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/dribbble.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/dribbble.png",
+      "RelativePath": "admin/img/icons/brands/dribbble.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/dribbble.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/dribbble.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/facebook.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/facebook.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/facebook.png",
+      "RelativePath": "admin/img/icons/brands/facebook.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,15 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/facebook.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/facebook.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/github.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/github.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/github.png",
+      "RelativePath": "admin/img/icons/brands/github.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -490,15 +490,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/github.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/github.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/google.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/google.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/google.png",
+      "RelativePath": "admin/img/icons/brands/google.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -507,15 +507,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/google.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/google.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/instagram.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/instagram.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/instagram.png",
+      "RelativePath": "admin/img/icons/brands/instagram.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -524,15 +524,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/instagram.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/instagram.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/mailchimp.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/mailchimp.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/mailchimp.png",
+      "RelativePath": "admin/img/icons/brands/mailchimp.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,15 +541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/mailchimp.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/mailchimp.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/slack.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/slack.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/slack.png",
+      "RelativePath": "admin/img/icons/brands/slack.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,15 +558,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/slack.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/slack.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/brands/twitter.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/twitter.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/brands/twitter.png",
+      "RelativePath": "admin/img/icons/brands/twitter.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -575,15 +575,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/brands/twitter.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/brands/twitter.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/cc-primary.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/cc-primary.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/cc-primary.png",
+      "RelativePath": "admin/img/icons/unicons/cc-primary.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -592,15 +592,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/cc-primary.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/cc-primary.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/cc-success.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/cc-success.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/cc-success.png",
+      "RelativePath": "admin/img/icons/unicons/cc-success.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -609,15 +609,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/cc-success.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/cc-success.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/cc-warning.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/cc-warning.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/cc-warning.png",
+      "RelativePath": "admin/img/icons/unicons/cc-warning.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,15 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/cc-warning.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/cc-warning.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/chart-success.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/chart-success.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/chart-success.png",
+      "RelativePath": "admin/img/icons/unicons/chart-success.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -643,15 +643,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/chart-success.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/chart-success.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/chart.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/chart.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/chart.png",
+      "RelativePath": "admin/img/icons/unicons/chart.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/chart.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/chart.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/paypal.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/paypal.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/paypal.png",
+      "RelativePath": "admin/img/icons/unicons/paypal.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -677,15 +677,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/paypal.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/paypal.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/wallet-info.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/wallet-info.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/wallet-info.png",
+      "RelativePath": "admin/img/icons/unicons/wallet-info.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -694,15 +694,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/wallet-info.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/wallet-info.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/icons/unicons/wallet.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/wallet.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/icons/unicons/wallet.png",
+      "RelativePath": "admin/img/icons/unicons/wallet.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -711,15 +711,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/icons/unicons/wallet.png"
+      "OriginalItemSpec": "wwwroot/admin/img/icons/unicons/wallet.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/illustrations/girl-doing-yoga-light.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/illustrations/girl-doing-yoga-light.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/illustrations/girl-doing-yoga-light.png",
+      "RelativePath": "admin/img/illustrations/girl-doing-yoga-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,15 +728,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/illustrations/girl-doing-yoga-light.png"
+      "OriginalItemSpec": "wwwroot/admin/img/illustrations/girl-doing-yoga-light.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/illustrations/man-with-laptop-light.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/illustrations/man-with-laptop-light.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/illustrations/man-with-laptop-light.png",
+      "RelativePath": "admin/img/illustrations/man-with-laptop-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -745,15 +745,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/illustrations/man-with-laptop-light.png"
+      "OriginalItemSpec": "wwwroot/admin/img/illustrations/man-with-laptop-light.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/illustrations/page-misc-error-light.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/illustrations/page-misc-error-light.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/illustrations/page-misc-error-light.png",
+      "RelativePath": "admin/img/illustrations/page-misc-error-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -762,15 +762,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/illustrations/page-misc-error-light.png"
+      "OriginalItemSpec": "wwwroot/admin/img/illustrations/page-misc-error-light.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/layouts/layout-container-light.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-container-light.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/layouts/layout-container-light.png",
+      "RelativePath": "admin/img/layouts/layout-container-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -779,15 +779,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/layouts/layout-container-light.png"
+      "OriginalItemSpec": "wwwroot/admin/img/layouts/layout-container-light.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/layouts/layout-fluid-light.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-fluid-light.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/layouts/layout-fluid-light.png",
+      "RelativePath": "admin/img/layouts/layout-fluid-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -796,15 +796,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/layouts/layout-fluid-light.png"
+      "OriginalItemSpec": "wwwroot/admin/img/layouts/layout-fluid-light.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/layouts/layout-without-menu-light.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-without-menu-light.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/layouts/layout-without-menu-light.png",
+      "RelativePath": "admin/img/layouts/layout-without-menu-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -813,15 +813,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/layouts/layout-without-menu-light.png"
+      "OriginalItemSpec": "wwwroot/admin/img/layouts/layout-without-menu-light.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/img/layouts/layout-without-navbar-light.png",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-without-navbar-light.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/img/layouts/layout-without-navbar-light.png",
+      "RelativePath": "admin/img/layouts/layout-without-navbar-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,15 +830,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/img/layouts/layout-without-navbar-light.png"
+      "OriginalItemSpec": "wwwroot/admin/img/layouts/layout-without-navbar-light.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/config.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/config.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/config.js",
+      "RelativePath": "admin/js/config.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -847,15 +847,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/config.js"
+      "OriginalItemSpec": "wwwroot/admin/js/config.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/dashboards-analytics.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/dashboards-analytics.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/dashboards-analytics.js",
+      "RelativePath": "admin/js/dashboards-analytics.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -864,15 +864,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/dashboards-analytics.js"
+      "OriginalItemSpec": "wwwroot/admin/js/dashboards-analytics.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/extended-ui-perfect-scrollbar.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/extended-ui-perfect-scrollbar.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/extended-ui-perfect-scrollbar.js",
+      "RelativePath": "admin/js/extended-ui-perfect-scrollbar.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/extended-ui-perfect-scrollbar.js"
+      "OriginalItemSpec": "wwwroot/admin/js/extended-ui-perfect-scrollbar.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/form-basic-inputs.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/form-basic-inputs.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/form-basic-inputs.js",
+      "RelativePath": "admin/js/form-basic-inputs.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,15 +898,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/form-basic-inputs.js"
+      "OriginalItemSpec": "wwwroot/admin/js/form-basic-inputs.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/main.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/main.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/main.js",
+      "RelativePath": "admin/js/main.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,15 +915,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/main.js"
+      "OriginalItemSpec": "wwwroot/admin/js/main.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/pages-account-settings-account.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/pages-account-settings-account.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/pages-account-settings-account.js",
+      "RelativePath": "admin/js/pages-account-settings-account.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -932,15 +932,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/pages-account-settings-account.js"
+      "OriginalItemSpec": "wwwroot/admin/js/pages-account-settings-account.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/ui-modals.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/ui-modals.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/ui-modals.js",
+      "RelativePath": "admin/js/ui-modals.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -949,15 +949,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/ui-modals.js"
+      "OriginalItemSpec": "wwwroot/admin/js/ui-modals.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/ui-popover.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/ui-popover.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/ui-popover.js",
+      "RelativePath": "admin/js/ui-popover.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,15 +966,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/ui-popover.js"
+      "OriginalItemSpec": "wwwroot/admin/js/ui-popover.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/js/ui-toasts.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/ui-toasts.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/js/ui-toasts.js",
+      "RelativePath": "admin/js/ui-toasts.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/ui-toasts.js"
+      "OriginalItemSpec": "wwwroot/admin/js/ui-toasts.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/css/core.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/core.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/css/core.css",
+      "RelativePath": "admin/vendor/css/core.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,15 +1000,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/css/core.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/css/core.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/css/pages/page-account-settings.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-account-settings.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/css/pages/page-account-settings.css",
+      "RelativePath": "admin/vendor/css/pages/page-account-settings.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,15 +1017,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/css/pages/page-account-settings.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/css/pages/page-account-settings.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/css/pages/page-auth.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-auth.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/css/pages/page-auth.css",
+      "RelativePath": "admin/vendor/css/pages/page-auth.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,15 +1034,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/css/pages/page-auth.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/css/pages/page-auth.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/css/pages/page-icons.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-icons.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/css/pages/page-icons.css",
+      "RelativePath": "admin/vendor/css/pages/page-icons.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1051,15 +1051,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/css/pages/page-icons.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/css/pages/page-icons.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/css/pages/page-misc.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-misc.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/css/pages/page-misc.css",
+      "RelativePath": "admin/vendor/css/pages/page-misc.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1068,15 +1068,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/css/pages/page-misc.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/css/pages/page-misc.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/css/theme-default.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/theme-default.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/css/theme-default.css",
+      "RelativePath": "admin/vendor/css/theme-default.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,15 +1085,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/css/theme-default.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/css/theme-default.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/fonts/boxicons.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/fonts/boxicons.css",
+      "RelativePath": "admin/vendor/fonts/boxicons.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,15 +1102,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/fonts/boxicons.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/fonts/boxicons.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.eot",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.eot",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.eot",
+      "RelativePath": "admin/vendor/fonts/boxicons/boxicons.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,15 +1119,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.eot"
+      "OriginalItemSpec": "wwwroot/admin/vendor/fonts/boxicons/boxicons.eot"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.svg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.svg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.svg",
+      "RelativePath": "admin/vendor/fonts/boxicons/boxicons.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,15 +1136,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.svg"
+      "OriginalItemSpec": "wwwroot/admin/vendor/fonts/boxicons/boxicons.svg"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.ttf",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.ttf",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.ttf",
+      "RelativePath": "admin/vendor/fonts/boxicons/boxicons.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,15 +1153,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.ttf"
+      "OriginalItemSpec": "wwwroot/admin/vendor/fonts/boxicons/boxicons.ttf"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.woff",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.woff",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.woff",
+      "RelativePath": "admin/vendor/fonts/boxicons/boxicons.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,15 +1170,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.woff"
+      "OriginalItemSpec": "wwwroot/admin/vendor/fonts/boxicons/boxicons.woff"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.woff2",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.woff2",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.woff2",
+      "RelativePath": "admin/vendor/fonts/boxicons/boxicons.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,15 +1187,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/fonts/boxicons/boxicons.woff2"
+      "OriginalItemSpec": "wwwroot/admin/vendor/fonts/boxicons/boxicons.woff2"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/js/bootstrap.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/js/bootstrap.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/js/bootstrap.js",
+      "RelativePath": "admin/vendor/js/bootstrap.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/js/helpers.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/js/helpers.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/js/helpers.js",
+      "RelativePath": "admin/vendor/js/helpers.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,15 +1221,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/js/helpers.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/js/helpers.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/js/menu.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/js/menu.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/js/menu.js",
+      "RelativePath": "admin/vendor/js/menu.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/js/menu.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/js/menu.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/apex-charts/apex-charts.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/apex-charts/apex-charts.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/apex-charts/apex-charts.css",
+      "RelativePath": "admin/vendor/libs/apex-charts/apex-charts.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,15 +1255,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/apex-charts/apex-charts.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/apex-charts/apex-charts.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/apex-charts/apexcharts.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/apex-charts/apexcharts.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/apex-charts/apexcharts.js",
+      "RelativePath": "admin/vendor/libs/apex-charts/apexcharts.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,15 +1272,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/apex-charts/apexcharts.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/apex-charts/apexcharts.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/highlight/highlight-github.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/highlight/highlight-github.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/highlight/highlight-github.css",
+      "RelativePath": "admin/vendor/libs/highlight/highlight-github.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1289,15 +1289,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/highlight/highlight-github.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/highlight/highlight-github.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/highlight/highlight.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/highlight/highlight.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/highlight/highlight.css",
+      "RelativePath": "admin/vendor/libs/highlight/highlight.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1306,15 +1306,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/highlight/highlight.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/highlight/highlight.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/highlight/highlight.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/highlight/highlight.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/highlight/highlight.js",
+      "RelativePath": "admin/vendor/libs/highlight/highlight.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1323,15 +1323,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/highlight/highlight.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/highlight/highlight.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/jquery/jquery.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/jquery/jquery.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/jquery/jquery.js",
+      "RelativePath": "admin/vendor/libs/jquery/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1340,15 +1340,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/jquery/jquery.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/jquery/jquery.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/masonry/masonry.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/masonry/masonry.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/masonry/masonry.js",
+      "RelativePath": "admin/vendor/libs/masonry/masonry.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1357,15 +1357,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/masonry/masonry.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/masonry/masonry.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
+      "RelativePath": "admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1374,15 +1374,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
+      "RelativePath": "admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1391,15 +1391,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/assets/vendor/libs/popper/popper.js",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/popper/popper.js",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "admin/assets/vendor/libs/popper/popper.js",
+      "RelativePath": "admin/vendor/libs/popper/popper.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1408,7 +1408,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/vendor/libs/popper/popper.js"
+      "OriginalItemSpec": "wwwroot/admin/vendor/libs/popper/popper.js"
     },
     {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/about.css",
