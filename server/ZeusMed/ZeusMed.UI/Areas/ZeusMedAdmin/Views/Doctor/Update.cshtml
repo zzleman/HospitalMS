@@ -1,6 +1,6 @@
-﻿@model DoctorPostVM
+﻿@model Doctor
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Update";
 }
 
 
@@ -9,8 +9,9 @@
     <div class="col-xxl">
         <div class="card mb-4">
             <div class="card-header d-flex align-items-center justify-content-between">
-                <h5 class="mb-0">Add New Doctor</h5>
+                <h5 class="mb-0">Update Doctor</h5>
             </div>
+            <img src="@Model.ImagePath" style="width:150px; margin:15px"  />
             <div class="card-body">
                 <form method="post">
                     <div class="row mb-3">
@@ -63,7 +64,7 @@
 
                     <div class="row justify-content-end">
                         <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Save</button>
+                            <button type="submit" class="btn btn-success">Update</button>
                         </div>
                     </div>
                 </form>

@@ -67,5 +67,38 @@ public class DoctorController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
+
+    public async Task<IActionResult> Update(int Id)
+    {
+        Doctor? doctordb = await _context.Doctors.FindAsync(Id);
+        if (doctordb == null)
+        {
+            return NotFound();
+        }
+        return View(doctordb);
+    }
+
+    [HttpPost]
+    [AutoValidateAntiforgeryToken]
+    public async Task<IActionResult> Update(int Id, Doctor doctor)
+    {
+        if (Id != doctor.Id)
+        {
+            return BadRequest();
+        }
+        if (!ModelState.IsValid)
+        {
+            return View(doctor);
+        }
+        Doctor? doctordb = await _context.Doctors.AsNoTracking().FirstOrDefaultAsync(d => d.Id == Id);
+        if (doctordb == null)
+        {
+            return NotFound();
+        }
+        _context.Entry<Doctor>(doctor).State = EntityState.Modified;
+        await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
+
+    }
 }
 
