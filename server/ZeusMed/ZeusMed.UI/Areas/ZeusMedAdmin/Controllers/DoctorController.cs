@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ZeusMed.Core.Entities;
 using ZeusMed.DataAccess.Contexts;
 using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel;
 
@@ -26,9 +27,21 @@ public class DoctorController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create(DoctorPostVM doctorPost)
+    public async Task<IActionResult> Create(DoctorPostVM doctorPost)
     {
-        return Content($"{doctorPost.Fullname}{doctorPost.Department}{doctorPost.ImagePath}");
+        if (!ModelState.IsValid)
+        {
+            return View();
+        }
+        Doctor doctor = new()
+        {
+            Fullname = doctorPost.Fullname,
+            Department = doctorPost.Department,
+            ImagePath = doctorPost.ImagePath
+        };
+        await _context.Doctors.AddAsync(doctor);
+        await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
     }
 
     public IActionResult Delete()
