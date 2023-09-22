@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.Core.Entities;
 using ZeusMed.DataAccess.Contexts;
@@ -9,10 +11,12 @@ namespace ZeusMed.UI.Areas.ZeusMedAdmin.Controllers;
 public class DoctorController : Controller
 {
     private readonly AppDbContext _context;
+    private readonly IMapper _mapper;
 
-    public DoctorController(AppDbContext context)
+    public DoctorController(AppDbContext context, IMapper mapper)
     {
         _context = context;
+        _mapper = mapper;
     }
 
     public async Task<IActionResult> Index()
@@ -27,18 +31,14 @@ public class DoctorController : Controller
     }
 
     [HttpPost]
+    [AutoValidateAntiforgeryToken]
     public async Task<IActionResult> Create(DoctorPostVM doctorPost)
     {
         if (!ModelState.IsValid)
         {
             return View();
         }
-        Doctor doctor = new()
-        {
-            Fullname = doctorPost.Fullname,
-            Department = doctorPost.Department,
-            ImagePath = doctorPost.ImagePath
-        };
+        Doctor doctor = _mapper.Map<Doctor>(doctorPost);
         await _context.Doctors.AddAsync(doctor);
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));

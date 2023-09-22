@@ -21,6 +21,7 @@
     <None Remove="Areas\ZeusMedAdmin\Views\Doctor\" />
     <None Remove="Areas\ZeusMedAdmin\ViewModels\" />
     <None Remove="Areas\ZeusMedAdmin\ViewModels\DoctorViewModel\" />
+    <None Remove="Mappers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -43,6 +44,7 @@
     <Folder Include="wwwroot\admin\img\" />
     <Folder Include="Areas\ZeusMedAdmin\ViewModels\" />
     <Folder Include="Areas\ZeusMedAdmin\ViewModels\DoctorViewModel\" />
+    <Folder Include="Mappers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
@@ -62,5 +64,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 </Project>

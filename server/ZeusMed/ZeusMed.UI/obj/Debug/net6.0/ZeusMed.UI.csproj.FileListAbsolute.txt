@@ -70,3 +70,5 @@
 /Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/obj/Debug/net6.0/ZeusMed.UI.csproj.CopyComplete
 /Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/bin/Debug/net6.0/Humanizer.dll
 /Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/bin/Debug/net6.0/AutoMapper.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
