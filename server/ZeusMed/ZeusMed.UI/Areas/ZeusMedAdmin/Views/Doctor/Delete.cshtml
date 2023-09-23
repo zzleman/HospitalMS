@@ -11,7 +11,6 @@
             <img src="@Model.ImagePath" style="width:200px; margin:15px" />
             <h5 class="card-header">@Model.Fullname</h5>
             <div class="card-body">
-                <div class="text-light small fw-medium">@Model.Department</div>
                 <div class="demo-inline-spacing">
                     <form method="post" asp-route-id="@Model.Id">
                         <button style="margin-bottom:5px" type="submit" class="btn btn-danger">Delete</button>

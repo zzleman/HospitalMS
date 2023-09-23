@@ -1,6 +1,7 @@
 ﻿
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.Core.Entities;
 using ZeusMed.DataAccess.Contexts;
@@ -21,28 +22,44 @@ public class DoctorController : Controller
 
     public async Task<IActionResult> Index()
     {
-        return View(await _context.Doctors.ToListAsync());
+        var doctors = await _context.Doctors.Include(d => d.AssociatedService).ToListAsync();
+        return View(doctors);
     }
 
     [HttpGet]
     public IActionResult Create()
     {
-        return View();
+        var services = _context.Services.ToList();
+
+        var viewModel = new DoctorPostVM
+        {
+            Services = services
+        };
+
+        return View(viewModel);
     }
 
     [HttpPost]
-    [AutoValidateAntiforgeryToken]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(DoctorPostVM doctorPost)
     {
         if (!ModelState.IsValid)
         {
-            return View();
+            Doctor doctor = _mapper.Map<Doctor>(doctorPost);
+
+            doctor.AssociatedService = _context.Services.Find(doctorPost.AssociatedServiceId);
+
+            await _context.Doctors.AddAsync(doctor);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
-        Doctor doctor = _mapper.Map<Doctor>(doctorPost);
-        await _context.Doctors.AddAsync(doctor);
-        await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+
+        var services = _context.Services.ToList();
+        doctorPost.Services = services;
+        return View(doctorPost);
     }
+
+
 
     public async Task<IActionResult> Delete(int Id)
     {
@@ -70,35 +87,57 @@ public class DoctorController : Controller
 
     public async Task<IActionResult> Update(int Id)
     {
-        Doctor? doctordb = await _context.Doctors.FindAsync(Id);
-        if (doctordb == null)
+        Doctor doctor = await _context.Doctors.FindAsync(Id);
+        if (doctor == null)
         {
             return NotFound();
         }
-        return View(doctordb);
+
+        List<Service> services = await _context.Services.ToListAsync();
+
+        ViewBag.Services = new SelectList(services, "Id", "Title", doctor.AssociatedServiceId);
+
+        return View(doctor);
     }
 
     [HttpPost]
-    [AutoValidateAntiforgeryToken]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Update(int Id, Doctor doctor)
     {
         if (Id != doctor.Id)
         {
             return BadRequest();
         }
+
         if (!ModelState.IsValid)
         {
-            return View(doctor);
-        }
-        Doctor? doctordb = await _context.Doctors.AsNoTracking().FirstOrDefaultAsync(d => d.Id == Id);
-        if (doctordb == null)
-        {
-            return NotFound();
-        }
-        _context.Entry<Doctor>(doctor).State = EntityState.Modified;
-        await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+            var doctordb = await _context.Doctors.FirstOrDefaultAsync(d => d.Id == Id);
 
+            if (doctordb == null)
+            {
+                return NotFound();
+            }
+
+            doctordb.Fullname = doctor.Fullname;
+            doctordb.ImagePath = doctor.ImagePath;
+
+            var associatedService = _context.Services.Find(doctor.AssociatedServiceId);
+            if (associatedService != null)
+            {
+                doctordb.AssociatedService = associatedService;
+            }
+
+            _context.Entry(doctordb).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        return View(doctor);
     }
+
+
+
+
 }
 

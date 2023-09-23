@@ -11,5 +11,20 @@ public class AppDbContext : DbContext
 
     public DbSet<Doctor> Doctors { get; set; } = null!;
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Doctor>()
+            .HasOne(d => d.AssociatedService)
+            .WithMany(s => s.AssociatedDoctors)
+            .HasForeignKey(d => d.AssociatedServiceId)
+            .IsRequired(false);
+
+        modelBuilder.Entity<Service>()
+            .HasMany(s => s.AssociatedDoctors)
+            .WithOne(d => d.AssociatedService)
+            .HasForeignKey(d => d.AssociatedServiceId)
+            .IsRequired();
+    }
+
 }
 

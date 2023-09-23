@@ -11,8 +11,8 @@ using ZeusMed.DataAccess.Contexts;
 namespace ZeusMed.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230918065908_CreateTables")]
-    partial class CreateTables
+    [Migration("20230923152131_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,22 +31,18 @@ namespace ZeusMed.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Department")
-                        .IsRequired()
-                        .HasMaxLength(90)
-                        .HasColumnType("nvarchar(90)");
+                    b.Property<int>("AssociatedServiceId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Fullname")
-                        .IsRequired()
-                        .HasMaxLength(90)
-                        .HasColumnType("nvarchar(90)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AssociatedServiceId");
 
                     b.ToTable("Doctors");
                 });
@@ -71,6 +67,22 @@ namespace ZeusMed.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Services");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>
+                {
+                    b.HasOne("ZeusMed.Core.Entities.Service", "AssociatedService")
+                        .WithMany("AssociatedDoctors")
+                        .HasForeignKey("AssociatedServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AssociatedService");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Service", b =>
+                {
+                    b.Navigation("AssociatedDoctors");
                 });
 #pragma warning restore 612, 618
         }

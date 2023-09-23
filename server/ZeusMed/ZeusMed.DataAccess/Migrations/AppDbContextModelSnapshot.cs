@@ -29,8 +29,8 @@ namespace ZeusMed.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Department")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("AssociatedServiceId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Fullname")
                         .HasColumnType("nvarchar(max)");
@@ -39,6 +39,8 @@ namespace ZeusMed.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AssociatedServiceId");
 
                     b.ToTable("Doctors");
                 });
@@ -63,6 +65,22 @@ namespace ZeusMed.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Services");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>
+                {
+                    b.HasOne("ZeusMed.Core.Entities.Service", "AssociatedService")
+                        .WithMany("AssociatedDoctors")
+                        .HasForeignKey("AssociatedServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AssociatedService");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Service", b =>
+                {
+                    b.Navigation("AssociatedDoctors");
                 });
 #pragma warning restore 612, 618
         }

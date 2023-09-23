@@ -12,5 +12,7 @@ public class Service: IEntity
 
     public string? ImagePath { get; set; } = null!;
 
+    public List<Doctor> AssociatedDoctors { get; set; } = new List<Doctor>();
+
 }
 

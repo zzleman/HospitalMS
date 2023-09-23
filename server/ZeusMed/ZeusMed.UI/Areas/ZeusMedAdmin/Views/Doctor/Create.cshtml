@@ -30,21 +30,24 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label asp-for="Department" class="col-sm-2 col-form-label" for="basic-icon-default-company">Department</label>
+                        <label asp-for="AssociatedServiceId" class="col-sm-2 col-form-label">Department</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                                 <span class="input-group-text">
-                                    <i class="bx bx-buildings"></i>
+                                    <i class="bx bx-list-ul"></i>
                                 </span>
-                                <input asp-for="Department"
-                                       class="form-control"
-                                       placeholder="Cardiology"
-                                       aria-label="john.doe"
-                                       aria-describedby="basic-default-email2" />
+                                <select asp-for="AssociatedServiceId" class="form-select" aria-label="Associated Service" aria-describedby="basic-default-email2">
+                                    <option value="">Select a service</option>
+                                    @foreach (var service in Model.Services)
+                                    {
+                                        <option value="@service.Id">@service.Title</option>
+                                    }
+                                </select>
                             </div>
-                            <span class="text-danger" asp-validation-for="Department"></span>
+                            <span class="text-danger" asp-validation-for="AssociatedServiceId"></span>
                         </div>
                     </div>
+
                     <div class="row mb-3">
                         <label asp-for="ImagePath" class="col-sm-2 col-form-label">Image</label>
                         <div class="col-sm-10">
