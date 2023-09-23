@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aq936o7RTX887UhyG1+D6atgtVC1VkEAQItvhJBH0fE=",
+  "Hash": "umCUOgKAvs2JLFkSxBqB4vzZjAp7q52Rza0oNbAF7Kw=",
   "Source": "ZeusMed.UI",
   "BasePath": "_content/ZeusMed.UI",
   "Mode": "Default",
@@ -1885,6 +1885,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/img/emergency-service.png"
+    },
+    {
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/errorpage.jpeg",
+      "SourceId": "ZeusMed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
+      "BasePath": "_content/ZeusMed.UI",
+      "RelativePath": "assets/img/errorpage.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/errorpage.jpeg"
     },
     {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/footer-background.jpeg",

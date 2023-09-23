@@ -196,7 +196,7 @@
         <p class="doctors_text">You can find the list of all our doctors working in our organization here.</p>
     </div>
     <div class="doctors-area">
-        @foreach (var doctor in Model.Doctors)
+        @foreach (var doctor in Model.Doctors.Take(8))
         {
             <div class="doctors-info">
                 <img class="doctors_img" src="@doctor.ImagePath" alt="">

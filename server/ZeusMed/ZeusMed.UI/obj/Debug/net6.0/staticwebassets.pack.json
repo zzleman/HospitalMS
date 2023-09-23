@@ -437,6 +437,10 @@
       "PackagePath": "staticwebassets/assets/img/emergency-service.png"
     },
     {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/errorpage.jpeg",
+      "PackagePath": "staticwebassets/assets/img/errorpage.jpeg"
+    },
+    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/footer-background.jpeg",
       "PackagePath": "staticwebassets/assets/img/footer-background.jpeg"
     },
