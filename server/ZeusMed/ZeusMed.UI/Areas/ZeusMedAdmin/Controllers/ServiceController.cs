@@ -54,5 +54,20 @@ public class ServiceController : Controller
         return View(doctordb);
     }
 
+    [HttpPost]
+    [ActionName("Delete")]
+    [AutoValidateAntiforgeryToken]
+    public async Task<IActionResult> DeletePost(int Id)
+    {
+        Doctor? doctordb = await _context.Doctors.FindAsync(Id);
+        if (doctordb == null)
+        {
+            return NotFound();
+        }
+        _context.Doctors.Remove(doctordb);
+        await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
+    }
+
 }
 
