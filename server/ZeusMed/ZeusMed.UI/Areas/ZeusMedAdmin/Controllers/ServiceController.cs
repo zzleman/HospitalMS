@@ -30,5 +30,19 @@ public class ServiceController : Controller
         return View();
     }
 
+    [HttpPost]
+    [AutoValidateAntiforgeryToken]
+    public async Task<IActionResult> Create(DoctorPostVM doctorPost)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View();
+        }
+        Doctor doctor = _mapper.Map<Doctor>(doctorPost);
+        await _context.Doctors.AddAsync(doctor);
+        await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
+    }
+
 }
 
