@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.Core.Entities;
 using ZeusMed.DataAccess.Contexts;
+using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel;
 using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.ServiceViewModel;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.Controllers;
@@ -22,6 +23,11 @@ public class ServiceController : Controller
     public async Task<IActionResult> Index()
     {
         return View(await _context.Doctors.ToListAsync());
+    }
+
+    public IActionResult Create()
+    {
+        return View();
     }
 
 }
