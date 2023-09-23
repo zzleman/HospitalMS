@@ -22,9 +22,14 @@ public class DoctorController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var doctors = await _context.Doctors.Include(d => d.AssociatedService).ToListAsync();
-        return View(doctors);
+        var doctorsWithDetails = await _context.Doctors
+            .Include(d => d.AssociatedService)
+            .Include(d => d.DoctorDetail) 
+            .ToListAsync();
+
+        return View(doctorsWithDetails);
     }
+
 
     [HttpGet]
     public IActionResult Create()

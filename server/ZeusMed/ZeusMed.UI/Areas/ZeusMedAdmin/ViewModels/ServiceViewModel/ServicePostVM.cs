@@ -1,5 +1,6 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
+using ZeusMed.Core.Entities;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.ServiceViewModel;
 
@@ -13,5 +14,7 @@ public class ServicePostVM
 
     [Required, StringLength(255)]
     public string? ImagePath { get; set; } = null!;
+
+    public ServiceDetail ServiceDetail { get; set; }
 }
 

@@ -24,6 +24,12 @@
     <None Remove="Mappers\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Service\" />
     <None Remove="Areas\ZeusMedAdmin\ViewModels\ServiceViewModel\" />
+    <None Remove="Views\About\" />
+    <None Remove="Views\Doctor\" />
+    <None Remove="Views\DoctorDetail\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\Service\" />
+    <None Remove="Views\ServiceDetail\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -49,6 +55,12 @@
     <Folder Include="Mappers\" />
     <Folder Include="Areas\ZeusMedAdmin\Views\Service\" />
     <Folder Include="Areas\ZeusMedAdmin\ViewModels\ServiceViewModel\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\Doctor\" />
+    <Folder Include="Views\DoctorDetail\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\Service\" />
+    <Folder Include="Views\ServiceDetail\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

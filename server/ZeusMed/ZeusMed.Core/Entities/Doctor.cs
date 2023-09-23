@@ -11,10 +11,10 @@ namespace ZeusMed.Core.Entities
 
         public string? ImagePath { get; set; } = null!;
 
-
-        // Use data annotations to specify the foreign key
         [ForeignKey("AssociatedService")]
         public int AssociatedServiceId { get; set; }
         public Service AssociatedService { get; set; }
+
+        public DoctorDetail DoctorDetail { get; set; }
     }
 }

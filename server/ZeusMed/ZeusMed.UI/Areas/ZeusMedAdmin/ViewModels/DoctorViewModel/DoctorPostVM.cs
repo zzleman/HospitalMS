@@ -17,5 +17,7 @@ namespace ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel
         public int AssociatedServiceId { get; set; }
 
         public List<Service> Services { get; set; }
+
+        public DoctorDetail DoctorDetail { get; set; }
     }
 }

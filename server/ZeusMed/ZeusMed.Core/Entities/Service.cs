@@ -14,5 +14,7 @@ public class Service: IEntity
 
     public List<Doctor> AssociatedDoctors { get; set; } = new List<Doctor>();
 
+    public ServiceDetail ServiceDetail { get; set; }
+
 }
 

@@ -4,7 +4,7 @@
 
 namespace ZeusMed.DataAccess.Migrations
 {
-    public partial class Initial : Migration
+    public partial class AddServiceDetail : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -44,6 +44,42 @@ namespace ZeusMed.DataAccess.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "ServiceDetail",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    Info = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ServiceDetail", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ServiceDetail_Services_Id",
+                        column: x => x.Id,
+                        principalTable: "Services",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "DoctorDetails",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DoctorDetails", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_DoctorDetails_Doctors_Id",
+                        column: x => x.Id,
+                        principalTable: "Doctors",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Doctors_AssociatedServiceId",
                 table: "Doctors",
@@ -52,6 +88,12 @@ namespace ZeusMed.DataAccess.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "DoctorDetails");
+
+            migrationBuilder.DropTable(
+                name: "ServiceDetail");
+
             migrationBuilder.DropTable(
                 name: "Doctors");
 

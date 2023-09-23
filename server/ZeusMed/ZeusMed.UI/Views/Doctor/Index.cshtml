@@ -1,0 +1,43 @@
+﻿@model DoctorVM
+@{
+
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="./assets/css/doctor.css">
+<!-- Breadcrumb Area Start -->
+<div class="breadcrumb-container" style="background-image: url('../assets/img/all-page-bg.jpeg')">
+    <h1>Doctors</h1>
+    <div class="breadcrumb-area" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/" style="color:darkturquoise ;">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">Doctors</li>
+        </ol>
+    </div>
+</div>
+<!-- Breadcrumb Area End -->
+<!-- Doctors Content Area Start -->
+<div class="doctors-container">
+    <div class="doctors-content">
+        <p class="doctors_title">Our Doctors</p>
+        <p class="doctors_text">You can find the list of all our doctors working in our organization here.</p>
+    </div>
+    <div class="doctors-area">
+        @foreach (var doctor in Model.Doctors)
+        {
+            <div class="doctors-info">
+                <img class="doctors_img" src="@doctor.ImagePath" alt="">
+                <p class="doctor_name">@doctor.Fullname</p>
+                <p class="doctor_department">@doctor.AssociatedService.Title</p>
+
+                <div class="show_up_button">
+                    <a href="@Url.Action("Index", "DoctorDetail", new { doctorDetailId = doctor.Id })">
+                        <button class="doctors_button">View Profile</button>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Doctors Content Area End -->

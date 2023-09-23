@@ -22,7 +22,11 @@ public class ServiceController : Controller
 
     public async Task<IActionResult> Index()
     {
-        return View(await _context.Services.ToListAsync());
+        var servicesWithDetails = await _context.Services
+            .Include(s => s.ServiceDetail)
+            .ToListAsync();
+
+        return View(servicesWithDetails);
     }
 
     public IActionResult Create()
@@ -36,12 +40,12 @@ public class ServiceController : Controller
     {
         if (!ModelState.IsValid)
         {
-            return View();
+            Service service = _mapper.Map<Service>(servicePost);
+            await _context.Services.AddAsync(service);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
-        Service service = _mapper.Map<Service>(servicePost);
-        await _context.Services.AddAsync(service);
-        await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+        return View();
     }
 
     public async Task<IActionResult> Delete(int Id)
@@ -90,16 +94,17 @@ public class ServiceController : Controller
         }
         if (!ModelState.IsValid)
         {
-            return View(service);
+            _context.Entry<Service>(service).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
         Service? servicedb = await _context.Services.AsNoTracking().FirstOrDefaultAsync(s => s.Id == Id);
         if (servicedb == null)
         {
             return NotFound();
         }
-        _context.Entry<Service>(service).State = EntityState.Modified;
-        await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+
+        return View(service);
 
     }
 }

@@ -11,8 +11,8 @@ using ZeusMed.DataAccess.Contexts;
 namespace ZeusMed.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230923152131_Initial")]
-    partial class Initial
+    [Migration("20230923212246_AddServiceDetail")]
+    partial class AddServiceDetail
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -47,6 +47,19 @@ namespace ZeusMed.DataAccess.Migrations
                     b.ToTable("Doctors");
                 });
 
+            modelBuilder.Entity("ZeusMed.Core.Entities.DoctorDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DoctorDetails");
+                });
+
             modelBuilder.Entity("ZeusMed.Core.Entities.Service", b =>
                 {
                     b.Property<int>("Id")
@@ -69,6 +82,19 @@ namespace ZeusMed.DataAccess.Migrations
                     b.ToTable("Services");
                 });
 
+            modelBuilder.Entity("ZeusMed.Core.Entities.ServiceDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Info")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ServiceDetail");
+                });
+
             modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>
                 {
                     b.HasOne("ZeusMed.Core.Entities.Service", "AssociatedService")
@@ -80,9 +106,38 @@ namespace ZeusMed.DataAccess.Migrations
                     b.Navigation("AssociatedService");
                 });
 
+            modelBuilder.Entity("ZeusMed.Core.Entities.DoctorDetail", b =>
+                {
+                    b.HasOne("ZeusMed.Core.Entities.Doctor", "Doctor")
+                        .WithOne("DoctorDetail")
+                        .HasForeignKey("ZeusMed.Core.Entities.DoctorDetail", "Id")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Doctor");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.ServiceDetail", b =>
+                {
+                    b.HasOne("ZeusMed.Core.Entities.Service", "Service")
+                        .WithOne("ServiceDetail")
+                        .HasForeignKey("ZeusMed.Core.Entities.ServiceDetail", "Id")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Service");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>
+                {
+                    b.Navigation("DoctorDetail")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("ZeusMed.Core.Entities.Service", b =>
                 {
                     b.Navigation("AssociatedDoctors");
+
+                    b.Navigation("ServiceDetail")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

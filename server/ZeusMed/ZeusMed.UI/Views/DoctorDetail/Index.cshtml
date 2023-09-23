@@ -1,0 +1,37 @@
+﻿@model DoctorVM
+@{
+
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="./assets/css/doctor-detail.css">
+<!-- Breadcrumb Area Start -->
+<div class="breadcrumb-container" style="background-image: url('../assets/img/all-page-bg.jpeg')">
+    <h1>Doctor Detail</h1>
+    <div class="breadcrumb-area" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/" style="color:darkturquoise ;">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">Doctor Detail</li>
+        </ol>
+    </div>
+</div>
+<!-- Breadcrumb Area End -->
+<!-- Doctors Detail Area Start -->
+<div class="doctor-detail-container">
+    <div class="doctor-detail-info">
+        <img src="@Model.ImagePath" alt="">
+        <h1 class="fullname">@Model.Fullname</h1>
+        <h3>@Model.Department</h3>
+    </div>
+    <div class="doctor-detail-about">
+        <br>
+        <p>About The Doctor</p>
+        <hr>
+        <p class="doctor-bio">
+            @Model.Description
+        </p>
+    </div>
+    <br>
+    <button class="appointment-button" style="background-color: #245BCD; color: white;">Make An Appointment</button>
+</div>
+<!-- Doctors Detail Area End -->
