@@ -22,7 +22,7 @@ public class ServiceController : Controller
 
     public async Task<IActionResult> Index()
     {
-        return View(await _context.Doctors.ToListAsync());
+        return View(await _context.Services.ToListAsync());
     }
 
     public IActionResult Create()
@@ -32,16 +32,26 @@ public class ServiceController : Controller
 
     [HttpPost]
     [AutoValidateAntiforgeryToken]
-    public async Task<IActionResult> Create(DoctorPostVM doctorPost)
+    public async Task<IActionResult> Create(ServicePostVM servicePost)
     {
         if (!ModelState.IsValid)
         {
             return View();
         }
-        Doctor doctor = _mapper.Map<Doctor>(doctorPost);
-        await _context.Doctors.AddAsync(doctor);
+        Service service = _mapper.Map<Service>(servicePost);
+        await _context.Services.AddAsync(service);
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
+    }
+
+    public async Task<IActionResult> Delete(int Id)
+    {
+        Doctor? doctordb = await _context.Doctors.FindAsync(Id);
+        if (doctordb == null)
+        {
+            return NotFound();
+        }
+        return View(doctordb);
     }
 
 }
