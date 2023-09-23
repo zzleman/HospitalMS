@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Service>
+@{
+    ViewData["Title"] = "Index";
+    int count = 1;
+
+}
+
+<!-- Basic Bootstrap Table -->
+<div class="card">
+    <h1 class="card-header">Doctors </h1>
+    <div class="table-responsive text-nowrap">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                @foreach (var service in Model)
+                {
+                    <tr>
+                        <th>@count</th>
+                        <td><img src="@service.ImagePath" style="width:120px" /></td>
+                        <td>@service.Title</td>
+                        <td>@service.Description</td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-route-id="@service.Id" asp-action="Update"><i class="bx bx-edit-alt me-1"></i> Edit</a>
+                                    <a class="dropdown-item" asp-route-id="@service.Id" asp-action="Delete"><i class="bx bx-trash me-1"></i> Delete</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    count++;
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--/ Basic Bootstrap Table -->
