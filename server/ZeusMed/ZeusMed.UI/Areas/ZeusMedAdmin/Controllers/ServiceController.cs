@@ -46,12 +46,12 @@ public class ServiceController : Controller
 
     public async Task<IActionResult> Delete(int Id)
     {
-        Doctor? doctordb = await _context.Doctors.FindAsync(Id);
-        if (doctordb == null)
+        Service? servicedb = await _context.Services.FindAsync(Id);
+        if (servicedb == null)
         {
             return NotFound();
         }
-        return View(doctordb);
+        return View(servicedb);
     }
 
     [HttpPost]
@@ -59,14 +59,24 @@ public class ServiceController : Controller
     [AutoValidateAntiforgeryToken]
     public async Task<IActionResult> DeletePost(int Id)
     {
-        Doctor? doctordb = await _context.Doctors.FindAsync(Id);
-        if (doctordb == null)
+        Service? servicedb = await _context.Services.FindAsync(Id);
+        if (servicedb == null)
         {
             return NotFound();
         }
-        _context.Doctors.Remove(doctordb);
+        _context.Services.Remove(servicedb);
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
+    }
+
+    public async Task<IActionResult> Update(int Id)
+    {
+        Service? servicedb = await _context.Services.FindAsync(Id);
+        if (servicedb == null)
+        {
+            return NotFound();
+        }
+        return View(servicedb);
     }
 
 }
