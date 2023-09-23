@@ -79,5 +79,28 @@ public class ServiceController : Controller
         return View(servicedb);
     }
 
+
+    [HttpPost]
+    [AutoValidateAntiforgeryToken]
+    public async Task<IActionResult> Update(int Id, Service service)
+    {
+        if (Id != service.Id)
+        {
+            return BadRequest();
+        }
+        if (!ModelState.IsValid)
+        {
+            return View(service);
+        }
+        Service? servicedb = await _context.Services.AsNoTracking().FirstOrDefaultAsync(s => s.Id == Id);
+        if (servicedb == null)
+        {
+            return NotFound();
+        }
+        _context.Entry<Service>(service).State = EntityState.Modified;
+        await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
+
+    }
 }
 
