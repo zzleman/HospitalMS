@@ -116,7 +116,9 @@ public class DoctorController : Controller
 
         if (!ModelState.IsValid)
         {
-            var doctordb = await _context.Doctors.FirstOrDefaultAsync(d => d.Id == Id);
+            var doctordb = await _context.Doctors
+                .Include(d => d.DoctorDetail)
+                .FirstOrDefaultAsync(d => d.Id == Id);
 
             if (doctordb == null)
             {
@@ -125,6 +127,11 @@ public class DoctorController : Controller
 
             doctordb.Fullname = doctor.Fullname;
             doctordb.ImagePath = doctor.ImagePath;
+
+            if (doctordb.DoctorDetail != null)
+            {
+                doctordb.DoctorDetail.Description = doctor.DoctorDetail.Description;
+            }
 
             var associatedService = _context.Services.Find(doctor.AssociatedServiceId);
             if (associatedService != null)
@@ -141,8 +148,7 @@ public class DoctorController : Controller
         return View(doctor);
     }
 
-
-
-
 }
+
+
 

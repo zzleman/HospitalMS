@@ -51,11 +51,10 @@
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                                 <span class="input-group-text"><i class="bx bx-info-circle"></i></span>
-                                <input asp-for="ServiceDetail.Info"
-                                       class="form-control"
-                                       placeholder="This Service Build in 2012 in ZeusMed."
-                                       aria-label="john.doe"
-                                       aria-describedby="basic-default-email2" />
+                                <textarea asp-for="ServiceDetail.Info"
+                                          class="form-control"
+                                          id="tiny">
+                                </textarea>
                             </div>
                             <span class="text-danger" asp-validation-for="ServiceDetail.Info"></span>
                         </div>

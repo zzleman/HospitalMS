@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/svg/zeusmed_logo copy.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/svg/zeusmed_logo copy.svg">
     <title> ZeusMed Medical Center</title>
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
-
-
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+    <script src="https://cdn.tiny.cloud/1/nwldzu0d5d3x2i6e0oce85q2iravyfkd6kvy0yt5rfxht1bi/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>tinymce.init({
+            selector: 'textarea#tiny',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+        });</script>
 </head>
 <body>
     <!-- Header Area Start -->
@@ -26,21 +30,21 @@
         </div>
         <p class="number">(0212) 441 41 32</p>
         <div class="icons">
-            <a href="https://www.facebook.com/hospital.avrasiya" target="_blank"><img src="./assets/svg/facebook-icon.svg" alt="Facebook"></a>
-            <a href="https://en.wikipedia.org/wiki/Google%2B" target="_blank"><img src="./assets/svg/google-plus-icon.svg" alt="Google Plus"></a>
-            <a href="https://www.linkedin.com/company/hospital-albert-einstein/" target="_blank"><img src="./assets/svg/linkedin-icon.svg" alt="Linkedin"></a>
+            <a href="https://www.facebook.com/hospital.avrasiya" target="_blank"><img src="/assets/svg/facebook-icon.svg" alt="Facebook"></a>
+            <a href="https://en.wikipedia.org/wiki/Google%2B" target="_blank"><img src="/assets/svg/google-plus-icon.svg" alt="Google Plus"></a>
+            <a href="https://www.linkedin.com/company/hospital-albert-einstein/" target="_blank"><img src="/assets/svg/linkedin-icon.svg" alt="Linkedin"></a>
         </div>
     </header>
     <!-- Navbar Start -->
     <nav>
-        <a href="./index.html"><img class="zeusLogo" src="./assets/img/zeusmed-logo.png" alt=""></a>
+        <a href="/"><img class="zeusLogo" src="/assets/img/zeusmed-logo.png" alt=""></a>
         <ul class="menu">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>
             <li><a href="/doctor">Doctors</a></li>
             <li class="dropdown">
                 <a class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
-                   aria-expanded="false" href="./service">
+                   aria-expanded="false" href="/service">
                     Services
                 </a>
                 <div class="dropdown-service">
@@ -90,7 +94,7 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="./contact">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
             <li class="nav-item dropdown">
                 <a class="btn dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     English
@@ -110,12 +114,12 @@
     @RenderBody()
 
     <!-- Book Now Area Start -->
-    <div class="book-now" style="background-image: url('../assets//img/book-now.jpg')">
+    <div class="book-now" style="background-image: url('/assets/img/book-now.jpg')">
         <p class="book-title">Book now</p>
         <p class="book-text">Book your medical <br> appointment today</p>
         <div class="book-buttons">
             <button class="book-button" style="background-color: #13181f;color:white "><i class="fa-regular fa-calendar-check" style="color: #ffffff;"></i>Book an appointment</button>
-            <button class="book-button" style="background-color:transparent; border: 1px solid white;"><i class="fa-solid fa-hand-holding-medical" style="color: #ffffff;"></i>Our services</button>
+            <a href="/service"><button class="book-button" style="background-color:transparent; border: 1px solid white;"><i class="fa-solid fa-hand-holding-medical" style="color: #ffffff;"></i>Our services</button></a>
         </div>
     </div>
     <!-- Book Now Area End -->
@@ -124,7 +128,7 @@
         <div class="footer-first">
             <div class="footer-top">
                 <div class="footer-hist">
-                    <img class="footer-logo" src="./assets/img/zeusmed-logo.png" alt="">
+                    <img class="footer-logo" src="/assets/img/zeusmed-logo.png" alt="">
                     <div class="footer-info">
                         <p>
                             You can access information about the services we provide at our hospital on our ZeusMed website. By using
@@ -164,7 +168,7 @@
                 <div class="quick-links">
                     <p class="links-head">Quick Links</p>
                     <ul class="links-ul">
-                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="/about">About Us</a></li>
                         <li><a href="">S.S.S</a></li>
                         <li><a href="">News</a></li>
                     </ul>
@@ -172,9 +176,9 @@
                 <div class="support-help">
                     <p class="links-head">Support & Help</p>
                     <ul class="links-ul">
-                        <li><a href="">Doctors</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="/dotor">Doctors</a></li>
+                        <li><a href="/service">Services</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="newsletter">
@@ -196,6 +200,6 @@
     </div>
     <!-- Footer Area End -->
 </body>
-<script src="./assets/js/swiper-bundle.min.js"></script>
-<script defer src="./assets/js/index.js"></script>
+<script src="/assets/js/swiper-bundle.min.js"></script>
+<script defer src="/assets/js/index.js"></script>
 </html>

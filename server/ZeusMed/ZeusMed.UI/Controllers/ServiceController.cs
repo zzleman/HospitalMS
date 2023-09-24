@@ -2,22 +2,47 @@
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.DataAccess.Contexts;
 using ZeusMed.UI.ViewModels;
+using System.Linq;
 
-namespace ZeusMed.UI.Controllers;
-
-public class ServiceController : Controller
+namespace ZeusMed.UI.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public ServiceController(AppDbContext context)
+    public class ServiceController : Controller
     {
-        _context = context;
-    }
-    public IActionResult Index()
-    {
-        return View();
-    }
+        private readonly AppDbContext _context;
 
+        public ServiceController(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index()
+        {
+            var serviceVM = new ServiceVM
+            {
+                Services = _context.Services.ToList()
+            };
+            return View(serviceVM);
+        }
+
+        // Action to display service details
+        public IActionResult Details(int id)
+        {
+            var service = _context.Services.FirstOrDefault(s => s.Id == id);
+
+            if (service == null)
+            {
+                return NotFound(); // Handle when the service is not found
+            }
+
+            var serviceVM = new ServiceVM
+            {
+                Title = service.Title,
+                Description = service.Description,
+                Info = service.ServiceDetail.Info,
+                ImagePath = service.ImagePath
+            };
+
+            return View(serviceVM);
+        }
+    }
 }
-
-

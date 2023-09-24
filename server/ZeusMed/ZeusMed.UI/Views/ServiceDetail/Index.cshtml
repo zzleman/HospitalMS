@@ -1,11 +1,12 @@
-﻿@{
+﻿@model ServiceVM
+@{
 
     ViewData["Title"] = "Index";
 }
 
-<link rel="stylesheet" href="./assets/css/service-detail.css">
+<link rel="stylesheet" href="/assets/css/service-detail.css">
 <!-- Breadcrumb Area Start -->
-<div class="breadcrumb-container" style="background-image: url('../assets/img/all-page-bg.jpeg')">
+<div class="breadcrumb-container" style="background-image: url('/assets/img/all-page-bg.jpeg')">
     <h1>Nutrition and Diet</h1>
     <div class="breadcrumb-area" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -18,13 +19,13 @@
 <!-- Service Detail Area Start -->
 
 <div class="service-detail-container">
-    <div class="left-corner">
+    <div class="left-corner" style="width:1100px">
         <p>Services</p>
         <ul class="choice-service">
-            <li class="choice-item"><a href="/servicedetail">Nutrition and Diet <i class="fa-solid fa-chevron-right"></i></a></li>
+            <li class="choice-item"><a href="/ServiceDetail">Nutrition and Diet <i class="fa-solid fa-chevron-right"></i></a></li>
             <li class="choice-item"><a href="/servicedetail">Anesthesia and Reamination <i class="fa-solid fa-chevron-right"></i></a></li>
             <li class="choice-item"><a href="/servicedetail">Operations <i class="fa-solid fa-chevron-right"></i></a></li>
-            <li class="choice-item"><a href="/servicedetail"">Check-Up <i class="fa-solid fa-chevron-right"></i></a></li>
+            <li class="choice-item"><a href="/servicedetail">Check-Up <i class="fa-solid fa-chevron-right"></i></a></li>
             <li class="choice-item"><a href="">Dermatology <i class="fa-solid fa-chevron-right"></i></a></li>
             <li class="choice-item"><a href="">Infectious Diseases <i class="fa-solid fa-chevron-right"></i></a></li>
             <li class="choice-item"><a href="">Physical Therapy and Rehabilitation <i class="fa-solid fa-chevron-right"></i></a></li>
@@ -53,20 +54,12 @@
 
         </ul>
     </div>
-    <div class="right-corner">
-        <img class="detail-img" src="./assets/img/nutration-diet.png" alt="">
-        <h4>Nutrition and Diet</h4>
-        <p class="right-text">
-            The Department of Nutrition and Diet provides services on individual diet programs and nutrition education.
-            <br><br>
-            Nutrition; It is the use of nutrients for growth, maintenance of life and protection of health. In the prevention of
-            many diseases, during treatment and after the disease, it is necessary to determine the nutritional status of the person
-            and follow up with a personalized, adequate and balanced diet.
-            <br><br>
-            All inpatients in our hospital receive meal service planned by our Specialist Dietitian in accordance with a healthy
-            nutrition program.
-            <br><br>
-            Successful studies with obesity surgery are continuing on obesity diseases.
+    <div class="right-corner" >
+        <img class="detail-img" src="@Model.ImagePath" alt="">
+        <h2 style="padding-top:20px">@Model.Title</h2>
+        <h5>@Model.Description</h5>
+        <p class="right-text" style="width:790px !important">
+           @Html.Raw(Model.Info)
         </p>
     </div>
 </div>

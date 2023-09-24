@@ -10,6 +10,7 @@ namespace ZeusMed.DataAccess.Contexts
         public DbSet<Service> Services { get; set; } = null!;
         public DbSet<Doctor> Doctors { get; set; } = null!;
         public DbSet<DoctorDetail> DoctorDetails { get; set; } = null!;
+        public DbSet<DoctorDetail> ServiceDetail { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

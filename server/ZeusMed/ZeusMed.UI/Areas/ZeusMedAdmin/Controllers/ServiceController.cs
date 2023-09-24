@@ -72,16 +72,20 @@ public class ServiceController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
-
     public async Task<IActionResult> Update(int Id)
     {
-        Service? servicedb = await _context.Services.FindAsync(Id);
+        Service? servicedb = await _context.Services
+            .Include(s => s.ServiceDetail)
+            .FirstOrDefaultAsync(s => s.Id == Id);
+
         if (servicedb == null)
         {
             return NotFound();
         }
+
         return View(servicedb);
     }
+
 
 
     [HttpPost]
