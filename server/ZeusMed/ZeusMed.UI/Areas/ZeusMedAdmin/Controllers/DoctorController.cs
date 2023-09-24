@@ -92,7 +92,10 @@ public class DoctorController : Controller
 
     public async Task<IActionResult> Update(int Id)
     {
-        Doctor doctor = await _context.Doctors.FindAsync(Id);
+        Doctor doctor = await _context.Doctors
+            .Include(d => d.DoctorDetail)
+            .FirstOrDefaultAsync(d => d.Id == Id);
+
         if (doctor == null)
         {
             return NotFound();
@@ -102,8 +105,9 @@ public class DoctorController : Controller
 
         ViewBag.Services = new SelectList(services, "Id", "Title", doctor.AssociatedServiceId);
 
-        return View(doctor);
+        return View(doctor); // Use the Doctor model with the DoctorDetail property included
     }
+
 
     [HttpPost]
     [ValidateAntiForgeryToken]

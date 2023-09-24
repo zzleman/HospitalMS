@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL1NoYXJlZC9fQWRtaW5MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Shared/_ValidationScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL1NoYXJlZC9fVmFsaWRhdGlvblNjcmlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

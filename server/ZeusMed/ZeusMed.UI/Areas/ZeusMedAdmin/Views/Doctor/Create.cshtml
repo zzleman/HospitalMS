@@ -24,7 +24,8 @@
                                        class="form-control"
                                        placeholder="John Doe"
                                        aria-label="john.doe"
-                                       aria-describedby="basic-default-email2" />
+                                       aria-describedby="basic-default-email2"
+                                       required="required" />
                             </div>
                             <span class="text-danger" asp-validation-for="Fullname"></span>
                         </div>
@@ -36,7 +37,7 @@
                                 <span class="input-group-text">
                                     <i class="bx bx-list-ul"></i>
                                 </span>
-                                <select asp-for="AssociatedServiceId" class="form-select" aria-label="Associated Service" aria-describedby="basic-default-email2">
+                                <select asp-for="AssociatedServiceId" class="form-select" aria-label="Associated Service" aria-describedby="basic-default-email2" required="required">
                                     <option value="">Select a service</option>
                                     @foreach (var service in Model.Services)
                                     {
@@ -57,7 +58,8 @@
                                        class="form-control"
                                        placeholder="This doctor is working in ZeusMed."
                                        aria-label="john.doe"
-                                       aria-describedby="basic-default-email2" />
+                                       aria-describedby="basic-default-email2"
+                                       required="required" />
                             </div>
                             <span class="text-danger" asp-validation-for="DoctorDetail.Description"></span>
                         </div>
@@ -72,7 +74,8 @@
                                        class="form-control"
                                        placeholder="johndoe.png"
                                        aria-label="john.doe"
-                                       aria-describedby="basic-default-email2" />
+                                       aria-describedby="basic-default-email2"
+                                       required="required" />
                             </div>
                             <span class="text-danger" asp-validation-for="ImagePath"></span>
                             <div class="form-text">You can use letters, numbers & periods</div>
@@ -89,3 +92,7 @@
         </div>
     </div>
 </div>
+
+@section Script{
+    <partial name="_ValidationScript" />
+}

@@ -52,7 +52,8 @@
                                        class="form-control"
                                        placeholder="This doctor is working in ZeusMed."
                                        aria-label="john.doe"
-                                       aria-describedby="basic-default-email2" />
+                                       aria-describedby="basic-default-email2"
+                                       required="required"/>
                             </div>
                             <span class="text-danger" asp-validation-for="DoctorDetail.Description"></span>
                         </div>
@@ -83,3 +84,7 @@
         </div>
     </div>
 </div>
+
+@section Script{
+       <partial name="_ValidationScript" />
+}
