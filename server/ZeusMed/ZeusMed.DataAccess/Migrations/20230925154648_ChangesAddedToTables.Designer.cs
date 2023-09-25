@@ -11,8 +11,8 @@ using ZeusMed.DataAccess.Contexts;
 namespace ZeusMed.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230923212246_AddServiceDetail")]
-    partial class AddServiceDetail
+    [Migration("20230925154648_ChangesAddedToTables")]
+    partial class ChangesAddedToTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -57,7 +57,7 @@ namespace ZeusMed.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DoctorDetails");
+                    b.ToTable("DoctorDetail");
                 });
 
             modelBuilder.Entity("ZeusMed.Core.Entities.Service", b =>

@@ -4,7 +4,7 @@
 
 namespace ZeusMed.DataAccess.Migrations
 {
-    public partial class AddServiceDetail : Migration
+    public partial class ChangesAddedToTables : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -63,7 +63,7 @@ namespace ZeusMed.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "DoctorDetails",
+                name: "DoctorDetail",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false),
@@ -71,9 +71,9 @@ namespace ZeusMed.DataAccess.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DoctorDetails", x => x.Id);
+                    table.PrimaryKey("PK_DoctorDetail", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_DoctorDetails_Doctors_Id",
+                        name: "FK_DoctorDetail_Doctors_Id",
                         column: x => x.Id,
                         principalTable: "Doctors",
                         principalColumn: "Id",
@@ -89,7 +89,7 @@ namespace ZeusMed.DataAccess.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "DoctorDetails");
+                name: "DoctorDetail");
 
             migrationBuilder.DropTable(
                 name: "ServiceDetail");

@@ -30,6 +30,8 @@
     <None Remove="Views\Contact\" />
     <None Remove="Views\Service\" />
     <None Remove="Views\ServiceDetail\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -61,6 +63,8 @@
     <Folder Include="Views\Contact\" />
     <Folder Include="Views\Service\" />
     <Folder Include="Views\ServiceDetail\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

@@ -12,7 +12,7 @@
                 <h5 class="mb-0">Add New Service</h5>
             </div>
             <div class="card-body">
-                <form method="post">
+                <form method="post" enctype="multipart/form-data">
                     <div class="row mb-3">
                         <label asp-for="Title" class="col-sm-2 col-form-label">Title</label>
                         <div class="col-sm-10">
@@ -61,18 +61,18 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label asp-for="ImagePath" class="col-sm-2 col-form-label">Image</label>
+                        <label asp-for="Image" class="col-sm-2 col-form-label">Image</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                                 <span class="input-group-text"><i class="bx bx-image-alt"></i></span>
-                                <input asp-for="ImagePath"
+                                <input asp-for="Image"
                                        class="form-control"
                                        placeholder="johndoe.png"
                                        aria-label="john.doe"
                                        aria-describedby="basic-default-email2"
                                        required="required" />
                             </div>
-                            <span class="text-danger" asp-validation-for="ImagePath"></span>
+                            <span class="text-danger" asp-validation-for="  Image"></span>
                             <div class="form-text">You can use letters, numbers & periods</div>
                         </div>
                     </div>

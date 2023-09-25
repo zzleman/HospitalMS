@@ -13,11 +13,13 @@ public class DoctorController : Controller
 {
     private readonly AppDbContext _context;
     private readonly IMapper _mapper;
+    private readonly IWebHostEnvironment _env;
 
-    public DoctorController(AppDbContext context, IMapper mapper)
+    public DoctorController(AppDbContext context, IMapper mapper, IWebHostEnvironment env)
     {
         _context = context;
         _mapper = mapper;
+        _env = env;
     }
 
     public async Task<IActionResult> Index()
@@ -48,17 +50,33 @@ public class DoctorController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(DoctorPostVM doctorPost)
     {
+        if (!doctorPost.Image.ContentType.Contains("image"))
+        {
+            ModelState.AddModelError("Image", "Select correct image format");
+            return View(doctorPost);
+        }
+        if (doctorPost.Image.Length / 1024 > 100)
+        {
+            ModelState.AddModelError("Image", "Size must be less than 100kb");
+        }
+        string fileName = Guid.NewGuid().ToString() + doctorPost.Image.FileName;
+        string filePath = Path.Combine("assets", "img", fileName);
+        string path = Path.Combine(_env.WebRootPath, filePath);
+        using (FileStream fileStream = new FileStream(path, FileMode.CreateNew))
+        {
+            await doctorPost.Image.CopyToAsync(fileStream);
+        }
+
         if (!ModelState.IsValid)
         {
             Doctor doctor = _mapper.Map<Doctor>(doctorPost);
 
             doctor.AssociatedService = _context.Services.Find(doctorPost.AssociatedServiceId);
-
             await _context.Doctors.AddAsync(doctor);
+            doctor.ImagePath = filePath;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
         var services = _context.Services.ToList();
         doctorPost.Services = services;
         return View(doctorPost);
@@ -89,6 +107,16 @@ public class DoctorController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteAllDoctors()
+    {
+        var doctors = await _context.Doctors.ToListAsync();
+        _context.Doctors.RemoveRange(doctors);
+        await _context.SaveChangesAsync();
+
+        return RedirectToAction(nameof(Index));
+    }
 
     public async Task<IActionResult> Update(int Id)
     {
@@ -105,7 +133,7 @@ public class DoctorController : Controller
 
         ViewBag.Services = new SelectList(services, "Id", "Title", doctor.AssociatedServiceId);
 
-        return View(doctor); // Use the Doctor model with the DoctorDetail property included
+        return View(doctor);
     }
 
 
@@ -130,7 +158,11 @@ public class DoctorController : Controller
             }
 
             doctordb.Fullname = doctor.Fullname;
-            doctordb.ImagePath = doctor.ImagePath;
+
+            if (!string.IsNullOrEmpty(doctor.ImagePath))
+            {
+                doctordb.ImagePath = doctor.ImagePath;
+            }
 
             if (doctordb.DoctorDetail != null)
             {
@@ -151,6 +183,7 @@ public class DoctorController : Controller
 
         return View(doctor);
     }
+
 
 }
 

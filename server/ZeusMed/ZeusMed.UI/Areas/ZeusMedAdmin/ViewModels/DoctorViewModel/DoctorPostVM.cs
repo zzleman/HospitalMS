@@ -10,8 +10,8 @@ namespace ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel
         [Required, StringLength(70)]
         public string? Fullname { get; set; } = null!;
 
-        [Required, StringLength(255)]
-        public string? ImagePath { get; set; } = null!;
+        [Required]
+        public IFormFile Image { get; set; }
 
         [Display(Name = "Associated Service")]
         public int AssociatedServiceId { get; set; }

@@ -8,6 +8,11 @@
 <!-- Basic Bootstrap Table -->
 <div class="card">
     <h1 class="card-header">Doctors </h1>
+    <div class="card-header">
+        <form method="post" asp-action="DeleteAllDoctors" onsubmit="showConfirmationModal(); return false;">
+            <button type="submit" class="btn btn-danger">Delete All Doctors</button>
+        </form>
+    </div>
     <div class="table-responsive text-nowrap">
         <table class="table">
             <thead>
@@ -25,7 +30,7 @@
                 {
                     <tr>
                         <th>@count</th>
-                        <td><img src="@doctor.ImagePath" style="width:120px" /></td>
+                        <td><img src="/@doctor.ImagePath" style="width:120px" /></td>
                         <td>@doctor.Fullname</td>
                         <td>@doctor.AssociatedService.Title</td>
                         <td>@doctor.DoctorDetail.Description</td>
@@ -48,5 +53,31 @@
         </table>
     </div>
 </div>
+<!-- Modal for Confirmation -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel">Confirmation</h5>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete all doctors?
+            </div>
+            <div class="modal-footer">
+                <a asp-controller="Doctor" asp-action="Index">   <button type="button" class="btn btn-secondary" data-dismiss="modal">Go Back</button></a>
+                <form method="post" asp-action="DeleteAllDoctors">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function showConfirmationModal() {
+        $('#confirmationModal').modal('show');
+    }
+</script>
+
 
 <!--/ Basic Bootstrap Table -->

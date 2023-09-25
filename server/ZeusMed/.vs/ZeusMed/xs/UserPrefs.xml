@@ -6,11 +6,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ZeusMed.UI/Views/Home/Error.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Service/Index.cshtml">
     <Files>
-      <File FileName="ZeusMed.UI/Program.cs" Line="25" Column="1" />
-      <File FileName="ZeusMed.UI/Controllers/HomeController.cs" Line="34" Column="27" />
-      <File FileName="ZeusMed.UI/Views/Home/Error.cshtml" Line="78" Column="18" />
+      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Controllers/DoctorController.cs" Line="110" Column="1" />
+      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Doctor/Index.cshtml" Line="81" Column="1" />
+      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Service/Index.cshtml" Line="67" Column="66" />
+      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Controllers/ServiceController.cs" Line="107" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,25 +19,34 @@
           <Node name="ZeusMed" expanded="True">
             <Node name="ZeusMed.Core" expanded="True">
               <Node name="Entities" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
             </Node>
             <Node name="ZeusMed.DataAccess" expanded="True">
               <Node name="Contexts" expanded="True" />
             </Node>
             <Node name="ZeusMed.UI">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Areas" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home">
-                  <Node name="Error.cshtml" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="ZeusMedAdmin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewModels" expanded="True">
+                    <Node name="ServiceViewModel" expanded="True" />
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="Doctor" expanded="True" />
+                    <Node name="Service" expanded="True">
+                      <Node name="Index.cshtml" selected="True" />
+                    </Node>
+                  </Node>
                 </Node>
+              </Node>
+              <Node name="Helpers" expanded="True">
+                <Node name="Extensions" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

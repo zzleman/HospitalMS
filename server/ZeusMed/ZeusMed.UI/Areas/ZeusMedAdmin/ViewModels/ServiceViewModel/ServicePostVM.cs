@@ -12,8 +12,8 @@ public class ServicePostVM
     [Required, StringLength(200)]
     public string? Description { get; set; } = null!;
 
-    [Required, StringLength(255)]
-    public string? ImagePath { get; set; } = null!;
+    [Required]
+    public IFormFile Image { get; set; }
 
     public ServiceDetail ServiceDetail { get; set; }
 }
