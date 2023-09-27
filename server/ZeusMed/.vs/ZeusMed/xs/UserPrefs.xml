@@ -3,20 +3,24 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ZeusMed.UI/Views/Appointment/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZeusMed.UI/Controllers/AuthController.cs">
     <Files>
-      <File FileName="ZeusMed.UI/Views/Appointment/Index.cshtml" Line="31" Column="25" />
-      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Appointment/Create.cshtml" Line="1" Column="1" />
-      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Appointment/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ZeusMed.UI/Controllers/AuthController.cs" Line="83" Column="48" />
+      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Controllers/AuthController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ZeusMed" expanded="True">
-            <Node name="ZeusMed.Core">
+          <Node name="ZeusMed">
+            <Node name="ZeusMed.Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Entities" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
             </Node>
-            <Node name="ZeusMed.DataAccess">
+            <Node name="ZeusMed.DataAccess" expanded="True">
               <Node name="Contexts" expanded="True" />
             </Node>
             <Node name="ZeusMed.UI">
@@ -24,23 +28,26 @@
                 <Node name="ZeusMedAdmin" expanded="True">
                   <Node name="Controllers" expanded="True" />
                   <Node name="ViewModels" expanded="True">
-                    <Node name="AppointmentViewModel" expanded="True" />
-                  </Node>
-                  <Node name="Views" expanded="True">
-                    <Node name="Appointment" expanded="True" />
-                    <Node name="Doctor" expanded="True" />
-                    <Node name="Service" expanded="True" />
-                    <Node name="Shared" expanded="True" />
+                    <Node name="AuthViewModel" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="assets" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="AuthController.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Appointment" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="About" expanded="True" />
+                <Node name="Appointment" expanded="True" />
                 <Node name="Contact" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="ServiceDetail" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True">
+                  <Node name="css" expanded="True" />
+                  <Node name="svg" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

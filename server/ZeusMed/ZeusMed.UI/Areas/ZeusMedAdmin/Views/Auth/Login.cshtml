@@ -108,17 +108,15 @@
                         <!-- /Logo -->
                         <h4 class="mb-2">Welcome to ZeusMed! 👋</h4>
                         <p class="mb-4">Please sign-in to your account and start the journey</p>
-                        <form id="formAuthentication" class="mb-3" method="post" action="@Url.Action("Login", "Account")">
+                        <form class="mb-3" method="post">
                             <div class="mb-3">
-                                <label asp-for="EmailOrUsername" class="form-label">Email or Username</label>
+                                <label asp-for="Email" class="form-label">Email</label>
                                 <input type="text"
                                        class="form-control"
-                                       id="email"
-                                       asp-for="EmailOrUsername"
-                                       name="email-username"
+                                       asp-for="Email"
                                        placeholder="Enter your email or username"
                                        autofocus />
-                                <span asp-validation-for="EmailOrUsername" class="text-danger"></span>
+                                <span asp-validation-for="Email" class="text-danger"></span>
                             </div>
                             <div class="mb-3 form-password-toggle">
                                 <label class="form-label" asp-for="Password" id="Password"> Password</label>
@@ -128,8 +126,6 @@
                                 <div class="input-group input-group-merge">
                                     <input type="password"
                                            asp-for="Password"
-                                           id="Password"
-                                           name="Password"
                                            class="form-control"
                                            placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
                                            aria-describedby="password" />
@@ -140,7 +136,7 @@
                                 <div class="mb-3">
                                     <div class="form-check">
                                         <input asp-for="RememberMe" class="form-check-input" type="checkbox" id="remember-me" name="remember-me" />
-                                        <label asp-for="RememberMe" class="form-check-label" for="remember-me"> Remember Me </label>
+                                        <label asp-for="RememberMe" class="form-check-label" > Remember Me </label>
                                     </div>
                                 </div>
                                 <div class="mb-3">

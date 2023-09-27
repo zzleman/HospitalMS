@@ -29,6 +29,8 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(identityOptions =>
 
 
 var app = builder.Build();
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseStaticFiles();
 
 
@@ -38,12 +40,12 @@ if (app.Environment.IsDevelopment())
     developerExceptionPageOptions.SourceCodeLineCount = 1;
     app.UseDeveloperExceptionPage(developerExceptionPageOptions);
 }
-else
-{
-    app.UseExceptionHandler("/Home/Error");
-}
+//else
+//{
+//    app.UseExceptionHandler("/Home/Error");
+//}
 
-app.UseStatusCodePagesWithRedirects("/StatusCodeError/{0}");
+//app.UseStatusCodePagesWithRedirects("/StatusCodeError/{0}");
 
 
 

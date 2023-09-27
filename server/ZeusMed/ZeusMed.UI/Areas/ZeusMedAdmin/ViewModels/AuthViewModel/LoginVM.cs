@@ -5,8 +5,8 @@ namespace ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.AuthViewModel;
 public class LoginVM
 {
     [Required]
-    [Display(Name = "Email or Username")]
-    public string EmailOrUsername { get; set; }
+    [DataType(DataType.EmailAddress)]
+    public string Email { get; set; }
 
     [Required]
     [DataType(DataType.Password)]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "74JGUAV2EOa6v7+tjSmfIdDwHRj8nTFH1SaxAdPlfYg=",
+  "Hash": "tioYSJ6rLGu6bbM8gHe89r/4eoKNLUeFjdpCRN0FVKI=",
   "Source": "ZeusMed.UI",
   "BasePath": "_content/ZeusMed.UI",
   "Mode": "Default",
@@ -1511,6 +1511,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/css/index.css"
+    },
+    {
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/profile.css",
+      "SourceId": "ZeusMed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
+      "BasePath": "_content/ZeusMed.UI",
+      "RelativePath": "assets/css/profile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/css/profile.css"
     },
     {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/service-detail.css",
