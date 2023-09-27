@@ -81,29 +81,14 @@ public class AuthController : Controller
             return View(login);
         }
 
-        var user1 = await _userManager.FindByEmailAsync(login.Email);
-        if (user1 == null)
-        {
-            ModelState.AddModelError("", "User not found.");
-            return View(login);
-        }
-
-        var roles = await _userManager.GetRolesAsync(user1);
-        foreach (var role in roles)
-        {
-            Console.WriteLine($"User {user1.UserName} has role: {role}");
-        }
-
-        if (roles.Contains("Doctor"))
+        if (User.IsInRole("Admin,Doctor"))
         {
             return RedirectToAction("Index", "Dashboard");
         }
         else
         {
-            return RedirectToAction("Create", "Appointment");
+            return RedirectToAction("Index", "Home", new { area = string.Empty });
         }
-
-
     }
 
     public async Task<IActionResult> Logout()

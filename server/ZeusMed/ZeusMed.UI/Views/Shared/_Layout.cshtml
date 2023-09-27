@@ -152,7 +152,14 @@
         <p class="book-title">Book now</p>
         <p class="book-text">Book your medical <br> appointment today</p>
         <div class="book-buttons">
-            <a href="/appointment"><button class="book-button" style="background-color: #13181f;color:white "><i class="fa-regular fa-calendar-check" style="color: #ffffff;"></i>Book an appointment</button></a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="/zeusmedadmin/appointment/create"><button class="book-button" style="background-color: #13181f;color:white "><i class="fa-regular fa-calendar-check" style="color: #ffffff;"></i>Book an appointment</button></a>
+            }
+            else
+            {
+                <a href="/zeusmedadmin/auth/login"><button class="book-button" style="background-color: #13181f;color:white "><i class="fa-regular fa-calendar-check" style="color: #ffffff;"></i>Book an appointment</button></a>
+            }
             <a href="/service"><button class="book-button" style="background-color:transparent; border: 1px solid white;"><i class="fa-solid fa-hand-holding-medical" style="color: #ffffff;"></i>Our services</button></a>
         </div>
     </div>
@@ -203,8 +210,8 @@
                     <p class="links-head">Quick Links</p>
                     <ul class="links-ul">
                         <li><a href="/about">About Us</a></li>
-                        <li><a href="">S.S.S</a></li>
-                        <li><a href="">News</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/zeusmedadmin/auth/login">Login</a></li>
                     </ul>
                 </div>
                 <div class="support-help">
@@ -214,14 +221,6 @@
                         <li><a href="/service">Services</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
-                </div>
-                <div class="newsletter">
-                    <p class="links-head">Sign up for our newsletter</p>
-                    <div class="mail-area">
-                        <i class="fa-solid fa-envelope" style="color:#245BCD; font-size: 30px;"></i>
-                        <input class="news-email" type="email" placeholder="Enter your email" name="" id="">
-                        <input class="subscribe" type="button" value="Subscribe">
-                    </div>
                 </div>
             </div>
         </div>
