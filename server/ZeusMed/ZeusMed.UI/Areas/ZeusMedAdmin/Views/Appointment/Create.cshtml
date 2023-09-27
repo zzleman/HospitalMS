@@ -1,55 +1,76 @@
 ﻿@model AppointmentVM
-
-<h2>Create Appointment</h2>
-
-@if (!string.IsNullOrEmpty(Model.QueueNumber))
-{
-    <div class="alert alert-success" role="alert">
-        Queue Number: @Model.QueueNumber
-    </div>
+@{
+    Layout = null;
 }
 
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label asp-for="Name">Name</label>
-        <input asp-for="Name" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="Surname">Surname</label>
-        <input asp-for="Surname" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="PhoneNumber">Phone Number</label>
-        <input asp-for="PhoneNumber" class="form-control" />
-    </div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Create Appointment</title>
 
-    <div class="form-group">
-        <label asp-for="ProblemDescription">Problem Description</label>
-        <textarea asp-for="ProblemDescription" class="form-control"></textarea>
-    </div>
+    <link rel="stylesheet" href="~/admin/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="~/admin/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="~/admin/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="~/admin/css/demo.css" />
+    <link rel="stylesheet" href="./assets/css/appointment.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
 
-    <div class="form-group">
-        <label for="AppointmentDate">Select Date</label>
-        <input asp-for="AppointmentDate" class="form-control" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-    </div>
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="~/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="~/admin/vendor/libs/apex-charts/apex-charts.css" />
+</head>
+<body>
+    <h1 style="color:#1185D3;text-align:center;padding-top:70px">Make An Appointment</h1>
+    <form asp-action="Create" method="post" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 70px; gap:30px">
+        <div class="form-group" style="display: flex; gap: 30px; color: #1185D3">
+            <div class="each" style="display: flex; ; flex-direction: column;">
+                <label for="AppointmentDate">Select Date</label>
+                <input style="width: 350px; height: 60px;" asp-for="AppointmentDate" class="form-control" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+            </div>
+            <div class="each">
+                <label for="AppointmentTime">Select Time</label>
+                @Html.DropDownListFor(model => model.AppointmentTime, (List<SelectListItem>)ViewBag.TimeSlots, "-- Select Time --", new { @class = "form-control", style = "width: 350px; height: 60px;" })
+            </div>
+        </div>
+        <div class="form-group" style="display: flex; gap: 30px; color: #1185D3">
+            <div class="each" style="display: flex; flex-direction: column; ">
+                <label asp-for="Name">Name</label>
+                <input style="width: 350px; height: 60px;" asp-for="Name" class="form-control" />
+            </div>
+            <div class="each">
+                <label asp-for="Surname">Surname</label>
+                <input style="width: 350px; height: 60px;" asp-for="Surname" class="form-control" />
+            </div>
+        </div>
 
-    <div class="form-group">
-        <label for="AppointmentTime">Select Time</label>
-        @Html.DropDownListFor(model => model.AppointmentTime, (List<SelectListItem>)ViewBag.TimeSlots, "-- Select Time --", new { @class = "form-control" })
-    </div>
+        <div class="form-group" style="display: flex; gap: 30px; color: #1185D3">
+            <div class="each" style="display: flex; flex-direction: column;">
+                <label for="SelectedDoctorId">Select Doctor</label>
+                @Html.DropDownListFor(model => model.SelectedDoctorId, (SelectList)ViewBag.Doctors, "-- Select Doctor --", new { @class = "form-control", style = "width: 350px; height: 60px;" })
+            </div>
+            <div class="each">
+                <label asp-for="PhoneNumber">Phone Number</label>
+                <input style="width: 350px; height: 60px;" asp-for="PhoneNumber" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group" style="color: #1185D3">
+            <label asp-for="ProblemDescription">Problem Description</label>
+            <textarea style="width: 350px; height: 60px;" asp-for="ProblemDescription" class="form-control"></textarea>
+        </div>
+
+        <button style="width: 350px; height: 60px" type="submit" class="btn btn-primary">Create Appointment</button>
+    </form>
+</body>
+</html>
 
 
-    <div class="form-group">
-        <label for="SelectedDoctorId">Select Doctor</label>
-        @Html.DropDownListFor(model => model.SelectedDoctorId, (SelectList)ViewBag.Doctors, "-- Select Doctor --", new { @class = "form-control" })
-    </div>
-
-    <button type="submit" class="btn btn-primary">Create Appointment</button>
-</form>
-
-<script>
-    var currentDate = new Date().toISOString().split('T')[0];
-
-    document.getElementById('AppointmentDate').setAttribute('min', currentDate);
-        }
-    });</script>
+<script>var currentDate = new Date().toISOString().split('T')[0];
+    document.getElementById('AppointmentDate').setAttribute('min', currentDate);</script>

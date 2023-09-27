@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿using System.Data;
+using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +17,7 @@ public class AppointmentController : Controller
     {
         _context = context;
     }
+    [Authorize(Roles = "Admin")]
     public IActionResult Index()
     {
         var appointments = _context.Appointments
@@ -80,7 +83,15 @@ public class AppointmentController : Controller
             _context.Appointments.Add(appointment);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+
+            if (User.IsInRole("Admin"))
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("Index","Home", new { area = string.Empty });
+            }
         }
 
         var doctors = _context.Doctors.ToList();

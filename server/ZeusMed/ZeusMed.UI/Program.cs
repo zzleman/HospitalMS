@@ -4,6 +4,7 @@ using ZeusMed.Core.Entities;
 using ZeusMed.DataAccess.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -27,12 +28,12 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(identityOptions =>
 }).AddEntityFrameworkStores<AppDbContext>()
   .AddDefaultTokenProviders();
 
-
 var app = builder.Build();
+
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseStaticFiles();
 
+app.UseStaticFiles();
 
 if (app.Environment.IsDevelopment())
 {
@@ -40,14 +41,12 @@ if (app.Environment.IsDevelopment())
     developerExceptionPageOptions.SourceCodeLineCount = 1;
     app.UseDeveloperExceptionPage(developerExceptionPageOptions);
 }
-//else
-//{
-//    app.UseExceptionHandler("/Home/Error");
-//}
+else
+{
+    app.UseExceptionHandler("/Home/Error");
+}
 
-//app.UseStatusCodePagesWithRedirects("/StatusCodeError/{0}");
-
-
+app.UseStatusCodePagesWithRedirects("/StatusCodeError/{0}");
 
 app.MapControllerRoute(
     name: "areas",
@@ -55,9 +54,33 @@ app.MapControllerRoute(
 );
 
 app.MapControllerRoute(
-    name:"Default",
-    pattern:"{controller=Home}/{action=Index}/{Id?}"
+    name: "Default",
+    pattern: "{controller=Home}/{action=Index}/{Id?}"
 );
 
-app.Run();
+using (var scope = app.Services.CreateScope())
+{
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<AppUser>>(); // Use UserManager<AppUser>
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
+    string email = "admin@admin.com";
+    string password = "Admin123!";
+
+    if (await userManager.FindByEmailAsync(email) == null)
+    {
+        var user = new AppUser(); // Use AppUser
+        user.UserName = email;
+        user.Email = email;
+
+        await userManager.CreateAsync(user, password);
+
+        if (!await roleManager.RoleExistsAsync("Admin"))
+        {
+            await roleManager.CreateAsync(new IdentityRole("Admin"));
+        }
+
+        await userManager.AddToRoleAsync(user, "Admin");
+    }
+}
+
+app.Run();
