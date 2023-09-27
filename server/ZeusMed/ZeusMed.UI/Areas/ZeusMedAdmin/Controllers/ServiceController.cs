@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.Core.Entities;
 using ZeusMed.DataAccess.Contexts;
-using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel;
 using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.ServiceViewModel;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.Controllers;
@@ -148,7 +147,6 @@ public class ServiceController : Controller
 
             existingService.Title = service.Title;
             existingService.Description = service.Description;
-            existingService.ServiceDetail.Info = service.ServiceDetail.Info;
 
 
             if (service.ImagePath != null)

@@ -111,12 +111,25 @@ public class DoctorController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteAllDoctors()
     {
+        // Find all doctors
         var doctors = await _context.Doctors.ToListAsync();
+
+        foreach (var doctor in doctors)
+        {
+            // Find and remove associated appointments
+            var appointmentsToDelete = _context.Appointments.Where(a => a.DoctorId == doctor.Id);
+            _context.Appointments.RemoveRange(appointmentsToDelete);
+        }
+
+        // Remove all doctors
         _context.Doctors.RemoveRange(doctors);
+
+        // Save changes
         await _context.SaveChangesAsync();
 
         return RedirectToAction(nameof(Index));
     }
+
 
     public async Task<IActionResult> Update(int Id)
     {

@@ -24,14 +24,13 @@ namespace ZeusMed.UI.Controllers
             return View(serviceVM);
         }
 
-        // Action to display service details
         public IActionResult Details(int id)
         {
             var service = _context.Services.FirstOrDefault(s => s.Id == id);
 
             if (service == null)
             {
-                return NotFound(); // Handle when the service is not found
+                return NotFound(); 
             }
 
             var serviceVM = new ServiceVM

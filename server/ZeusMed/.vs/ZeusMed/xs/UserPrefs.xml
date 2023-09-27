@@ -2,25 +2,21 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ZeusMed.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Service/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZeusMed.UI/Views/Appointment/Index.cshtml">
     <Files>
-      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Controllers/DoctorController.cs" Line="110" Column="1" />
-      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Doctor/Index.cshtml" Line="81" Column="1" />
-      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Service/Index.cshtml" Line="67" Column="66" />
-      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Controllers/ServiceController.cs" Line="107" Column="26" />
+      <File FileName="ZeusMed.UI/Views/Appointment/Index.cshtml" Line="31" Column="25" />
+      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Appointment/Create.cshtml" Line="1" Column="1" />
+      <File FileName="ZeusMed.UI/Areas/ZeusMedAdmin/Views/Appointment/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ZeusMed" expanded="True">
-            <Node name="ZeusMed.Core" expanded="True">
+            <Node name="ZeusMed.Core">
               <Node name="Entities" expanded="True" />
             </Node>
-            <Node name="ZeusMed.DataAccess" expanded="True">
+            <Node name="ZeusMed.DataAccess">
               <Node name="Contexts" expanded="True" />
             </Node>
             <Node name="ZeusMed.UI">
@@ -28,26 +24,31 @@
                 <Node name="ZeusMedAdmin" expanded="True">
                   <Node name="Controllers" expanded="True" />
                   <Node name="ViewModels" expanded="True">
-                    <Node name="ServiceViewModel" expanded="True" />
+                    <Node name="AppointmentViewModel" expanded="True" />
                   </Node>
                   <Node name="Views" expanded="True">
+                    <Node name="Appointment" expanded="True" />
                     <Node name="Doctor" expanded="True" />
-                    <Node name="Service" expanded="True">
-                      <Node name="Index.cshtml" selected="True" />
-                    </Node>
+                    <Node name="Service" expanded="True" />
+                    <Node name="Shared" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Helpers" expanded="True">
-                <Node name="Extensions" expanded="True" />
+              <Node name="assets" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Appointment" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Contact" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ZeusMed.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

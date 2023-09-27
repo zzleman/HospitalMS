@@ -1,9 +1,10 @@
-﻿//using ZeusMed.Core.Interfaces;
+﻿
+using Microsoft.AspNetCore.Identity;
 
-//namespace ZeusMed.Core.Entities;
+namespace ZeusMed.Core.Entities;
 
-//public class AppUser : IdentityUser
-//{
-//    public int Id { get; set; }
-//}
+public class AppUser : IdentityUser
+{
+    public string? Fullname { get; set; }
+}
 

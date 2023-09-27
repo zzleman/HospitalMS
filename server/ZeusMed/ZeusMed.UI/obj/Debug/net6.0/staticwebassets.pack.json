@@ -325,12 +325,12 @@
       "PackagePath": "staticwebassets/admin/vendor/libs/popper/popper.js"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/.DS_Store",
-      "PackagePath": "staticwebassets/assets/.DS_Store"
-    },
-    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/about.css",
       "PackagePath": "staticwebassets/assets/css/about.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/appointment.css",
+      "PackagePath": "staticwebassets/assets/css/appointment.css"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/contact.css",
@@ -393,56 +393,16 @@
       "PackagePath": "staticwebassets/assets/icons/support-icon.png"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/01cc2cc9-23eb-4b10-a501-f9820a1c8ead.jpeg",
-      "PackagePath": "staticwebassets/assets/img/01cc2cc9-23eb-4b10-a501-f9820a1c8ead.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/031c4b33-9839-4cd2-8ec8-96938b1fabfaabdullah-kilic.jpeg",
-      "PackagePath": "staticwebassets/assets/img/031c4b33-9839-4cd2-8ec8-96938b1fabfaabdullah-kilic.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/05f69170-f4ad-423f-9da5-fe3c1a358561barbados-dokumaci.png",
-      "PackagePath": "staticwebassets/assets/img/05f69170-f4ad-423f-9da5-fe3c1a358561barbados-dokumaci.png"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/0d9f8685-02dc-4607-9301-ffe5996d2654.jpeg",
-      "PackagePath": "staticwebassets/assets/img/0d9f8685-02dc-4607-9301-ffe5996d2654.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/62b2afcc-0d7d-4f7f-ab74-b4c5e2db7e73abdullah-kilic.jpeg",
-      "PackagePath": "staticwebassets/assets/img/62b2afcc-0d7d-4f7f-ab74-b4c5e2db7e73abdullah-kilic.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/73e056ec-319a-4d56-83e4-6aedfd3ce61babdullah-kilic.jpeg",
-      "PackagePath": "staticwebassets/assets/img/73e056ec-319a-4d56-83e4-6aedfd3ce61babdullah-kilic.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/890969e9-6a25-4379-8b4d-bfaa50427afa.jpeg",
-      "PackagePath": "staticwebassets/assets/img/890969e9-6a25-4379-8b4d-bfaa50427afa.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/9461f016-d2fd-47a5-a7f8-87db230b9039abdullah-kilic.jpeg",
-      "PackagePath": "staticwebassets/assets/img/9461f016-d2fd-47a5-a7f8-87db230b9039abdullah-kilic.jpeg"
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/635f52e8-e391-4695-911d-733cd1a66204aysenur-cabuk.jpeg",
+      "PackagePath": "staticwebassets/assets/img/635f52e8-e391-4695-911d-733cd1a66204aysenur-cabuk.jpeg"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/abdullah-kilic.jpeg",
       "PackagePath": "staticwebassets/assets/img/abdullah-kilic.jpeg"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/abdullah-kilic_e0ba84eb-64c8-432f-83b5-13c99f31fa5f.jpeg",
-      "PackagePath": "staticwebassets/assets/img/abdullah-kilic_e0ba84eb-64c8-432f-83b5-13c99f31fa5f.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/abdullah-kilic_faf1c3a4-a56a-42f8-9508-ce5eea21ac28.jpeg",
-      "PackagePath": "staticwebassets/assets/img/abdullah-kilic_faf1c3a4-a56a-42f8-9508-ce5eea21ac28.jpeg"
-    },
-    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/about-page-picture.jpeg",
       "PackagePath": "staticwebassets/assets/img/about-page-picture.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/about-page-picture_19675fa7-17b2-4b76-9b39-dc000dff40bb.jpeg",
-      "PackagePath": "staticwebassets/assets/img/about-page-picture_19675fa7-17b2-4b76-9b39-dc000dff40bb.jpeg"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/all-page-bg.jpeg",
@@ -453,24 +413,16 @@
       "PackagePath": "staticwebassets/assets/img/anesthesia.png"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/anesthesia_bb8f5324-2148-4690-8a9f-f5d14352226d.png",
-      "PackagePath": "staticwebassets/assets/img/anesthesia_bb8f5324-2148-4690-8a9f-f5d14352226d.png"
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/aysenur-cabuk.jpeg",
+      "PackagePath": "staticwebassets/assets/img/aysenur-cabuk.jpeg"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/barbados-dokumaci.png",
       "PackagePath": "staticwebassets/assets/img/barbados-dokumaci.png"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/barbados-dokumaci_4bf0ad5d-16ec-409a-92c6-9135586c926d.png",
-      "PackagePath": "staticwebassets/assets/img/barbados-dokumaci_4bf0ad5d-16ec-409a-92c6-9135586c926d.png"
-    },
-    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/book-now.jpg",
       "PackagePath": "staticwebassets/assets/img/book-now.jpg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/c2e52d2f-6e1f-4ab4-98db-a76a017fbae5.jpeg",
-      "PackagePath": "staticwebassets/assets/img/c2e52d2f-6e1f-4ab4-98db-a76a017fbae5.jpeg"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/cardiovascular-surgery-services.jpeg",
@@ -493,10 +445,6 @@
       "PackagePath": "staticwebassets/assets/img/counter-bg.jpeg"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/d3a04803-68e4-42b9-943f-323b297b1fa5abdullah-kilic.jpeg",
-      "PackagePath": "staticwebassets/assets/img/d3a04803-68e4-42b9-943f-323b297b1fa5abdullah-kilic.jpeg"
-    },
-    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/dermatology-services.png",
       "PackagePath": "staticwebassets/assets/img/dermatology-services.png"
     },
@@ -505,20 +453,8 @@
       "PackagePath": "staticwebassets/assets/img/doctors-video.png"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/e09a985d-6474-430c-905a-7005cc4a578aabdullah-kilic.jpeg",
-      "PackagePath": "staticwebassets/assets/img/e09a985d-6474-430c-905a-7005cc4a578aabdullah-kilic.jpeg"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/e1a58498-d5b5-4531-93be-bc192e9ccbacabdullah-kilic.jpeg",
-      "PackagePath": "staticwebassets/assets/img/e1a58498-d5b5-4531-93be-bc192e9ccbacabdullah-kilic.jpeg"
-    },
-    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/emergency-service.png",
       "PackagePath": "staticwebassets/assets/img/emergency-service.png"
-    },
-    {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/f35f9b6c-1a31-4bce-9c2e-e066c0d424adchest-diseases-services.png",
-      "PackagePath": "staticwebassets/assets/img/f35f9b6c-1a31-4bce-9c2e-e066c0d424adchest-diseases-services.png"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/footer-background.jpeg",

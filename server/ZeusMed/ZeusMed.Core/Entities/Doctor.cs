@@ -1,4 +1,5 @@
 ﻿using ZeusMed.Core.Interfaces;
+using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ZeusMed.Core.Entities
@@ -16,5 +17,8 @@ namespace ZeusMed.Core.Entities
         public Service AssociatedService { get; set; }
 
         public DoctorDetail DoctorDetail { get; set; }
+
+        public List<Appointment> Appointments { get; set; }
+
     }
 }

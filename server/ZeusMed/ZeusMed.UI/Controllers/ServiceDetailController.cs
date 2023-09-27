@@ -29,7 +29,6 @@ namespace ZeusMed.UI.Controllers
             {
                 Title = service.Title,
                 Description = service.Description,
-                Info = service.ServiceDetail.Info,
                 ImagePath = service.ImagePath
             };
 

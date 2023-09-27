@@ -30,15 +30,16 @@
                         <label asp-for="Description" class="col-sm-2 col-form-label">Description</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
-                                <span class ="input-group-text">
-                                    <i class="bx bx-buildings"></i>
-                                </span>
-                                <input asp-for="Description" class="form-control" placeholder="Cardiology is a service in ZeusMed." required="required" />
+                                <span class="input-group-text"><i class="bx bx-group-file"></i></span>
+                                <textarea asp-for="Description"
+                                          class="form-control"
+                                          id="tiny">
+                                </textarea>
                             </div>
                             <span class="text-danger" asp-validation-for="Description"></span>
                         </div>
                     </div>
-                    <div class="row mb-3">
+                    @*<div class="row mb-3">
                         <label asp-for="ServiceDetail.Info" class="col-sm-2 col-form-label">Info</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
@@ -49,7 +50,7 @@
                             </div>
                             <span class="text-danger" asp-validation-for="ServiceDetail.Info"></span>
                         </div>
-                    </div>
+                    </div>*@
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">New Image</label>
                         <div class="col-sm-10">

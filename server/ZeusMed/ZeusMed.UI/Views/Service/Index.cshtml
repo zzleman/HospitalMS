@@ -35,7 +35,7 @@
                     <div class="card-body">
                         <h5 class="card-title">@service.Title</h5>
                         <br>
-                        <p class="card-text">@service.Description</p>
+                        <p class="card-text">@Html.Raw(service.Description.Substring(0,119))</p>
                         <br>
                         <a href="@Url.Action("Index", "ServiceDetail", new { id = service.Id })" id="service-btn" class="btn btn-primary">View Details</a>
                     </div>

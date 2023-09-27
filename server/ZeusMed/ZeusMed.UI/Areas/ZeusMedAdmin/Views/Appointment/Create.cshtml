@@ -1,0 +1,55 @@
+﻿@model AppointmentVM
+
+<h2>Create Appointment</h2>
+
+@if (!string.IsNullOrEmpty(Model.QueueNumber))
+{
+    <div class="alert alert-success" role="alert">
+        Queue Number: @Model.QueueNumber
+    </div>
+}
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Surname">Surname</label>
+        <input asp-for="Surname" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PhoneNumber">Phone Number</label>
+        <input asp-for="PhoneNumber" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProblemDescription">Problem Description</label>
+        <textarea asp-for="ProblemDescription" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="AppointmentDate">Select Date</label>
+        <input asp-for="AppointmentDate" class="form-control" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+    </div>
+
+    <div class="form-group">
+        <label for="AppointmentTime">Select Time</label>
+        @Html.DropDownListFor(model => model.AppointmentTime, (List<SelectListItem>)ViewBag.TimeSlots, "-- Select Time --", new { @class = "form-control" })
+    </div>
+
+
+    <div class="form-group">
+        <label for="SelectedDoctorId">Select Doctor</label>
+        @Html.DropDownListFor(model => model.SelectedDoctorId, (SelectList)ViewBag.Doctors, "-- Select Doctor --", new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Appointment</button>
+</form>
+
+<script>
+    var currentDate = new Date().toISOString().split('T')[0];
+
+    document.getElementById('AppointmentDate').setAttribute('min', currentDate);
+        }
+    });</script>

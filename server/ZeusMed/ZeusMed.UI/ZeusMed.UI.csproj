@@ -32,6 +32,11 @@
     <None Remove="Views\ServiceDetail\" />
     <None Remove="Helpers\" />
     <None Remove="Helpers\Extensions\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\AppointmentViewModel\" />
+    <None Remove="Areas\ZeusMedAdmin\Views\Appointment\" />
+    <None Remove="Views\Appointment\" />
+    <None Remove="Areas\ZeusMedAdmin\Views\Auth\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\AuthViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -65,6 +70,11 @@
     <Folder Include="Views\ServiceDetail\" />
     <Folder Include="Helpers\" />
     <Folder Include="Helpers\Extensions\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\AppointmentViewModel\" />
+    <Folder Include="Areas\ZeusMedAdmin\Views\Appointment\" />
+    <Folder Include="Views\Appointment\" />
+    <Folder Include="Areas\ZeusMedAdmin\Views\Auth\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\AuthViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

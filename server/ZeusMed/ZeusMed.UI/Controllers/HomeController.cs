@@ -24,14 +24,15 @@ public class HomeController : Controller
         return View(homeVM);
     }
 
-    [Route("/StatusCodeError/{statusCode}")]
-    public IActionResult Error(int statusCode)
-    {
-        if (statusCode == 404)
-        {
-            ViewBag.ErrorMessage = "404 Page Not Found :(";
-        }
-        return View("Error");
-    }
+    //[Route("/StatusCodeError/{statusCode}")]
+    //public IActionResult Error(int statusCode)
+    //{
+    //    if (statusCode == 404)
+    //    {
+    //        ViewBag.ErrorMessage = "404 Page Not Found :(";
+    //    }
+    //    return View("Error");
+    //}
+
 }
 
