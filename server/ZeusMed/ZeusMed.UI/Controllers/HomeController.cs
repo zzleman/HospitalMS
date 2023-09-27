@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.DataAccess.Contexts;
+using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.AppointmentViewModel;
 using ZeusMed.UI.ViewModels;
 
 namespace ZeusMed.UI.Controllers;
@@ -24,15 +25,20 @@ public class HomeController : Controller
         return View(homeVM);
     }
 
-    //[Route("/StatusCodeError/{statusCode}")]
-    //public IActionResult Error(int statusCode)
-    //{
-    //    if (statusCode == 404)
-    //    {
-    //        ViewBag.ErrorMessage = "404 Page Not Found :(";
-    //    }
-    //    return View("Error");
-    //}
+    [Route("/StatusCodeError/{statusCode}")]
+    public IActionResult Error(int statusCode)
+    {
+        if (statusCode == 404)
+        {
+            ViewBag.ErrorMessage = "404 Page Not Found :(";
+        }
+        return View("Error");
+    }
+
+    public IActionResult Success(AppointmentVM appointment)
+    {
+        return View(appointment);
+    }
 
 }
 

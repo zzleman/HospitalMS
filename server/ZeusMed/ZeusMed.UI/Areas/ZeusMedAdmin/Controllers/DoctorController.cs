@@ -1,5 +1,7 @@
 ﻿
+using System.Data;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +11,7 @@ using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.Controllers;
 [Area("ZeusMedAdmin")]
+[Authorize(Roles = "Admin")]
 public class DoctorController : Controller
 {
     private readonly AppDbContext _context;
@@ -21,6 +24,7 @@ public class DoctorController : Controller
         _mapper = mapper;
         _env = env;
     }
+
 
     public async Task<IActionResult> Index()
     {

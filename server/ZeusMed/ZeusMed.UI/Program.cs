@@ -63,23 +63,23 @@ using (var scope = app.Services.CreateScope())
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<AppUser>>(); // Use UserManager<AppUser>
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-    string email = "admin@admin.com";
-    string password = "Admin123!";
+    string email = "doctor@doctor.com";
+    string password = "Doctor123!";
 
     if (await userManager.FindByEmailAsync(email) == null)
     {
-        var user = new AppUser(); // Use AppUser
+        var user = new AppUser();
         user.UserName = email;
         user.Email = email;
 
         await userManager.CreateAsync(user, password);
 
-        if (!await roleManager.RoleExistsAsync("Admin"))
+        if (!await roleManager.RoleExistsAsync("Doctor"))
         {
-            await roleManager.CreateAsync(new IdentityRole("Admin"));
+            await roleManager.CreateAsync(new IdentityRole("Doctor"));
         }
 
-        await userManager.AddToRoleAsync(user, "Admin");
+        await userManager.AddToRoleAsync(user, "Doctor");
     }
 }
 

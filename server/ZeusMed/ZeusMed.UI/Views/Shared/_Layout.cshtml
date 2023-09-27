@@ -112,7 +112,7 @@
                 {
                     <div class="dropdown-menu" id="lang-dropdown" aria-labelledby="languageDropdown">
                         <div>
-                            <a class="dropdown-item" href="/ZeusMedAdmin/Auth/Profile">@User.Identity.Name</a>
+                            <a class="dropdown-item" href="/ZeusMedAdmin/Dashboard">@User.Identity.Name</a>
                         </div>
                         <div>
                             <a class="dropdown-item" href="/ZeusMedAdmin/Auth/Logout">Sign Out</a>
@@ -132,10 +132,15 @@
                 }
             </li>
 
-
-
         </ul>
-        <a href="/appointment/create" ><button class="appointment-button" style="background-color: #245BCD; color: white;">Make Appointment</button></a>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a href="/zeusmedadmin/appointment/create"><button class="appointment-button" style="background-color: #245BCD; color: white;">Make Appointment</button></a>
+        }
+        else
+        {
+            <a href="/zeusmedadmin/auth/login"><button class="appointment-button" style="background-color: #245BCD; color: white;">Make Appointment</button></a>
+        }
     </nav>
     <!-- Navbar End -->
     <!-- Header Area End -->

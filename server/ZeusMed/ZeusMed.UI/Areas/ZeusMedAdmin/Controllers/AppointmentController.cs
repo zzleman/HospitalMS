@@ -84,13 +84,13 @@ public class AppointmentController : Controller
             _context.SaveChanges();
 
 
-            if (User.IsInRole("Admin"))
+            if (User.IsInRole("Admin,Doctor"))
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Appointment");
             }
             else
             {
-                return RedirectToAction("Index","Home", new { area = string.Empty });
+                return RedirectToAction("Success","Home", new { area = string.Empty });
             }
         }
 
@@ -117,60 +117,6 @@ public class AppointmentController : Controller
         };
 
         return View(appointmentVM);
-    }
-
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult Edit(int id, AppointmentVM appointmentVM)
-    {
-        if (ModelState.IsValid)
-        {
-            var existingAppointment = _context.Appointments.FirstOrDefault(a => a.Id == id);
-
-            if (existingAppointment == null)
-            {
-                return NotFound();
-            }
-
-            existingAppointment.Name = appointmentVM.Name;
-            existingAppointment.Surname = appointmentVM.Surname;
-            existingAppointment.Phone = appointmentVM.PhoneNumber;
-
-            _context.Entry(existingAppointment).State = EntityState.Modified;
-            _context.SaveChanges();
-
-            return RedirectToAction("Index");
-        }
-
-        return View(appointmentVM);
-    }
-
-    public IActionResult Delete(int id)
-    {
-        var appointment = _context.Appointments.FirstOrDefault(a => a.Id == id);
-
-        if (appointment == null)
-        {
-            return NotFound();
-        }
-
-        return View(appointment);
-    }
-
-    [HttpPost, ActionName("Delete")]
-    [ValidateAntiForgeryToken]
-    public IActionResult DeleteConfirmed(int id)
-    {
-        var appointment = _context.Appointments.FirstOrDefault(a => a.Id == id);
-
-        if (appointment == null)
-        {
-            return NotFound();
-        }
-
-        _context.Appointments.Remove(appointment);
-        _context.SaveChanges();
-        return RedirectToAction("Index");
     }
 
     private bool AppointmentExists(int id)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tioYSJ6rLGu6bbM8gHe89r/4eoKNLUeFjdpCRN0FVKI=",
+  "Hash": "gv03IwfGMJ6bhNu5SGBBNLrZMjPR9IZqjr3MQnxCPJY=",
   "Source": "ZeusMed.UI",
   "BasePath": "_content/ZeusMed.UI",
   "Mode": "Default",
@@ -1411,6 +1411,23 @@
       "OriginalItemSpec": "wwwroot/admin/vendor/libs/popper/popper.js"
     },
     {
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/.DS_Store",
+      "SourceId": "ZeusMed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
+      "BasePath": "_content/ZeusMed.UI",
+      "RelativePath": "assets/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/.DS_Store"
+    },
+    {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/about.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
@@ -1513,23 +1530,6 @@
       "OriginalItemSpec": "wwwroot/assets/css/index.css"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/profile.css",
-      "SourceId": "ZeusMed.UI",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
-      "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "assets/css/profile.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/css/profile.css"
-    },
-    {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/service-detail.css",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
@@ -1562,6 +1562,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/css/service.css"
+    },
+    {
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/success.css",
+      "SourceId": "ZeusMed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
+      "BasePath": "_content/ZeusMed.UI",
+      "RelativePath": "assets/css/success.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/css/success.css"
     },
     {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/swiper-bundle.min.css",
@@ -1717,23 +1734,6 @@
       "OriginalItemSpec": "wwwroot/assets/icons/support-icon.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/635f52e8-e391-4695-911d-733cd1a66204aysenur-cabuk.jpeg",
-      "SourceId": "ZeusMed.UI",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
-      "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "assets/img/635f52e8-e391-4695-911d-733cd1a66204aysenur-cabuk.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/635f52e8-e391-4695-911d-733cd1a66204aysenur-cabuk.jpeg"
-    },
-    {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/abdullah-kilic.jpeg",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
@@ -1802,12 +1802,12 @@
       "OriginalItemSpec": "wwwroot/assets/img/anesthesia.png"
     },
     {
-      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/aysenur-cabuk.jpeg",
+      "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/appointment-removebg-preview.png",
       "SourceId": "ZeusMed.UI",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/",
       "BasePath": "_content/ZeusMed.UI",
-      "RelativePath": "assets/img/aysenur-cabuk.jpeg",
+      "RelativePath": "assets/img/appointment-removebg-preview.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1816,7 +1816,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/aysenur-cabuk.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/appointment-removebg-preview.png"
     },
     {
       "Identity": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/barbados-dokumaci.png",

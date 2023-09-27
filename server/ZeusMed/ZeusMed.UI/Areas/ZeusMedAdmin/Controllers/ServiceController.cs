@@ -1,5 +1,7 @@
 ﻿
+using System.Data;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZeusMed.Core.Entities;
@@ -8,6 +10,7 @@ using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.ServiceViewModel;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.Controllers;
 [Area("ZeusMedAdmin")]
+[Authorize(Roles = "Admin")]
 public class ServiceController : Controller
 {
     private readonly AppDbContext _context;

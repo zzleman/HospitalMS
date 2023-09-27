@@ -325,6 +325,10 @@
       "PackagePath": "staticwebassets/admin/vendor/libs/popper/popper.js"
     },
     {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/about.css",
       "PackagePath": "staticwebassets/assets/css/about.css"
     },
@@ -349,16 +353,16 @@
       "PackagePath": "staticwebassets/assets/css/index.css"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/profile.css",
-      "PackagePath": "staticwebassets/assets/css/profile.css"
-    },
-    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/service-detail.css",
       "PackagePath": "staticwebassets/assets/css/service-detail.css"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/service.css",
       "PackagePath": "staticwebassets/assets/css/service.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/success.css",
+      "PackagePath": "staticwebassets/assets/css/success.css"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/swiper-bundle.min.css",
@@ -397,10 +401,6 @@
       "PackagePath": "staticwebassets/assets/icons/support-icon.png"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/635f52e8-e391-4695-911d-733cd1a66204aysenur-cabuk.jpeg",
-      "PackagePath": "staticwebassets/assets/img/635f52e8-e391-4695-911d-733cd1a66204aysenur-cabuk.jpeg"
-    },
-    {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/abdullah-kilic.jpeg",
       "PackagePath": "staticwebassets/assets/img/abdullah-kilic.jpeg"
     },
@@ -417,8 +417,8 @@
       "PackagePath": "staticwebassets/assets/img/anesthesia.png"
     },
     {
-      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/aysenur-cabuk.jpeg",
-      "PackagePath": "staticwebassets/assets/img/aysenur-cabuk.jpeg"
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/appointment-removebg-preview.png",
+      "PackagePath": "staticwebassets/assets/img/appointment-removebg-preview.png"
     },
     {
       "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/barbados-dokumaci.png",
