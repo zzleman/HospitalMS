@@ -45,5 +45,10 @@ public class AuthController : Controller
         }
         return Ok();
     }
+
+    public IActionResult Login()
+    {
+        return View();
+    }
 }
 
