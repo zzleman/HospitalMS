@@ -1,0 +1,42 @@
+﻿
+@model IEnumerable<Death>
+@{
+    ViewData["Title"] = "Index";
+    int count = 1;
+
+}
+
+<!-- Basic Bootstrap Table -->
+<div class="card">
+    <h1 class="card-header">Deaths </h1>
+    <div class="table-responsive text-nowrap">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Fullname</th>
+                    <th>Gender</th>
+                    <th>Death Time</th>
+                    <th>Death Place</th>
+                    <th>Cause Of Death</th>
+                    <th>Doctor</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                @foreach (var donor in Model)
+                {
+                    <tr>
+                        <th>@count</th>
+                        <td>@donor.Fullname</td>
+                        <td>@donor.ChosenGender</td>
+                        <td>@donor.DeathTime</td>
+                        <td>@donor.DeathPlace</td>
+                        <td>@donor.Doctor.Fullname</td>
+                    </tr>
+                    count++;
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

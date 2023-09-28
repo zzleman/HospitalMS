@@ -162,31 +162,6 @@
                     </li>
 
 
-                    <li class="menu-item">
-                        <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-male-female"></i>
-                            <div data-i18n="Layouts">Patients</div>
-                        </a>
-
-                        <ul class="menu-sub">
-                            <li class="menu-item">
-                                <a href="layouts-without-menu.html" class="menu-link">
-                                    <div data-i18n="Without menu">Add Patients</div>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="layouts-without-navbar.html" class="menu-link">
-                                    <div data-i18n="Without navbar">Delete Patients</div>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="layouts-container.html" class="menu-link">
-                                    <div data-i18n="Container">Update Patients</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
                     <li class="menu-item ">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-calendar"></i>
@@ -214,10 +189,16 @@
                             <i class="menu-icon tf-icons bx bx-donate-blood"></i>
                             <div data-i18n="Layouts">Blood Bank</div>
                         </a>
-
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="layouts-without-menu.html" class="menu-link">
+                                <a asp-area="ZeusMedAdmin" asp-controller="Donor" asp-action="Index" class="menu-link">
+                                    <div data-i18n="Without menu">Blood List </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a asp-area="ZeusMedAdmin" asp-controller="Donor" asp-action="Create" class="menu-link">
                                     <div data-i18n="Without menu">Add Blood </div>
                                 </a>
                             </li>
@@ -229,10 +210,16 @@
                             <i class="menu-icon tf-icons bx bx-child"></i>
                             <div data-i18n="Layouts">Birth Reports</div>
                         </a>
-
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="layouts-without-menu.html" class="menu-link">
+                                <a  asp-area="ZeusMedAdmin" asp-controller="Birth" asp-action="Index" class="menu-link">
+                                    <div data-i18n="Without menu"> Birth List </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a  asp-area="ZeusMedAdmin" asp-controller="Birth" asp-action="Create" class="menu-link">
                                     <div data-i18n="Without menu">Add Birth </div>
                                 </a>
                             </li>
@@ -245,10 +232,16 @@
                             <i class="menu-icon tf-icons bx bx-church"></i>
                             <div data-i18n="Layouts">Death Reports</div>
                         </a>
-
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="layouts-without-menu.html" class="menu-link">
+                                <a asp-area="ZeusMedAdmin" asp-controller="Death" asp-action="Index" class="menu-link">
+                                    <div data-i18n="Without menu">Death List </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a asp-area="ZeusMedAdmin" asp-controller="Death" asp-action="Create" class="menu-link">
                                     <div data-i18n="Without menu">Add Death </div>
                                 </a>
                             </li>

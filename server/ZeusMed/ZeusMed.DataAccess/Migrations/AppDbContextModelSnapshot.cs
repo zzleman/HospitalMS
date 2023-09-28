@@ -268,6 +268,72 @@ namespace ZeusMed.DataAccess.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("ZeusMed.Core.Entities.Birth", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("ChosenBloodGroup")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ChosenGender")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Fullname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Mom")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DoctorId");
+
+                    b.ToTable("Births");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Death", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("CauseOfDeath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ChosenGender")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DeathPlace")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DeathTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Fullname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DoctorId");
+
+                    b.ToTable("Deaths");
+                });
+
             modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>
                 {
                     b.Property<int>("Id")
@@ -303,6 +369,38 @@ namespace ZeusMed.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DoctorDetail");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Donor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ChosenBloodGroup")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ChosenGender")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Fullname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Quantity")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Donors");
                 });
 
             modelBuilder.Entity("ZeusMed.Core.Entities.Service", b =>
@@ -404,6 +502,24 @@ namespace ZeusMed.DataAccess.Migrations
                     b.Navigation("Doctor");
                 });
 
+            modelBuilder.Entity("ZeusMed.Core.Entities.Birth", b =>
+                {
+                    b.HasOne("ZeusMed.Core.Entities.Doctor", "Doctor")
+                        .WithMany("Births")
+                        .HasForeignKey("DoctorId");
+
+                    b.Navigation("Doctor");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Death", b =>
+                {
+                    b.HasOne("ZeusMed.Core.Entities.Doctor", "Doctor")
+                        .WithMany("Deaths")
+                        .HasForeignKey("DoctorId");
+
+                    b.Navigation("Doctor");
+                });
+
             modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>
                 {
                     b.HasOne("ZeusMed.Core.Entities.Service", "AssociatedService")
@@ -437,6 +553,10 @@ namespace ZeusMed.DataAccess.Migrations
             modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>
                 {
                     b.Navigation("Appointments");
+
+                    b.Navigation("Births");
+
+                    b.Navigation("Deaths");
 
                     b.Navigation("DoctorDetail")
                         .IsRequired();

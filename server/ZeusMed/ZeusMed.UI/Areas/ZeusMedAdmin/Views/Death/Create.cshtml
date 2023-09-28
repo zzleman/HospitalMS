@@ -1,0 +1,138 @@
+﻿@model DeathPostVM
+@{
+    ViewData["Title"] = "Create";
+    var currentDate = DateTime.Now;
+    var currentWeekStart = currentDate.AddDays(-(int)currentDate.DayOfWeek);
+    var currentWeekStartFormatted = currentWeekStart.ToString("yyyy-MM-dd");
+}
+@using ZeusMed.Core.Enums;
+
+<div class="row">
+    <!-- Basic with Icons -->
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0">Add New Death</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="row mb-3">
+                        <label asp-for="Fullname" class="col-sm-2 col-form-label">Fullname</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-user"></i>
+                                </span>
+                                <input asp-for="Fullname"
+                                       class="form-control"
+                                       placeholder="John Doe"
+                                       aria-label="john.doe"
+                                       aria-describedby="basic-default-email2"
+                                       required="required" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="Fullname"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label asp-for="ChosenGender" class="col-sm-2 col-form-label">Gender</label>
+                        <div class="col-sm-10">
+                            <select asp-for="ChosenGender" class="form-select" required="required">
+                                <option value="">Select Gender</option>
+                                @foreach (var gender in Enum.GetValues(typeof(Gender)))
+                                {
+                                    <option value="@gender">@gender</option>
+                                }
+                            </select>
+                            <span class="text-danger" asp-validation-for="ChosenGender"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3" style="display:flex">
+                        <label for="DeathTime"  class="col-sm-2 col-form-label">Death Time</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-calendar"></i>
+                                </span>
+                                <input asp-for="DeathTime" class="form-control" type="date"
+                                  aria-label="Death Time"     min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="DeathTime"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="row mb-3">
+                        <label asp-for="DeathPlace" class="col-sm-2 col-form-label">Death Place</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-location-plus"></i>
+                                </span>
+                                <input asp-for="DeathPlace"
+                                       class="form-control"
+                                       placeholder="Place of Death"
+                                       aria-label="Place of Death"
+                                       aria-describedby="quantity-help" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="DeathPlace"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label asp-for="CauseOfDeath" class="col-sm-2 col-form-label">Cause Of Death</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-book-dead"></i>
+                                </span>
+                                <input asp-for="CauseOfDeath"
+                                       class="form-control"
+                                       placeholder="Cause of Death"
+                                       aria-label="Cause of Death"
+                                       aria-describedby="quantity-help" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="CauseOfDeath"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="row mb-3">
+                        <label asp-for="Doctor.Id" class="col-sm-2 col-form-label">Doctor</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-capsule"></i>
+                                </span>
+                                <select asp-for="Doctor.Id" class="form-select" aria-label="Doctor" aria-describedby="quantity-help" required="required">
+                                    @if (ViewBag.DoctorList != null)
+                                    {
+                                        foreach (var doctor in ViewBag.DoctorList)
+                                        {
+                                            <option value="@doctor.Value">@doctor.Text</option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <span class="text-danger" asp-validation-for="Doctor.Id"></span>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Script{
+    <partial name="_ValidationScript" />
+}
+<script>var currentDate = new Date().toISOString().split('T')[0];
+    document.getElementById('AppointmentDate').setAttribute('min', currentDate);</script>

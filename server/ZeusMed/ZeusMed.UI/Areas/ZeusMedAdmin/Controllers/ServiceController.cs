@@ -32,7 +32,6 @@ public class ServiceController : Controller
 
         return View(servicesWithDetails);
     }
-
     public IActionResult Create()
     {
         return View();

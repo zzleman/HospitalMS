@@ -20,5 +20,9 @@ namespace ZeusMed.Core.Entities
 
         public List<Appointment> Appointments { get; set; }
 
+        public List<Birth> Births { get; set; }
+
+        public List<Death> Deaths { get; set; }
+
     }
 }

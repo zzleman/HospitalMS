@@ -10,7 +10,7 @@ public class AuthController : Controller
     private readonly UserManager<AppUser> _userManager;
     private readonly SignInManager<AppUser> _signInManager;
 
-    public AuthController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+    public AuthController(UserManager<AppUser> userManager, SignInManager<Core.Entities.AppUser> signInManager)
     {
         _userManager = userManager;
         _signInManager = signInManager;
@@ -30,7 +30,7 @@ public class AuthController : Controller
         {
             return View(newUser);
         }
-        AppUser user = new()
+        Core.Entities.AppUser user = new()
         {
             Fullname = newUser.Fullname,
             UserName = newUser.Username,
@@ -62,7 +62,7 @@ public class AuthController : Controller
             return View(login);
         }
 
-        AppUser user = await _userManager.FindByEmailAsync(login.Email);
+        Core.Entities.AppUser user = await _userManager.FindByEmailAsync(login.Email);
         if (user == null)
         {
             ModelState.AddModelError("", "User not found.");

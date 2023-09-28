@@ -12,7 +12,7 @@
         We are able to provide services for our physicians whose appointments <br>
         are available in all branches.
     </p>
-    <button class="appointment-button" style="background-color: #245BCD; color: white;">Make Appointment</button>
+    <a href="/zeusmedadmin/appointment/create"><button class="appointment-button" style="background-color: #245BCD; color: white;">Make Appointment</button></a>
     <a href="/contact"><button class="appointment-button" style="background-color: white;">Contact Us</button></a>
 </div>
 <!-- Background Area End -->
@@ -114,10 +114,10 @@
                         <img src="@service.ImagePath" class="card-img-top" alt="Surgery Service">
                         <div class="card-body">
                             <h5 class="service-title">@service.Title</h5>
-                            <p class="service-content">
-                                @Html.Raw(service.Description.Substring(0,119))
+                            <p class="service-content" style="margin-top:-40px">
+                                @Html.Raw(service.Description.Substring(0, 119))
                             </p>
-                            <a href="#" class="service-btn">View details</a>
+                            <a href="@Url.Action("Index", "ServiceDetail", new { id = service.Id })" id="service-btn" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 }
@@ -204,7 +204,8 @@
                 <p class="doctor_department">@doctor.AssociatedService.Title</p>
 
                 <div class="show_up_button">
-                    <button class="doctors_button">View Profile</button>
+                    <a href="@Url.Action("Index", "DoctorDetail", new { doctorDetailId = doctor.Id })">
+                        <button class="doctors_button">View Profile</button> </a>
                 </div>
             </div>
         }

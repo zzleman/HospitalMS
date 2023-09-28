@@ -37,6 +37,12 @@
     <None Remove="Views\Appointment\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Auth\" />
     <None Remove="Areas\ZeusMedAdmin\ViewModels\AuthViewModel\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\DonorViewModel\" />
+    <None Remove="Areas\ZeusMedAdmin\Views\Donor\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\BirthViewModel\" />
+    <None Remove="Areas\ZeusMedAdmin\Views\Birth\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\DeathViewModel\" />
+    <None Remove="Areas\ZeusMedAdmin\Views\Death\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -75,6 +81,12 @@
     <Folder Include="Views\Appointment\" />
     <Folder Include="Areas\ZeusMedAdmin\Views\Auth\" />
     <Folder Include="Areas\ZeusMedAdmin\ViewModels\AuthViewModel\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\DonorViewModel\" />
+    <Folder Include="Areas\ZeusMedAdmin\Views\Donor\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\BirthViewModel\" />
+    <Folder Include="Areas\ZeusMedAdmin\Views\Birth\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\DeathViewModel\" />
+    <Folder Include="Areas\ZeusMedAdmin\Views\Death\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

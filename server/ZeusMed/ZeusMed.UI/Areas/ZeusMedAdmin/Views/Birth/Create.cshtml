@@ -1,0 +1,118 @@
+﻿@model BirthPostVM
+@{
+    ViewData["Title"] = "Create";
+}
+@using ZeusMed.Core.Enums;
+
+
+<div class="row">
+    <!-- Basic with Icons -->
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0">Add New Birth</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="row mb-3">
+                        <label asp-for="Fullname" class="col-sm-2 col-form-label">Fullname</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-user"></i>
+                                </span>
+                                <input asp-for="Fullname"
+                                       class="form-control"
+                                       placeholder="John Doe"
+                                       aria-label="john.doe"
+                                       aria-describedby="basic-default-email2"
+                                       required="required" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="Fullname"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label asp-for="Mom" class="col-sm-2 col-form-label">Mom's Fullname</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-female"></i>
+                                </span>
+                                <input asp-for="Mom"
+                                       class="form-control"
+                                       placeholder="John Doe"
+                                       aria-label="john.doe"
+                                       aria-describedby="basic-default-email2"
+                                       required="required" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="Mom"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label asp-for="ChosenGender" class="col-sm-2 col-form-label">Gender</label>
+                        <div class="col-sm-10">
+                            <select asp-for="ChosenGender" class="form-select" required="required">
+                                <option value="">Select Gender</option>
+                                @foreach (var gender in Enum.GetValues(typeof(Gender)))
+                                {
+                                    <option value="@gender">@gender</option>
+                                }
+                            </select>
+                            <span class="text-danger" asp-validation-for="ChosenGender"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label asp-for="ChosenBloodGroup" class="col-sm-2 col-form-label">Blood Group</label>
+                        <div class="col-sm-10">
+                            <select asp-for="ChosenBloodGroup" class="form-select" required="required">
+                                <option value="">Select Blood Group</option>
+                                @foreach (var bloodGroup in Enum.GetValues(typeof(BloodGroup)))
+                                {
+                                    <option value="@bloodGroup">@bloodGroup</option>
+                                }
+                            </select>
+                            <span class="text-danger" asp-validation-for="ChosenBloodGroup"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label asp-for="Doctor.Id" class="col-sm-2 col-form-label">Doctor</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">
+                                    <i class="bx bx-capsule"></i>
+                                </span>
+                                <select asp-for="Doctor.Id" class="form-select" aria-label="Doctor" aria-describedby="quantity-help" required="required">
+                                    @if (ViewBag.DoctorList != null)
+                                    {
+                                        foreach (var doctor in ViewBag.DoctorList)
+                                        {
+                                            <option value="@doctor.Value">@doctor.Text</option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <span class="text-danger" asp-validation-for="Doctor.Id"></span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row justify-content-end">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Script{
+    <partial name="_ValidationScript" />
+}

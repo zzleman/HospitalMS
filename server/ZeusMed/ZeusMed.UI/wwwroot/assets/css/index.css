@@ -278,7 +278,7 @@ nav {
 
 .card{
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 22rem;
     height: 35rem !important;
 }
@@ -287,12 +287,12 @@ nav {
 }
 .service-content{
     font-size: 14px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.8rem;
 }
 .service-btn{
     color: #245BCD;
     text-decoration: none;
+    margin-bottom:20px;
 }
 .card-container{
     display: flex;

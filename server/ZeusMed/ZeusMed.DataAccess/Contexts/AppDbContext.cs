@@ -13,6 +13,9 @@ namespace ZeusMed.DataAccess.Contexts
         public DbSet<DoctorDetail> DoctorDetails { get; set; } = null!;
         public DbSet<DoctorDetail> ServiceDetail { get; set; } = null!;
         public DbSet<Appointment> Appointments { get; set; } = null!;
+        public DbSet<Donor> Donors { get; set; } = null!;
+        public DbSet<Birth> Births { get; set; } = null!;
+        public DbSet<Death> Deaths { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -23,13 +26,13 @@ namespace ZeusMed.DataAccess.Contexts
                 .WithMany(s => s.AssociatedDoctors)
                 .HasForeignKey(d => d.AssociatedServiceId)
                 .IsRequired(false)
-                .OnDelete(DeleteBehavior.NoAction); // Specify 'NO ACTION' for cascade delete
+                .OnDelete(DeleteBehavior.NoAction);
 
             modelBuilder.Entity<Service>()
                 .HasMany(s => s.AssociatedDoctors)
                 .WithOne(d => d.AssociatedService)
                 .HasForeignKey(d => d.AssociatedServiceId)
-                .IsRequired(false); // This should be set to false, as it is the "one" side of the relationship
+                .IsRequired(false);
 
             modelBuilder.Entity<Doctor>()
                 .HasOne(d => d.DoctorDetail)
@@ -43,18 +46,42 @@ namespace ZeusMed.DataAccess.Contexts
                 .WithOne(sd => sd.Service)
                 .HasForeignKey<ServiceDetail>(sd => sd.Id)
                 .IsRequired(false)
-                .OnDelete(DeleteBehavior.NoAction); // Specify 'NO ACTION' for cascade delete
+                .OnDelete(DeleteBehavior.NoAction);
 
             modelBuilder.Entity<Service>()
                 .HasOne(s => s.ServiceDetail)
                 .WithOne(sd => sd.Service)
-                .OnDelete(DeleteBehavior.Cascade); // Specify 'CASCADE' if needed
+                .OnDelete(DeleteBehavior.Cascade); 
 
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Doctor)
                 .WithMany()
                 .HasForeignKey(a => a.DoctorId)
-                .IsRequired(false); // Optional if an appointment doesn't always have a doctor
+                .IsRequired(false);
+
+            modelBuilder.Entity<Doctor>()
+                     .HasMany(d => d.Births)
+                     .WithOne(b => b.Doctor)
+                     .HasForeignKey(b => b.DoctorId)
+                     .IsRequired(false);
+
+            modelBuilder.Entity<Birth>()
+                .HasOne(b => b.Doctor)
+                .WithMany(d => d.Births)
+                .HasForeignKey(b => b.DoctorId) 
+                .IsRequired(false);
+
+            modelBuilder.Entity<Doctor>()
+                    .HasMany(d => d.Deaths)
+                    .WithOne(b => b.Doctor)
+                    .HasForeignKey(b => b.DoctorId)
+                    .IsRequired(false);
+
+            modelBuilder.Entity<Death>()
+                .HasOne(b => b.Doctor)
+                .WithMany(d => d.Deaths)
+                .HasForeignKey(b => b.DoctorId)
+                .IsRequired(false);
 
         }
 
