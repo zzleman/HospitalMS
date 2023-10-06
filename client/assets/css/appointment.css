@@ -47,7 +47,7 @@ body>* {
     flex-direction: column;
     gap: 50px;
  }
- .choices input{
+  input{
     width: 350px;
     height: 60px;
  }
@@ -92,7 +92,7 @@ body>* {
     width: 350px;
     height: 60px;
     margin-top: 26px;
-    background-color: #1185D3;
+    background-color: red;
     color: white;
  }
  .codesent{

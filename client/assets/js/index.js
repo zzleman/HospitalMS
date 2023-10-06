@@ -1,6 +1,6 @@
-// Function to update a counter element
+
 function updateCounter(counterElement, target, duration) {
-    const increment = (target / duration) * 50; // 50 is an arbitrary multiplier to control the speed
+    const increment = (target / duration) * 50; 
 
     let currentCount = 0;
     const interval = setInterval(() => {
@@ -10,12 +10,12 @@ function updateCounter(counterElement, target, duration) {
             clearInterval(interval);
         }
         counterElement.innerText = Math.ceil(currentCount);
-    }, 50); // 50 milliseconds interval for smoother counting
+    }, 50); 
 }
 
 // DOM Element's
 const akhiValues = document.querySelectorAll('.akhiValue');
-const counterArea = document.querySelector('.counterArea'); // Change this selector to match the section you want to trigger the animation
+const counterArea = document.querySelector('.counterArea'); 
 
 let animationStarted = false;
 
@@ -30,16 +30,13 @@ function startAnimationOnScroll() {
     }
 }
 
-// Function to check if an element is in the viewport
 function isInViewport(el) {
     const rect = el.getBoundingClientRect();
     return rect.top < window.innerHeight && rect.bottom >= 0;
 }
 
-// Add an event listener to window for scroll events
 window.addEventListener('scroll', startAnimationOnScroll);
 
-// Initial check when the page loads
 startAnimationOnScroll();
 
 
@@ -71,6 +68,15 @@ var swiper = new Swiper(".slide-content", {
   },
 });
 
-  function changeLanguage(language) {
-    document.getElementById('languageDropdown').textContent = language;
- }
+const openMenu = document.getElementById("open-menu");
+        const closeMenu = document.getElementById("close-menu");
+        const menu = document.getElementById("menu");
+
+        openMenu.addEventListener("click", () => {
+            menu.style.left = "-280px";
+            menu.style.display="block"
+        });
+
+        closeMenu.addEventListener("click", () => {
+            menu.style.display="none"
+        });

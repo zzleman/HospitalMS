@@ -40,6 +40,13 @@ span {
 
 
 /* Navbar */
+.ham-menu {
+    display: none;
+}
+
+.fa-bars {
+    font-size: 40px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -441,4 +448,438 @@ strong{
 .footer-second p {
     padding-top: 20px;
     font-size: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav .appointment-button {
+        display: none;
+    }
+
+    .ham-menu {
+        display: flex;
+    }
+
+    .fa-bars {
+        margin-left: -50px;
+    }
+
+    .bannerTitle {
+        font-size: 32px;
+    }
+
+    .bannerText {
+        font-size: 15px;
+    }
+
+    .appointment-button {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .aboutArea {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .collabImg {
+        height: 250px;
+        width: 350px;
+    }
+
+    .counterArea {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .imageDoc {
+        margin-left: -10px;
+        height: 200px;
+    }
+
+    .imageDoc img {
+        width: 350px;
+    }
+
+    .playBtn {
+        margin: -80px 0 0 20px
+    }
+
+    .counter {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .akhiValue {
+        font-size: 30px;
+    }
+
+    .labelText {
+        font-size: 16px;
+    }
+
+    .counterIcons {
+        font-size: 18px;
+    }
+
+    .card {
+        margin-left: 10px;
+    }
+
+    .servicesMainText {
+        font-size: 18px;
+    }
+
+
+    .gallery-container {
+        margin-bottom: 2000px;
+    }
+
+    .gallery_img img {
+        height: 300px;
+        width: 350px;
+    }
+
+    .gallery-container {
+        height: 500px;
+    }
+
+
+    .doctors-info {
+        width: 500px;
+    }
+
+    .doctors_img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .show_up_button {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .footer-container,
+    .footer-first,
+    .footer-second,
+    .footer-mid {
+        flex-direction: column;
+    }
+
+    .footer-mid {
+        margin: 40px 0 0 -50px
+    }
+
+    .mail-area {
+        margin-left: 20px;
+    }
+
+    .book-now {
+        width: 415px;
+        margin-left: 0px;
+    }
+
+    .book-text {
+        font-size: 32px;
+    }
+
+    .footer-container{
+        width: 415px;
+    }
+    .book-button {
+        width: 220px;
+        height: 70px;
+        margin: 20px 0 0 20px;
+        font-size: 14px;
+    }
+
+    .footer-bottom p {
+        font-size: 17px;
+        margin-left: -20px;
+    }
+
+    .footer-info {
+        font-size: 15px;
+        margin-left: -13px;
+    }
+
+    .footer-logo {
+        height: 150px;
+        margin-left: -20px;
+    }
+
+    .newsletter {
+        margin-left: -15px;
+    }
+
+    .main-p{
+        width: 400px;
+    }
+
+    .zoom-image{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header .number {
+        padding-top: 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav .appointment-button {
+        display: none;
+    }
+
+    .ham-menu {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .fa-bars {
+        margin-left: -50px;
+    }
+
+    .bannerTitle {
+        font-size: 50px;
+    }
+
+    .bannerText {
+        margin-top: -30px;
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+
+    .appointment-button {
+        margin-top: -20px;
+        margin-bottom: 20px;
+        height: 70px;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .aboutArea {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .collabImg {
+        height: 450px;
+        width: 550px;
+        margin-left: 100px;
+    }
+
+    .aboutHeadText {
+        font-size: 40px;
+    }
+
+    .aboutMainText {
+        font-size: 22px;
+        width: 750px;
+    }
+
+    .eachOption .editIcon {
+        height: 100px;
+    }
+
+    .eachOption .eachOptionText :first-child {
+        font-size: 32px;
+    }
+
+    .eachOption .eachOptionText :last-child {
+        font-size: 22px;
+    }
+
+    .counterArea {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .imageDoc {
+        margin-left: -10px;
+        height: 200px;
+    }
+
+    .imageDoc img {
+        width: 700px;
+        margin-left: 30px;
+    }
+
+    .playBtn {
+        margin: -100px 0 0 650px;
+    }
+
+    .counter {
+        flex-direction: column;
+        margin-top: 500px;
+    }
+
+    .akhiValue {
+        font-size: 50px;
+    }
+
+    .labelText {
+        font-size: 22px;
+    }
+
+    .counter {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .counterLeft {
+        display: flex;
+    }
+
+    .counterIcons {
+        font-size: 18px;
+    }
+
+    .card {
+        margin-left: 10px;
+    }
+
+    .servicesMainText {
+        font-size: 20px;
+    }
+
+
+    .gallery-container {
+        margin-bottom: 2000px;
+    }
+
+    .gallery_img img {
+        height: 300px;
+        width: 350px;
+    }
+
+    .gallery-container {
+        height: 500px;
+    }
+
+    .doctors-container {
+        margin-top: -1100px;
+    }
+
+    .doctors_title {
+        font-size: 70px;
+    }
+
+    .doctors-area {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .doctors_text {
+        font-size: 21px;
+    }
+
+    .doctors-info {
+        width: 500px;
+        margin-right: 150px;
+    }
+
+    .doctor_name {
+        font-size: 30px;
+    }
+
+    .doctor_department {
+        font-size: 25px;
+    }
+
+    .doctors_img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .show_up_button {
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+
+    .doctors_button {
+        width: 200px;
+        height: 70px;
+        font-size: 22px;
+    }
+
+    .footer-container,
+    .footer-first,
+    .footer-second,
+    .footer-mid {
+        flex-direction: column;
+    }
+
+    .footer-mid {
+        margin: 40px 0 0 -50px
+    }
+
+    .mail-area {
+        margin-left: 20px;
+    }
+
+    .book-now {
+        width: 820px;
+        margin-left: 0px;
+    }
+
+    .book-text {
+        font-size: 36px;
+    }
+
+    .book-button {
+        width: 350px;
+        height: 90px;
+        margin: 20px 0 0 20px;
+        font-size: 22px;
+    }
+
+    .footer-bottom p {
+        font-size: 22px;
+        margin-left: -15px;
+    }
+
+    .footer-info {
+        font-size: 22px;
+        margin-left: 13px;
+    }
+
+    .footer-logo {
+        height: 200px;
+        margin-left: -20px;
+    }
+
+    .address {
+        font-size: 20px;
+    }
+
+    .helpline {
+        font-size: 20px;
+    }
+
+    .links-head {
+        font-size: 23px;
+    }
+
+    .links-ul {
+        font-size: 20px;
+    }
+
+    .newsletter {
+        margin-left: -15px;
+    }
+                .main-p {
+                    width: 700px;
+                }
 }
