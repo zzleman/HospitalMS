@@ -1,4 +1,5 @@
-﻿using ZeusMed.Core.Entities;
+﻿using X.PagedList;
+using ZeusMed.Core.Entities;
 
 namespace ZeusMed.UI.ViewModels
 {
@@ -12,7 +13,8 @@ namespace ZeusMed.UI.ViewModels
 
         public string ImagePath { get; set; }
 
-        public IEnumerable<Service> Services { get; set; } = null!;
+
+        public IPagedList<Service> Services { get; set; } = null!;
     }
 
 }

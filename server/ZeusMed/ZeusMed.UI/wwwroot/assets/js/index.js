@@ -73,4 +73,4 @@ var swiper = new Swiper(".slide-content", {
 
   function changeLanguage(language) {
     document.getElementById('languageDropdown').textContent = language;
- }
+  }

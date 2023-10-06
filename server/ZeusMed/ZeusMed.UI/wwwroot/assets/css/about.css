@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body>* {
+body > * {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,10 +26,10 @@ span {
     display: flex;
 }
 
-.icons img {
-    height: 25px;
-    width: 25px;
-}
+    .icons img {
+        height: 25px;
+        width: 25px;
+    }
 
 .zeusLogo {
     height: 170px;
@@ -40,6 +40,59 @@ span {
 
 
 /* Navbar */
+.ham-menu {
+    display: none;
+}
+
+.fa-bars {
+    font-size: 40px;
+}
+
+.hidden-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent dark background */
+    z-index: 1;
+}
+
+#close-menu {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menu-content {
+    position: absolute;
+    top: 0;
+    right: -300px;
+    /* Initial position outside the screen */
+    width: 300px;
+    height: 100%;
+    background: white;
+    overflow-y: auto;
+    transition: right 0.3s;
+}
+
+.ham-menu {
+    display: none;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.hidden-menu a {
+    text-decoration: none;
+    color: #13181f;
+}
+
+.hidden-menu li {
+    list-style: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,15 +105,14 @@ nav {
     padding-top: 15px;
 }
 
-.menu li {
-    list-style: none;
+    .menu li {
+        list-style: none;
+    }
 
-}
-
-.menu a {
-    text-decoration: none;
-    color: #333333;
-}
+    .menu a {
+        text-decoration: none;
+        color: #333333;
+    }
 
 .appointment-button {
     height: 50px;
@@ -104,7 +156,7 @@ nav {
     font-weight: bold;
 }
 /* Breadcrumb Area */
-.breadcrumb-container{
+.breadcrumb-container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -112,56 +164,64 @@ nav {
     margin-top: -40px;
     height: 250px;
     width: 100vw;
-    background-image:url("/client/assets/img/all-page-bg.jpeg");
-    background-size:cover;
+    background-image: url("/client/assets/img/all-page-bg.jpeg");
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
-.breadcrumb-area{
+
+.breadcrumb-area {
     display: flex;
     justify-content: center;
 }
-.breadcrumb-item{
+
+.breadcrumb-item {
     font-size: 25px;
 }
 
 /* Main Content */
-.main-content{
+.main-content {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main-img{
+
+.main-img {
     display: flex;
     justify-content: center;
 }
-.main-img img{
-    width: 95%;
-    border-radius: 25px;
-}
-.main-p{
+
+    .main-img img {
+        width: 95%;
+        border-radius: 25px;
+    }
+
+.main-p {
     padding-top: 50px;
     border: 1px solid transparent;
     width: 900px;
     color: #817f7f;
 }
-strong{
+
+strong {
     color: black;
     font-weight: 900;
 }
-.quality-p h3{
+
+.quality-p h3 {
     color: #245BCD;
 }
 
 
 /* Zoom Image Area */
 
-.zoom-image{
+.zoom-image {
     margin-top: 50px;
     display: flex;
     gap: 10px;
 }
+
 .thumbnail {
     border-radius: 20px;
     cursor: pointer;
@@ -171,9 +231,9 @@ strong{
     margin-right: auto
 }
 
-.thumbnail:hover {
-    opacity: 0.7;
-}
+    .thumbnail:hover {
+        opacity: 0.7;
+    }
 
 .modal {
     display: none;
@@ -193,6 +253,7 @@ strong{
     display: block;
     width: 75%;
 }
+
 #caption {
     margin: auto;
     display: block;
@@ -246,6 +307,7 @@ strong{
         transform: scale(0)
     }
 }
+
 .close {
     position: absolute;
     top: 15px;
@@ -256,12 +318,13 @@ strong{
     transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
@@ -336,7 +399,6 @@ strong{
     height: 170px;
     background-color: white;
     border-radius: 20px;
-
 }
 
 .footer-top {
@@ -363,10 +425,10 @@ strong{
     padding-top: 10px;
 }
 
-.footer-icons i {
-    font-size: 25px;
-    padding-right: 15px;
-}
+    .footer-icons i {
+        font-size: 25px;
+        padding-right: 15px;
+    }
 
 .footer-heading {
     font-size: 20px;
@@ -386,14 +448,14 @@ strong{
     gap: 30px;
 }
 
-.links-ul a {
-    text-decoration: none;
-    color: white;
-}
+    .links-ul a {
+        text-decoration: none;
+        color: white;
+    }
 
-.links-ul li {
-    list-style: none;
-}
+    .links-ul li {
+        list-style: none;
+    }
 
 .links-head {
     padding-left: 30px;
@@ -411,10 +473,10 @@ strong{
     border-radius: 30px;
 }
 
-.mail-area i {
-    padding-top: 15px;
-    padding-right: 10px;
-}
+    .mail-area i {
+        padding-top: 15px;
+        padding-right: 10px;
+    }
 
 .subscribe {
     border-radius: 30px;
@@ -438,7 +500,447 @@ strong{
     text-align: center;
 }
 
-.footer-second p {
-    padding-top: 20px;
-    font-size: 20px;
+    .footer-second p {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+
+@media only screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav .appointment-button {
+        display: none;
+    }
+
+    .ham-menu {
+        display: flex;
+    }
+
+    .fa-bars {
+        margin-left: -50px;
+    }
+
+    .bannerTitle {
+        font-size: 32px;
+    }
+
+    .bannerText {
+        font-size: 15px;
+    }
+
+    .appointment-button {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .aboutArea {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .collabImg {
+        height: 250px;
+        width: 350px;
+    }
+
+    .counterArea {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .imageDoc {
+        margin-left: -10px;
+        height: 200px;
+    }
+
+        .imageDoc img {
+            width: 350px;
+        }
+
+    .playBtn {
+        margin: -80px 0 0 20px
+    }
+
+    .counter {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .akhiValue {
+        font-size: 30px;
+    }
+
+    .labelText {
+        font-size: 16px;
+    }
+
+    .counterIcons {
+        font-size: 18px;
+    }
+
+    .card {
+        margin-left: 10px;
+    }
+
+    .servicesMainText {
+        font-size: 18px;
+    }
+
+
+    .gallery-container {
+        margin-bottom: 2000px;
+    }
+
+    .gallery_img img {
+        height: 300px;
+        width: 350px;
+    }
+
+    .gallery-container {
+        height: 500px;
+    }
+
+
+    .doctors-info {
+        width: 500px;
+    }
+
+    .doctors_img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .show_up_button {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .footer-container,
+    .footer-first,
+    .footer-second,
+    .footer-mid {
+        flex-direction: column;
+    }
+
+    .footer-mid {
+        margin: 40px 0 0 -50px
+    }
+
+    .mail-area {
+        margin-left: 20px;
+    }
+
+    .book-now {
+        width: 415px;
+        margin-left: 0px;
+    }
+
+    .book-text {
+        font-size: 32px;
+    }
+
+    .footer-container {
+        width: 415px;
+    }
+
+    .book-button {
+        width: 220px;
+        height: 70px;
+        margin: 20px 0 0 20px;
+        font-size: 14px;
+    }
+
+    .footer-bottom p {
+        font-size: 17px;
+        margin-left: -20px;
+    }
+
+    .footer-info {
+        font-size: 15px;
+        margin-left: -13px;
+    }
+
+    .footer-logo {
+        height: 150px;
+        margin-left: -20px;
+    }
+
+    .newsletter {
+        margin-left: -15px;
+    }
+
+    .main-p {
+        width: 400px;
+    }
+
+    .zoom-image {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header .number {
+        padding-top: 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav .appointment-button {
+        display: none;
+    }
+
+    .ham-menu {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .fa-bars {
+        margin-left: -50px;
+    }
+
+    .bannerTitle {
+        font-size: 50px;
+    }
+
+    .bannerText {
+        margin-top: -30px;
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+
+    .appointment-button {
+        margin-top: -20px;
+        margin-bottom: 20px;
+        height: 70px;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .aboutArea {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .collabImg {
+        height: 450px;
+        width: 550px;
+        margin-left: 100px;
+    }
+
+    .aboutHeadText {
+        font-size: 40px;
+    }
+
+    .aboutMainText {
+        font-size: 22px;
+        width: 750px;
+    }
+
+    .eachOption .editIcon {
+        height: 100px;
+    }
+
+    .eachOption .eachOptionText :first-child {
+        font-size: 32px;
+    }
+
+    .eachOption .eachOptionText :last-child {
+        font-size: 22px;
+    }
+
+    .counterArea {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .imageDoc {
+        margin-left: -10px;
+        height: 200px;
+    }
+
+        .imageDoc img {
+            width: 700px;
+            margin-left: 30px;
+        }
+
+    .playBtn {
+        margin: -100px 0 0 650px;
+    }
+
+    .counter {
+        flex-direction: column;
+        margin-top: 500px;
+    }
+
+    .akhiValue {
+        font-size: 50px;
+    }
+
+    .labelText {
+        font-size: 22px;
+    }
+
+    .counter {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .counterLeft {
+        display: flex;
+    }
+
+    .counterIcons {
+        font-size: 18px;
+    }
+
+    .card {
+        margin-left: 10px;
+    }
+
+    .servicesMainText {
+        font-size: 20px;
+    }
+
+
+    .gallery-container {
+        margin-bottom: 2000px;
+    }
+
+    .gallery_img img {
+        height: 300px;
+        width: 350px;
+    }
+
+    .gallery-container {
+        height: 500px;
+    }
+
+    .doctors-container {
+        margin-top: -1100px;
+    }
+
+    .doctors_title {
+        font-size: 70px;
+    }
+
+    .doctors-area {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .doctors_text {
+        font-size: 21px;
+    }
+
+    .doctors-info {
+        width: 500px;
+        margin-right: 150px;
+    }
+
+    .doctor_name {
+        font-size: 30px;
+    }
+
+    .doctor_department {
+        font-size: 25px;
+    }
+
+    .doctors_img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .show_up_button {
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+
+    .doctors_button {
+        width: 200px;
+        height: 70px;
+        font-size: 22px;
+    }
+
+    .footer-container,
+    .footer-first,
+    .footer-second,
+    .footer-mid {
+        flex-direction: column;
+    }
+
+    .footer-mid {
+        margin: 40px 0 0 -50px
+    }
+
+    .mail-area {
+        margin-left: 20px;
+    }
+
+    .book-now {
+        width: 820px;
+        margin-left: 0px;
+    }
+
+    .book-text {
+        font-size: 36px;
+    }
+
+    .book-button {
+        width: 350px;
+        height: 90px;
+        margin: 20px 0 0 20px;
+        font-size: 22px;
+    }
+
+    .footer-bottom p {
+        font-size: 22px;
+        margin-left: -15px;
+    }
+
+    .footer-info {
+        font-size: 22px;
+        margin-left: 13px;
+    }
+
+    .footer-logo {
+        height: 200px;
+        margin-left: -20px;
+    }
+
+    .address {
+        font-size: 20px;
+    }
+
+    .helpline {
+        font-size: 20px;
+    }
+
+    .links-head {
+        font-size: 23px;
+    }
+
+    .links-ul {
+        font-size: 20px;
+    }
+
+    .newsletter {
+        margin-left: -15px;
+    }
+
+    .main-p {
+        width: 700px;
+    }
+    .hidden-menu li {
+        padding-top: 60px;
+    }
+
 }

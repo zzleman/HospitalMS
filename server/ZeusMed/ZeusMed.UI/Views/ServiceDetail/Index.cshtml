@@ -4,14 +4,14 @@
     ViewData["Title"] = "Index";
 }
 
-<link rel="stylesheet" href="~/assets/css/service-detail.css">
+<link rel="stylesheet" href="~/assets/css/service-detail.css?v=2">
 <!-- Breadcrumb Area Start -->
 <div class="breadcrumb-container" style="background-image: url('/assets/img/all-page-bg.jpeg')">
-    <h1>Nutrition and Diet</h1>
+    <h1>@Model.Title</h1>
     <div class="breadcrumb-area" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/" style="color:darkturquoise ;">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page" style="color:white">Nutrition and Diet</li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">@Model.Title</li>
         </ol>
     </div>
 </div>
@@ -55,13 +55,12 @@
 
         </ul>
     </div>
-    <div class="right-corner" style="width:750px !important" >
+    <div class="right-corner" style="width:750px !important">
         <img class="detail-img" src="@Model.ImagePath" alt="">
         <h2 style="padding-top:20px">@Model.Title</h2>
         <p>@Html.Raw(Model.Description)</p>
-        @*<p class="right-text" style="width:600px !important">
-           @Html.Raw(Model.Info)
-        </p>*@
     </div>
 </div>
+<script src="~/assets/js/contact.js"></script>
+
 <!-- Service Detail Area Start -->

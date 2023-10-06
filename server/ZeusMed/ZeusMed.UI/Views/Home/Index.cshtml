@@ -1,59 +1,65 @@
-﻿@model HomeVM
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject IViewLocalizer localizer
+@model HomeVM
 @{
 
     ViewData["Title"] = "Index";
 }
-
-<!-- Background Area Start --> 
+<link rel="stylesheet" href="/assets/css/index.css?v=6">
+<!-- Background Area Start -->
 <div class="hospital" style="background-image:url('../assets/img/image-bg.jpg')">
-    <p class="bannerSubtitle"><img src="./assets/icons/pulse-icon.png" alt=""> Best Care, Best Service</p>
-    <p class="bannerTitle">Best Hospital With Best <br> Professionals</p>
+    <p class="bannerSubtitle"><img src="./assets/icons/pulse-icon.png" alt=""> @localizer["bannerSubtitle"]</p>
+    <p class="bannerTitle">@localizer["bannerTitle-1"] <br> @localizer["bannerTitle-2"]</p>
     <p class="bannerText">
-        We are able to provide services for our physicians whose appointments <br>
-        are available in all branches.
+        @localizer["bannerText-1"] <br>
+        @localizer["bannerText-2"]
     </p>
-    <a href="/zeusmedadmin/appointment/create"><button class="appointment-button" style="background-color: #245BCD; color: white;">Make Appointment</button></a>
-    <a href="/contact"><button class="appointment-button" style="background-color: white;">Contact Us</button></a>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a href="/zeusmedadmin/appointment/create"><button class="appointment-button" style="background-color: #245BCD; color: white;">@localizer["makeAppointment"]</button></a>
+    }
+    else
+    {
+        <a href="/zeusmedadmin/auth/login"><button class="appointment-button" style="background-color: #245BCD; color: white;">@localizer["makeAppointment"]</button></a>
+    }
+    <a href="/contact"><button class="appointment-button" style="background-color: white;">@localizer["contact"]</button></a>
 </div>
 <!-- Background Area End -->
-
 <!-- About Area Start -->
 <div class="aboutArea">
     <img class="collabImg" src="./assets/img/collab-photo.png" alt="">
     <div class="aboutAreaInfo">
-        <p class="aboutHeadText">A Great place of medical care hospital center.</p>
+        <p class="aboutHeadText">@localizer["aboutHeadText"]</p>
         <p class="aboutMainText">
-            Private Family Hospital, in its functional and modern building with its renewed
-            infrastructure and service concept: It produces modern health solutions with its advanced technology,
-            specialist physicians, experienced nurses and administrative staff.
+            @localizer["aboutMainText"]
         </p>
         <div class="aboutAreaOptions">
             <div class="eachOption">
                 <img class="editIcon" src="./assets/icons/emergency-icon.png" alt="">
                 <div class="eachOptionText">
-                    <p>Emergency Support</p>
-                    <p>We are at your side in emergencies.</p>
+                    <p>@localizer["emergencySupport"]</p>
+                    <p>@localizer["emergencySupportAlt"]</p>
                 </div>
             </div>
             <div class="eachOption">
                 <img class="editIcon" src="./assets/icons/support-icon.png" alt="">
                 <div class="eachOptionText">
-                    <p>24/7 Support</p>
-                    <p>We provide 24/7 uninterrupted support.</p>
+                    <p>@localizer["247support"]</p>
+                    <p>@localizer["247supportAlt"]</p>
                 </div>
             </div>
             <div class="eachOption">
                 <img class="editIcon" src="./assets/icons/checkup-icon.png" alt="">
                 <div class="eachOptionText">
-                    <p>Free Chekup</p>
-                    <p>Start getting a treatment from our physicians.</p>
+                    <p>@localizer["freeCheckup"]</p>
+                    <p>@localizer["freeCheckupAlt"]</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- About Area End -->
-
 <!-- Counter Area Start -->
 <div class="counterArea" style="background-image: url('../assets/img/counter-bg.jpeg')">
     <div class="imageDoc">
@@ -68,14 +74,14 @@
                 <img class="counterIcons" src="./assets/icons/group-icon.png" alt="">
                 <div class="counterText">
                     <p class="akhiValue" data-target="67013">0</p>
-                    <p class="labelText">Total Patients</p>
+                    <p class="labelText">@localizer["labelText-1"]</p>
                 </div>
             </div>
             <div class="counterInfo">
                 <img class="counterIcons" src="./assets/icons/business-icon.png" alt="">
                 <div class="counterText">
                     <p class="akhiValue" data-target="689">0</p>
-                    <p class="labelText">Our Business Partners</p>
+                    <p class="labelText">@localizer["labelText-2"]</p>
                 </div>
             </div>
         </div>
@@ -84,25 +90,24 @@
                 <img class="counterIcons" src="./assets/icons/patient-icon.png" alt="">
                 <div class="counterText">
                     <p class="akhiValue" data-target="58962">0</p>
-                    <p class="labelText">Satisfied Patients</p>
+                    <p class="labelText">@localizer["labelText-3"] </p>
                 </div>
             </div>
             <div class="counterInfo">
                 <img class="counterIcons" src="./assets/icons/medal-icon.png" alt="">
                 <div class="counterText">
                     <p class="akhiValue" data-target="8712">0</p>
-                    <p class="labelText">Total Operation</p>
+                    <p class="labelText">@localizer["labelText-4"]</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- Counter Area End -->
-
 <!-- Services Area Start -->
 <div class="servies">
-    <p class="servicesSubText">Our Medical Services</p>
-    <p class="servicesMainText">All the service details we have provided in our hospital are listed below.</p>
+    <p class="servicesSubText">@localizer["servicesSubText"]</p>
+    <p class="servicesMainText">@localizer["servicesMainText"]</p>
 
 
     <div class="card-container swiper">
@@ -117,7 +122,7 @@
                             <p class="service-content" style="margin-top:-40px">
                                 @Html.Raw(service.Description.Substring(0, 119))
                             </p>
-                            <a href="@Url.Action("Index", "ServiceDetail", new { id = service.Id })" id="service-btn" class="btn btn-primary">View Details</a>
+                            <a href="@Url.Action("Index", "ServiceDetail", new { id = service.Id })" id="service-btn" class="btn btn-primary">@localizer["viewDetails"]</a>
                         </div>
                     </div>
                 }
@@ -128,16 +133,15 @@
     </div>
 </div>
 <!-- Services Area End -->
-
 <!-- Gallery Area Start -->
 <div class="gallery-container" style="background-image: url('../assets/img/gallery-bg.png');">
     <div class="gallery-content">
-        <p class="gallery_title">Our Service Gallery</p>
-        <p class="gallery_text">You can find all the services we provide as ZeusMed here.</p>
+        <p class="gallery_title">@localizer["galeryTitle"]</p>
+        <p class="gallery_text">@localizer["galleryText"]</p>
     </div>
 
     <div class="gallery-area">
-        <a href="">
+        <a href="/servicedetail/index/7">
             <div class="gallery_img">
                 <img class="service_img" src="./assets/img/infection-services.jpeg" alt="">
                 <div class="show_up_text">
@@ -145,7 +149,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="/servicedetail/index/4">
             <div class="gallery_img">
                 <img class="service_img" src="./assets/img/emergency-service.png" alt="">
                 <div class="show_up_text">
@@ -153,7 +157,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="/servicedetail/index/5">
             <div class="gallery_img">
                 <img class="service_img" src="./assets/img/checkup-services.jpeg" alt="">
                 <div class="show_up_text">
@@ -161,7 +165,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="/servicedetail/index/3">
             <div class="gallery_img">
                 <img class="service_img" src="./assets/img/surgery-services.jpeg" alt="">
                 <div class="show_up_text">
@@ -169,7 +173,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="/servicedetail/index/11">
             <div class="gallery_img">
                 <img class="service_img" src="./assets/img/chest-diseases-services.png" alt="">
                 <div class="show_up_text">
@@ -177,7 +181,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="/servicedetail/index/17">
             <div class="gallery_img">
                 <img class="service_img" src="./assets/img/cardiovascular-surgery-services.jpeg" alt="">
                 <div class="show_up_text">
@@ -188,12 +192,11 @@
     </div>
 </div>
 <!-- Gallery Area End -->
-
 <!-- Doctors Area Start -->
 <div class="doctors-container">
     <div class="doctors-content"
-        <p class="doctors_title">Our Doctors</p>
-        <p class="doctors_text">You can find the list of all our doctors working in our organization here.</p>
+        <p class="doctors_title">@localizer["doctorsTitle"]</p>
+        <p class="doctors_text">@localizer["doctorsText"]</p>
     </div>
     <div class="doctors-area">
         @foreach (var doctor in Model.Doctors.Take(8))
@@ -205,7 +208,8 @@
 
                 <div class="show_up_button">
                     <a href="@Url.Action("Index", "DoctorDetail", new { doctorDetailId = doctor.Id })">
-                        <button class="doctors_button">View Profile</button> </a>
+                        <button class="doctors_button">@localizer["viewProfile"]</button>
+                    </a>
                 </div>
             </div>
         }

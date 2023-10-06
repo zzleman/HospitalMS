@@ -1,0 +1,897 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/obj/Debug/net6.0/scopedcss/projectbundle/ZeusMed.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets/ZeusMed.UI.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/css/demo.css",
+      "PackagePath": "staticwebassets/admin/css/demo.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/1.png",
+      "PackagePath": "staticwebassets/admin/img/avatars/1.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/5.png",
+      "PackagePath": "staticwebassets/admin/img/avatars/5.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/6.png",
+      "PackagePath": "staticwebassets/admin/img/avatars/6.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/avatars/7.png",
+      "PackagePath": "staticwebassets/admin/img/avatars/7.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/backgrounds/18.jpg",
+      "PackagePath": "staticwebassets/admin/img/backgrounds/18.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/1.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/1.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/11.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/11.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/12.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/12.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/13.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/13.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/17.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/17.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/18.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/18.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/19.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/19.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/2.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/2.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/20.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/20.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/3.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/3.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/4.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/4.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/5.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/5.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/elements/7.jpg",
+      "PackagePath": "staticwebassets/admin/img/elements/7.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/favicon/favicon.ico",
+      "PackagePath": "staticwebassets/admin/img/favicon/favicon.ico"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/asana.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/asana.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/behance.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/behance.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/dribbble.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/dribbble.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/facebook.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/facebook.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/github.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/github.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/google.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/google.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/instagram.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/instagram.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/mailchimp.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/mailchimp.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/slack.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/slack.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/brands/twitter.png",
+      "PackagePath": "staticwebassets/admin/img/icons/brands/twitter.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/cc-primary.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/cc-primary.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/cc-success.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/cc-success.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/cc-warning.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/cc-warning.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/chart-success.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/chart-success.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/chart.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/chart.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/paypal.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/paypal.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/wallet-info.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/wallet-info.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/icons/unicons/wallet.png",
+      "PackagePath": "staticwebassets/admin/img/icons/unicons/wallet.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/illustrations/girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets/admin/img/illustrations/girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/illustrations/man-with-laptop-light.png",
+      "PackagePath": "staticwebassets/admin/img/illustrations/man-with-laptop-light.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/illustrations/page-misc-error-light.png",
+      "PackagePath": "staticwebassets/admin/img/illustrations/page-misc-error-light.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-container-light.png",
+      "PackagePath": "staticwebassets/admin/img/layouts/layout-container-light.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-fluid-light.png",
+      "PackagePath": "staticwebassets/admin/img/layouts/layout-fluid-light.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-without-menu-light.png",
+      "PackagePath": "staticwebassets/admin/img/layouts/layout-without-menu-light.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/img/layouts/layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets/admin/img/layouts/layout-without-navbar-light.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/config.js",
+      "PackagePath": "staticwebassets/admin/js/config.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/dashboards-analytics.js",
+      "PackagePath": "staticwebassets/admin/js/dashboards-analytics.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets/admin/js/extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/form-basic-inputs.js",
+      "PackagePath": "staticwebassets/admin/js/form-basic-inputs.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/main.js",
+      "PackagePath": "staticwebassets/admin/js/main.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/pages-account-settings-account.js",
+      "PackagePath": "staticwebassets/admin/js/pages-account-settings-account.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/ui-modals.js",
+      "PackagePath": "staticwebassets/admin/js/ui-modals.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/ui-popover.js",
+      "PackagePath": "staticwebassets/admin/js/ui-popover.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/js/ui-toasts.js",
+      "PackagePath": "staticwebassets/admin/js/ui-toasts.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/core.css",
+      "PackagePath": "staticwebassets/admin/vendor/css/core.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-account-settings.css",
+      "PackagePath": "staticwebassets/admin/vendor/css/pages/page-account-settings.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-auth.css",
+      "PackagePath": "staticwebassets/admin/vendor/css/pages/page-auth.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-icons.css",
+      "PackagePath": "staticwebassets/admin/vendor/css/pages/page-icons.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/pages/page-misc.css",
+      "PackagePath": "staticwebassets/admin/vendor/css/pages/page-misc.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/css/theme-default.css",
+      "PackagePath": "staticwebassets/admin/vendor/css/theme-default.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons.css",
+      "PackagePath": "staticwebassets/admin/vendor/fonts/boxicons.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.eot",
+      "PackagePath": "staticwebassets/admin/vendor/fonts/boxicons/boxicons.eot"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.svg",
+      "PackagePath": "staticwebassets/admin/vendor/fonts/boxicons/boxicons.svg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.ttf",
+      "PackagePath": "staticwebassets/admin/vendor/fonts/boxicons/boxicons.ttf"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.woff",
+      "PackagePath": "staticwebassets/admin/vendor/fonts/boxicons/boxicons.woff"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/fonts/boxicons/boxicons.woff2",
+      "PackagePath": "staticwebassets/admin/vendor/fonts/boxicons/boxicons.woff2"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/js/bootstrap.js",
+      "PackagePath": "staticwebassets/admin/vendor/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/js/helpers.js",
+      "PackagePath": "staticwebassets/admin/vendor/js/helpers.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/js/menu.js",
+      "PackagePath": "staticwebassets/admin/vendor/js/menu.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/apex-charts/apex-charts.css",
+      "PackagePath": "staticwebassets/admin/vendor/libs/apex-charts/apex-charts.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/apex-charts/apexcharts.js",
+      "PackagePath": "staticwebassets/admin/vendor/libs/apex-charts/apexcharts.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/highlight/highlight-github.css",
+      "PackagePath": "staticwebassets/admin/vendor/libs/highlight/highlight-github.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/highlight/highlight.css",
+      "PackagePath": "staticwebassets/admin/vendor/libs/highlight/highlight.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/highlight/highlight.js",
+      "PackagePath": "staticwebassets/admin/vendor/libs/highlight/highlight.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/jquery/jquery.js",
+      "PackagePath": "staticwebassets/admin/vendor/libs/jquery/jquery.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/masonry/masonry.js",
+      "PackagePath": "staticwebassets/admin/vendor/libs/masonry/masonry.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
+      "PackagePath": "staticwebassets/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
+      "PackagePath": "staticwebassets/admin/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/admin/vendor/libs/popper/popper.js",
+      "PackagePath": "staticwebassets/admin/vendor/libs/popper/popper.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/about.css",
+      "PackagePath": "staticwebassets/assets/css/about.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/appointment.css",
+      "PackagePath": "staticwebassets/assets/css/appointment.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/contact.css",
+      "PackagePath": "staticwebassets/assets/css/contact.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/dashboard.css",
+      "PackagePath": "staticwebassets/assets/css/dashboard.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/doctor-detail.css",
+      "PackagePath": "staticwebassets/assets/css/doctor-detail.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/doctor.css",
+      "PackagePath": "staticwebassets/assets/css/doctor.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/index.css",
+      "PackagePath": "staticwebassets/assets/css/index.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/service-detail.css",
+      "PackagePath": "staticwebassets/assets/css/service-detail.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/service.css",
+      "PackagePath": "staticwebassets/assets/css/service.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/success.css",
+      "PackagePath": "staticwebassets/assets/css/success.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/css/swiper-bundle.min.css",
+      "PackagePath": "staticwebassets/assets/css/swiper-bundle.min.css"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/business-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/business-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/checkup-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/checkup-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/emergency-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/emergency-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/group-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/group-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/medal-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/medal-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/patient-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/patient-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/pulse-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/pulse-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/icons/support-icon.png",
+      "PackagePath": "staticwebassets/assets/icons/support-icon.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/027d3b51-fe46-448c-8754-a3ae7894977amehmet-ridvan-ustuner.jpeg",
+      "PackagePath": "staticwebassets/assets/img/027d3b51-fe46-448c-8754-a3ae7894977amehmet-ridvan-ustuner.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/05c37f86-b16c-417a-9cd6-40aacafea491tolga-totoz.jpg",
+      "PackagePath": "staticwebassets/assets/img/05c37f86-b16c-417a-9cd6-40aacafea491tolga-totoz.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/085e9be0-0f12-4cad-8ab0-a8c3b34601a3bunyamin-kahraman.jpg",
+      "PackagePath": "staticwebassets/assets/img/085e9be0-0f12-4cad-8ab0-a8c3b34601a3bunyamin-kahraman.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/0dae931e-f27e-4e2c-be2e-4d816bc1aa0btamer-kose.jpeg",
+      "PackagePath": "staticwebassets/assets/img/0dae931e-f27e-4e2c-be2e-4d816bc1aa0btamer-kose.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/1c235306-bfc6-4003-9d90-a1fdee0c2c77irfan-cinar.jpg",
+      "PackagePath": "staticwebassets/assets/img/1c235306-bfc6-4003-9d90-a1fdee0c2c77irfan-cinar.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/1c4ea1b3-b65b-451e-9a6d-080268b056d1veyse-emre-erden.jpeg",
+      "PackagePath": "staticwebassets/assets/img/1c4ea1b3-b65b-451e-9a6d-080268b056d1veyse-emre-erden.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/327995eb-886c-4941-9c22-f2473f2bfc68guray-ulutas.jpg",
+      "PackagePath": "staticwebassets/assets/img/327995eb-886c-4941-9c22-f2473f2bfc68guray-ulutas.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/3edc4ca0-96fb-4bad-827c-2e351a28634direm-hepyilmaz.jpeg",
+      "PackagePath": "staticwebassets/assets/img/3edc4ca0-96fb-4bad-827c-2e351a28634direm-hepyilmaz.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/4567ee86-83aa-43a6-846d-6180d8ef9fe1barbados-dokumaci.png",
+      "PackagePath": "staticwebassets/assets/img/4567ee86-83aa-43a6-846d-6180d8ef9fe1barbados-dokumaci.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/4d8a2b60-93a1-413b-9f30-7f70d66f65b0evren-destegul.jpeg",
+      "PackagePath": "staticwebassets/assets/img/4d8a2b60-93a1-413b-9f30-7f70d66f65b0evren-destegul.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/5600b93d-04e7-4854-8669-39c148039109nurcan-etan-sonmez.jpeg",
+      "PackagePath": "staticwebassets/assets/img/5600b93d-04e7-4854-8669-39c148039109nurcan-etan-sonmez.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/588cfaba-6aab-4138-9bb2-e0a152b434d6gurol-korkmaz.jpg",
+      "PackagePath": "staticwebassets/assets/img/588cfaba-6aab-4138-9bb2-e0a152b434d6gurol-korkmaz.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/79c9bd9f-c8e2-488a-b0b3-f1298060447aabdullah-kilic.jpeg",
+      "PackagePath": "staticwebassets/assets/img/79c9bd9f-c8e2-488a-b0b3-f1298060447aabdullah-kilic.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/84026bd9-83d1-4b93-973e-64c27ac42219burhan-can.jpeg",
+      "PackagePath": "staticwebassets/assets/img/84026bd9-83d1-4b93-973e-64c27ac42219burhan-can.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/8519d1d3-4233-4774-ab2f-11e4f37aea42aysenur-cabuk.jpeg",
+      "PackagePath": "staticwebassets/assets/img/8519d1d3-4233-4774-ab2f-11e4f37aea42aysenur-cabuk.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/9139a107-64d9-4853-a7ab-21a992ae2312barbados-dokumaci.png",
+      "PackagePath": "staticwebassets/assets/img/9139a107-64d9-4853-a7ab-21a992ae2312barbados-dokumaci.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/973edd48-031f-45d1-81a1-f3d31aa1431fismail-borekci.jpeg",
+      "PackagePath": "staticwebassets/assets/img/973edd48-031f-45d1-81a1-f3d31aa1431fismail-borekci.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/Nnurology.jpeg",
+      "PackagePath": "staticwebassets/assets/img/Nnurology.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/a19a5784-3941-4e6c-ae9e-c581964025b7ahmet-hakan-kara.jpeg",
+      "PackagePath": "staticwebassets/assets/img/a19a5784-3941-4e6c-ae9e-c581964025b7ahmet-hakan-kara.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/a315d360-cf97-41fb-a0e4-01955215e4f2civan-kalafat.jpeg",
+      "PackagePath": "staticwebassets/assets/img/a315d360-cf97-41fb-a0e4-01955215e4f2civan-kalafat.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/a9b6ee2c-4679-4eba-8172-c2f5777da4b8kenan-iltimur.jpeg",
+      "PackagePath": "staticwebassets/assets/img/a9b6ee2c-4679-4eba-8172-c2f5777da4b8kenan-iltimur.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/abdullah-kilic.jpeg",
+      "PackagePath": "staticwebassets/assets/img/abdullah-kilic.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/about-page-picture.jpeg",
+      "PackagePath": "staticwebassets/assets/img/about-page-picture.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/ae7cf022-ee71-414d-a2f5-b81d44acadb7sepideh-khani.jpeg",
+      "PackagePath": "staticwebassets/assets/img/ae7cf022-ee71-414d-a2f5-b81d44acadb7sepideh-khani.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/ahmet-hakan-kara.jpeg",
+      "PackagePath": "staticwebassets/assets/img/ahmet-hakan-kara.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/all-page-bg.jpeg",
+      "PackagePath": "staticwebassets/assets/img/all-page-bg.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/anesthesia.png",
+      "PackagePath": "staticwebassets/assets/img/anesthesia.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/appointment-removebg-preview.png",
+      "PackagePath": "staticwebassets/assets/img/appointment-removebg-preview.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/audiology.png",
+      "PackagePath": "staticwebassets/assets/img/audiology.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/aviation-medical.png",
+      "PackagePath": "staticwebassets/assets/img/aviation-medical.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/aysenur-cabuk.jpeg",
+      "PackagePath": "staticwebassets/assets/img/aysenur-cabuk.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/b95f8f4f-eb7e-423f-b800-e2b77fd5a811necdet-derici.jpeg",
+      "PackagePath": "staticwebassets/assets/img/b95f8f4f-eb7e-423f-b800-e2b77fd5a811necdet-derici.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/barbados-dokumaci.png",
+      "PackagePath": "staticwebassets/assets/img/barbados-dokumaci.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/book-now.jpg",
+      "PackagePath": "staticwebassets/assets/img/book-now.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/bunyamin-kahraman.jpg",
+      "PackagePath": "staticwebassets/assets/img/bunyamin-kahraman.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/burhan-can.jpeg",
+      "PackagePath": "staticwebassets/assets/img/burhan-can.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/c138ff35-c370-457f-82ea-6a7020cd3d21mehmet-nuri-bodakci.jpg",
+      "PackagePath": "staticwebassets/assets/img/c138ff35-c370-457f-82ea-6a7020cd3d21mehmet-nuri-bodakci.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/cardiology.png",
+      "PackagePath": "staticwebassets/assets/img/cardiology.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/cardiovascular-surgery-services.jpeg",
+      "PackagePath": "staticwebassets/assets/img/cardiovascular-surgery-services.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/cf533212-de05-49e8-8440-b452196e6009ilhan-egilmez.jpeg",
+      "PackagePath": "staticwebassets/assets/img/cf533212-de05-49e8-8440-b452196e6009ilhan-egilmez.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/cfb2ae49-3e44-4851-952a-65aee22ff5c0yilmaz-helvacioglu.jpeg",
+      "PackagePath": "staticwebassets/assets/img/cfb2ae49-3e44-4851-952a-65aee22ff5c0yilmaz-helvacioglu.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/checkup-services.jpeg",
+      "PackagePath": "staticwebassets/assets/img/checkup-services.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/chest-diseases-services.png",
+      "PackagePath": "staticwebassets/assets/img/chest-diseases-services.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/civan-kalafat.jpeg",
+      "PackagePath": "staticwebassets/assets/img/civan-kalafat.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/clinic-lab.png",
+      "PackagePath": "staticwebassets/assets/img/clinic-lab.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/collab-photo.png",
+      "PackagePath": "staticwebassets/assets/img/collab-photo.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/coronary-care.png",
+      "PackagePath": "staticwebassets/assets/img/coronary-care.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/counter-bg.jpeg",
+      "PackagePath": "staticwebassets/assets/img/counter-bg.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/dccb2c50-f59f-41a3-a4a5-df60be9ee6f7ece-uslu.jpeg",
+      "PackagePath": "staticwebassets/assets/img/dccb2c50-f59f-41a3-a4a5-df60be9ee6f7ece-uslu.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/dermatology-services.png",
+      "PackagePath": "staticwebassets/assets/img/dermatology-services.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/doctors-video.png",
+      "PackagePath": "staticwebassets/assets/img/doctors-video.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/duygu-ameneh.jpeg",
+      "PackagePath": "staticwebassets/assets/img/duygu-ameneh.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/ear-nose-throat.png",
+      "PackagePath": "staticwebassets/assets/img/ear-nose-throat.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/ece-uslu.jpeg",
+      "PackagePath": "staticwebassets/assets/img/ece-uslu.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/eddaca74-6f45-4702-9ba4-12bc6ac97200duygu-ameneh.jpeg",
+      "PackagePath": "staticwebassets/assets/img/eddaca74-6f45-4702-9ba4-12bc6ac97200duygu-ameneh.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/ef7f4a15-088e-4c13-a5fe-8aec4f4d9c2bnamik-kemal-akburak.jpg",
+      "PackagePath": "staticwebassets/assets/img/ef7f4a15-088e-4c13-a5fe-8aec4f4d9c2bnamik-kemal-akburak.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/emergency-service.png",
+      "PackagePath": "staticwebassets/assets/img/emergency-service.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/evren-destegul.jpeg",
+      "PackagePath": "staticwebassets/assets/img/evren-destegul.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/eye-diseases-1.jpeg",
+      "PackagePath": "staticwebassets/assets/img/eye-diseases-1.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/fa0dd11e-ae68-480a-9864-6efb156526fcsadiye-kartalkanat.jpeg",
+      "PackagePath": "staticwebassets/assets/img/fa0dd11e-ae68-480a-9864-6efb156526fcsadiye-kartalkanat.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/fc7703c5-4bd0-43e3-9806-44b008de1977mustafa-ozan-unlu.jpeg",
+      "PackagePath": "staticwebassets/assets/img/fc7703c5-4bd0-43e3-9806-44b008de1977mustafa-ozan-unlu.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/footer-background.jpeg",
+      "PackagePath": "staticwebassets/assets/img/footer-background.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/footer-bg.jpeg",
+      "PackagePath": "staticwebassets/assets/img/footer-bg.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/gallery-bg.png",
+      "PackagePath": "staticwebassets/assets/img/gallery-bg.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/general-surgery-services.png",
+      "PackagePath": "staticwebassets/assets/img/general-surgery-services.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/guray-ulutas.jpg",
+      "PackagePath": "staticwebassets/assets/img/guray-ulutas.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/gurol-korkmaz.jpg",
+      "PackagePath": "staticwebassets/assets/img/gurol-korkmaz.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/ilhan-egilmez.jpeg",
+      "PackagePath": "staticwebassets/assets/img/ilhan-egilmez.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/image-bg.jpg",
+      "PackagePath": "staticwebassets/assets/img/image-bg.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/image-zoom-1.jpeg",
+      "PackagePath": "staticwebassets/assets/img/image-zoom-1.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/image-zoom-2.jpeg",
+      "PackagePath": "staticwebassets/assets/img/image-zoom-2.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/image-zoom-3.jpeg",
+      "PackagePath": "staticwebassets/assets/img/image-zoom-3.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/infection-services.jpeg",
+      "PackagePath": "staticwebassets/assets/img/infection-services.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/internal-diseases.png",
+      "PackagePath": "staticwebassets/assets/img/internal-diseases.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/irem-hepyilmaz.jpeg",
+      "PackagePath": "staticwebassets/assets/img/irem-hepyilmaz.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/irfan-cinar.jpg",
+      "PackagePath": "staticwebassets/assets/img/irfan-cinar.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/ismail-borekci.jpeg",
+      "PackagePath": "staticwebassets/assets/img/ismail-borekci.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/kenan-iltimur.jpeg",
+      "PackagePath": "staticwebassets/assets/img/kenan-iltimur.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/mehmet-nuri-bodakci.jpg",
+      "PackagePath": "staticwebassets/assets/img/mehmet-nuri-bodakci.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/mehmet-ridvan-ustuner.jpeg",
+      "PackagePath": "staticwebassets/assets/img/mehmet-ridvan-ustuner.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/moving-hover.png",
+      "PackagePath": "staticwebassets/assets/img/moving-hover.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/mustafa-ozan-unlu.jpeg",
+      "PackagePath": "staticwebassets/assets/img/mustafa-ozan-unlu.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/namik-kemal-akburak.jpg",
+      "PackagePath": "staticwebassets/assets/img/namik-kemal-akburak.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/necdet-derici.jpeg",
+      "PackagePath": "staticwebassets/assets/img/necdet-derici.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/newborn.png",
+      "PackagePath": "staticwebassets/assets/img/newborn.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/nurcan-etan-sonmez.jpeg",
+      "PackagePath": "staticwebassets/assets/img/nurcan-etan-sonmez.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/nutration-diet.png",
+      "PackagePath": "staticwebassets/assets/img/nutration-diet.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/obesity.jpeg",
+      "PackagePath": "staticwebassets/assets/img/obesity.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/orthopedics.png",
+      "PackagePath": "staticwebassets/assets/img/orthopedics.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/pathology.webp",
+      "PackagePath": "staticwebassets/assets/img/pathology.webp"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/pediatrics.png",
+      "PackagePath": "staticwebassets/assets/img/pediatrics.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/plastic-surgery.png",
+      "PackagePath": "staticwebassets/assets/img/plastic-surgery.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/psychal-therapy-services.png",
+      "PackagePath": "staticwebassets/assets/img/psychal-therapy-services.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/psychiatry.png",
+      "PackagePath": "staticwebassets/assets/img/psychiatry.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/psychology.png",
+      "PackagePath": "staticwebassets/assets/img/psychology.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/radiology.png",
+      "PackagePath": "staticwebassets/assets/img/radiology.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/sadiye-kartalkanat.jpeg",
+      "PackagePath": "staticwebassets/assets/img/sadiye-kartalkanat.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/sepideh-khani.jpeg",
+      "PackagePath": "staticwebassets/assets/img/sepideh-khani.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/surgery-services.jpeg",
+      "PackagePath": "staticwebassets/assets/img/surgery-services.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/tamer-kose.jpeg",
+      "PackagePath": "staticwebassets/assets/img/tamer-kose.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/tolga-totoz.jpg",
+      "PackagePath": "staticwebassets/assets/img/tolga-totoz.jpg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/urology.png",
+      "PackagePath": "staticwebassets/assets/img/urology.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/veyse-emre-erden.jpeg",
+      "PackagePath": "staticwebassets/assets/img/veyse-emre-erden.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/yilmaz-helvacioglu.jpeg",
+      "PackagePath": "staticwebassets/assets/img/yilmaz-helvacioglu.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/zeusmed-logo.png",
+      "PackagePath": "staticwebassets/assets/img/zeusmed-logo.png"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/zoom-image-1.jpeg",
+      "PackagePath": "staticwebassets/assets/img/zoom-image-1.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/zoom-image-2.jpeg",
+      "PackagePath": "staticwebassets/assets/img/zoom-image-2.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/img/zoom-image-3.jpeg",
+      "PackagePath": "staticwebassets/assets/img/zoom-image-3.jpeg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/js/about.js",
+      "PackagePath": "staticwebassets/assets/js/about.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/js/contact.js",
+      "PackagePath": "staticwebassets/assets/js/contact.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/js/index.js",
+      "PackagePath": "staticwebassets/assets/js/index.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/js/service.js",
+      "PackagePath": "staticwebassets/assets/js/service.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/js/swiper-bundle.min.js",
+      "PackagePath": "staticwebassets/assets/js/swiper-bundle.min.js"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/svg/facebook-icon.svg",
+      "PackagePath": "staticwebassets/assets/svg/facebook-icon.svg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/svg/google-plus-icon.svg",
+      "PackagePath": "staticwebassets/assets/svg/google-plus-icon.svg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/svg/linkedin-icon.svg",
+      "PackagePath": "staticwebassets/assets/svg/linkedin-icon.svg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/svg/zeusmed_logo copy.svg",
+      "PackagePath": "staticwebassets/assets/svg/zeusmed_logo copy.svg"
+    },
+    {
+      "Id": "/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/wwwroot/assets/svg/zeusmed_logo.svg",
+      "PackagePath": "staticwebassets/assets/svg/zeusmed_logo.svg"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.ZeusMed.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.ZeusMed.UI.props",
+      "PackagePath": "build\\ZeusMed.UI.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ZeusMed.UI.props",
+      "PackagePath": "buildMultiTargeting\\ZeusMed.UI.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ZeusMed.UI.props",
+      "PackagePath": "buildTransitive\\ZeusMed.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

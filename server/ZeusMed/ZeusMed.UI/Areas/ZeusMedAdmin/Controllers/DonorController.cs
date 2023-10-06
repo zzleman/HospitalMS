@@ -5,12 +5,10 @@ using ZeusMed.Core.Entities;
 using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DonorViewModel;
 using ZeusMed.DataAccess.Contexts;
 using Microsoft.AspNetCore.Authorization;
-using System.Data;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.Controllers;
-[Authorize(Roles = "Admin")]
-
 [Area("ZeusMedAdmin")]
+[Authorize(Roles = "Admin")]
 public class DonorController : Controller
 {
     private readonly IMapper _mapper;

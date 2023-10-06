@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿
+using System.Net;
+using System.Net.Mail;
+using Business.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ZeusMed.Core.Entities;
 using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.AuthViewModel;
@@ -9,11 +13,13 @@ public class AuthController : Controller
 {
     private readonly UserManager<AppUser> _userManager;
     private readonly SignInManager<AppUser> _signInManager;
+    private readonly IMailService _mailService;
 
-    public AuthController(UserManager<AppUser> userManager, SignInManager<Core.Entities.AppUser> signInManager)
+    public AuthController(UserManager<AppUser> userManager, SignInManager<Core.Entities.AppUser> signInManager, IMailService mailService)
     {
         _userManager = userManager;
         _signInManager = signInManager;
+        _mailService = mailService;
     }
 
     public IActionResult Register()
@@ -30,7 +36,7 @@ public class AuthController : Controller
         {
             return View(newUser);
         }
-        Core.Entities.AppUser user = new()
+        ZeusMed.Core.Entities.AppUser user = new()
         {
             Fullname = newUser.Fullname,
             UserName = newUser.Username,
@@ -45,7 +51,7 @@ public class AuthController : Controller
             }
             return View(newUser);
         }
-        return Ok();
+        return View("Login");
     }
 
     public IActionResult Login()
@@ -62,7 +68,7 @@ public class AuthController : Controller
             return View(login);
         }
 
-        Core.Entities.AppUser user = await _userManager.FindByEmailAsync(login.Email);
+        ZeusMed.Core.Entities.AppUser user = await _userManager.FindByEmailAsync(login.Email);
         if (user == null)
         {
             ModelState.AddModelError("", "User not found.");
@@ -97,5 +103,103 @@ public class AuthController : Controller
         return RedirectToAction("Index", "Home", new { area = string.Empty });
     }
 
-}
 
+    public IActionResult ForgotPassword()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+
+    public async Task<IActionResult> ForgotPassword(ForgotPasswordVM forgotPasswordVM)
+    {
+        if (!ModelState.IsValid) return View(forgotPasswordVM);
+
+        var user = await _userManager.FindByEmailAsync(forgotPasswordVM.Email);
+
+        if (user is null)
+        {
+            ModelState.AddModelError("Email", "Not found");
+            return View(forgotPasswordVM);
+        }
+
+
+        string token = await _userManager.GeneratePasswordResetTokenAsync(user);
+        var link = Url.Action(nameof(ResetPassword), "Auth",  new { token, userId = user.Id }, Request.Scheme);
+
+        return Content(link);
+
+    }
+
+    public async Task<IActionResult> ResetPassword(string userId, string token)
+    {
+
+        if (string.IsNullOrWhiteSpace(userId) || string.IsNullOrWhiteSpace(token))
+        {
+            return BadRequest();
+        }
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user is null)
+        {
+            return NotFound();
+        }
+
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ResetPassword(ResetPasswordVM resetPasswordVM, string userId, string token)
+    {
+
+        if (string.IsNullOrWhiteSpace(userId) || string.IsNullOrWhiteSpace(token))
+        {
+            return BadRequest();
+        }
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user is null)
+        {
+            return NotFound();
+        }
+        if (!ModelState.IsValid) return View(resetPasswordVM);
+
+        var identityResult = await _userManager.ResetPasswordAsync(user, token, resetPasswordVM.NewPassword);
+
+        if (!identityResult.Succeeded)
+        {
+            foreach (var error in identityResult.Errors)
+            {
+                ModelState.AddModelError("", error.Description);
+            }
+            return View(resetPasswordVM);
+        }
+
+        return RedirectToAction(nameof(Login));
+    }
+
+    //public IActionResult SendEmail()
+    //{
+    //    return View();
+    //}
+    //[HttpPost]
+    //public IActionResult SendEmail(string to, string subject, string body)
+    //{
+    //    try
+    //    {
+    //        Thread email = new(delegate ()
+    //        {
+    //            Sendmail.Email(to, subject, body);
+    //        });
+    //        email.IsBackground = true;
+    //        email.Start();
+    //        TempData["alert"] = "Email Sucessfully Sent";
+    //    }
+    //    catch (Exception)
+    //    {
+    //        TempData["alert"] = "Problem Sending mail please check the configuration";
+
+    //    }
+    //    return Redirect("Home/Index");
+    //}
+}

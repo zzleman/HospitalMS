@@ -1,31 +1,48 @@
 ﻿<Properties StartupConfiguration="{623C5A2E-0881-4890-8857-AE89116348BD}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ZeusMed.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZeusMed.UI/wwwroot/assets/css/service-detail.css">
+    <Files>
+      <File FileName="ZeusMed.UI/Views/Doctor/Index.cshtml" Line="8" Column="1" />
+      <File FileName="ZeusMed.UI/wwwroot/assets/css/doctor.css" Line="622" Column="23" />
+      <File FileName="ZeusMed.UI/wwwroot/assets/css/service.css" Line="571" Column="23" />
+      <File FileName="ZeusMed.UI/wwwroot/assets/css/doctor-detail.css" Line="603" Column="23" />
+      <File FileName="ZeusMed.UI/Views/DoctorDetail/Index.cshtml" Line="9" Column="47" />
+      <File FileName="ZeusMed.UI/Views/Service/Index.cshtml" Line="63" Column="1" />
+      <File FileName="ZeusMed.UI/wwwroot/assets/css/service-detail.css" Line="673" Column="22" />
+      <File FileName="ZeusMed.UI/Views/ServiceDetail/Index.cshtml" Line="61" Column="44" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ZeusMed" expanded="True">
             <Node name="ZeusMed.Core" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="Entities" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
             </Node>
-            <Node name="ZeusMed.DataAccess" expanded="True">
-              <Node name="Contexts" expanded="True" />
-            </Node>
-            <Node name="ZeusMed.UI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
+            <Node name="ZeusMed.UI">
+              <Node name="Areas" expanded="True">
+                <Node name="ZeusMedAdmin" expanded="True">
+                  <Node name="Views" expanded="True">
+                    <Node name="Doctor" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Helpers" expanded="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Doctor" expanded="True" />
+                <Node name="DoctorDetail" expanded="True" />
                 <Node name="Home" expanded="True" />
+                <Node name="Service" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True">
+                  <Node name="css" expanded="True">
+                    <Node name="service-detail.css" selected="True" />
+                  </Node>
+                  <Node name="js" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -33,7 +50,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ZeusMed.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

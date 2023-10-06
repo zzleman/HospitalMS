@@ -43,6 +43,12 @@
     <None Remove="Areas\ZeusMedAdmin\Views\Birth\" />
     <None Remove="Areas\ZeusMedAdmin\ViewModels\DeathViewModel\" />
     <None Remove="Areas\ZeusMedAdmin\Views\Death\" />
+    <None Remove="Services\" />
+    <None Remove="Services\EmailService\" />
+    <None Remove="Areas\ZeusMedAdmin\ViewModels\DashboardViewModel\" />
+    <None Remove="Views\Language\" />
+    <None Remove="Localization\" />
+    <None Remove="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -87,6 +93,12 @@
     <Folder Include="Areas\ZeusMedAdmin\Views\Birth\" />
     <Folder Include="Areas\ZeusMedAdmin\ViewModels\DeathViewModel\" />
     <Folder Include="Areas\ZeusMedAdmin\Views\Death\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\EmailService\" />
+    <Folder Include="Areas\ZeusMedAdmin\ViewModels\DashboardViewModel\" />
+    <Folder Include="Views\Language\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
@@ -100,6 +112,9 @@
     <ProjectReference Include="..\ZeusMed.DataAccess\ZeusMed.DataAccess.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.22">
@@ -107,5 +122,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="X.PagedList" Version="8.4.7" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.7" />
   </ItemGroup>
 </Project>

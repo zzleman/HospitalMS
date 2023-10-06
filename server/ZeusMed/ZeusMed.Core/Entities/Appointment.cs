@@ -19,6 +19,7 @@ namespace ZeusMed.Core.Entities
 
         [Required]
         public int DoctorId { get; set; }
+
         public string ProblemDescription { get; set; }
 
         public DateTime AppointmentDate { get; set; }
@@ -26,5 +27,10 @@ namespace ZeusMed.Core.Entities
         public TimeSpan AppointmentTime { get; set; }
 
         public Doctor Doctor { get; set; }
+
+        [Required]
+        public int ServiceId { get; set; }
+
+        public List<Service> Services { get; set; }
     }
 }

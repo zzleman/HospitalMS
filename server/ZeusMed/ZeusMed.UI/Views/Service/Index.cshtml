@@ -1,9 +1,11 @@
 ﻿@model ServiceVM
+@using X.PagedList
+@using X.PagedList.Mvc.Core
 @{
 
     ViewData["Title"] = "Index";
 }
-<link rel="stylesheet" href="./assets/css/service.css">
+<link rel="stylesheet" href="./assets/css/service.css?v=7">
 
 <!-- Breadcrumb Area Start -->
 <div class="breadcrumb-container" style="background-image: url('../assets/img/all-page-bg.jpeg')">
@@ -35,7 +37,7 @@
                     <div class="card-body">
                         <h5 class="card-title">@service.Title</h5>
                         <br>
-                        <p class="card-text">@Html.Raw(service.Description.Substring(0,119))</p>
+                        <p class="card-text">@Html.Raw(service.Description.Substring(0, 119))</p>
                         <br>
                         <a href="@Url.Action("Index", "ServiceDetail", new { id = service.Id })" id="service-btn" class="btn btn-primary">View Details</a>
                     </div>
@@ -46,5 +48,18 @@
 
     </div>
 </div>
+
+<br />
+
+<div class="centered-pagination" style="display:flex;justify-content:center;align-items:center">
+    <div class="pagination-container text-center">
+        @Html.PagedListPager(Model.Services, page => Url.Action("Index", new { page }), new X.PagedList.Web.Common.PagedListRenderOptions
+        {
+            LiElementClasses = new[] { "page-item" },
+            PageClasses = new[] { "page-link" }
+        })
+    </div>
+</div>
+<script src="~/assets/js/contact.js"></script>
 
 <!-- Services Content Area End -->

@@ -1,0 +1,12 @@
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/bin/Debug/net6.0/Business.deps.json
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/bin/Debug/net6.0/Business.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/bin/Debug/net6.0/Business.pdb
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/Business.csproj.AssemblyReference.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/Business.AssemblyInfoInputs.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/Business.AssemblyInfo.cs
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/Business.csproj.CoreCompileInputs.cache
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/Business.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/refint/Business.dll
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/Business.pdb
+/Users/leman/Desktop/HospitalMS/server/ZeusMed/Business/obj/Debug/net6.0/ref/Business.dll

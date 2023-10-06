@@ -1,4 +1,141 @@
-﻿@{
-    ViewData["Title"] = "Index";
+﻿
 
+@model DashboardVM
+
+@{
+    ViewData["Title"] = "Dashboard";
 }
+
+
+<link rel="stylesheet" href="~/assets/css/dashboard.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<!-- /.row -->
+
+<div class="row">
+    <div class="col-lg-2 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-user-md fa-4x" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class='huge'>@Model.DoctorCount</div>
+                        <div class="under-number">Doctors</div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="Index" asp-controller="Doctor">
+                <div class="panel-footer">
+                    <span class="pull-left blue">View Details</span>
+                    <span class="pull-right blue"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ********************************************************************************************************* -->
+    <div class="col-lg-2 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-building fa-4x" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class='huge'>@Model.ServiceCount</div>
+                        <div class="under-number">Services</div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="Index" asp-controller="Service">
+                <div class="panel-footer">
+                    <span class="pull-left green">View Details</span>
+                    <span class="pull-right green"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- ********************************************************************************************************* -->
+
+    <div class="col-lg-2 col-md-6">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-tint fa-4x" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class='huge'>@Model.DonorCount</div>
+                        <div class="under-number"> Donors</div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="Index" asp-controller="Donor">
+                <div class="panel-footer">
+                    <span class="pull-left red">View Details</span>
+                    <span class="pull-right red"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ********************************************************************************************************* -->
+
+    <div class="col-lg-2 col-md-6">
+        <div class="panel panel-baby">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-baby fa-4x" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class='huge'>@Model.BirthCount</div>
+                        <div class="under-number">Births</div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="Index" asp-controller="Birth">
+                <div class="panel-footer">
+                    <span class="pull-left baby">View Details</span>
+                    <span class="pull-right baby"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ********************************************************************************************************* -->
+
+
+    <div class="col-lg-2 col-md-6">
+        <div class="panel panel-black">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fas fa-church fa-4x" style="color: #ffffff;"></i>
+                    </div>
+
+                    <div class="col-xs-9 text-right">
+                        <div class='huge'>@Model.DeathCount</div>
+                        <div class="under-number">Deaths</div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="Index" asp-controller="Death">
+                <div class="panel-footer">
+                    <span class="pull-left black">View Details</span>
+                    <span class="pull-right black"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

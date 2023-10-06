@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using X.PagedList;
 using ZeusMed.DataAccess.Contexts;
 using ZeusMed.UI.ViewModels;
-using System.Linq;
 
 namespace ZeusMed.UI.Controllers
 {
@@ -15,33 +16,15 @@ namespace ZeusMed.UI.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int page =1)
         {
+            var services = _context.Services.ToPagedList(page, 6);
             var serviceVM = new ServiceVM
             {
-                Services = _context.Services.ToList()
+                Services = services
             };
             return View(serviceVM);
         }
 
-        public IActionResult Details(int id)
-        {
-            var service = _context.Services.FirstOrDefault(s => s.Id == id);
-
-            if (service == null)
-            {
-                return NotFound(); 
-            }
-
-            var serviceVM = new ServiceVM
-            {
-                Title = service.Title,
-                Description = service.Description,
-                Info = service.ServiceDetail.Info,
-                ImagePath = service.ImagePath
-            };
-
-            return View(serviceVM);
-        }
     }
 }

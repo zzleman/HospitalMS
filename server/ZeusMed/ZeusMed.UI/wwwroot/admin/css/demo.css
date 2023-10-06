@@ -2,7 +2,9 @@
 * demo.css
 * File include item demo only specific css only
 ******************************************************************************/
-
+body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
 .menu .app-brand.demo {
   height: 64px;
   margin-top: 12px;

@@ -1,18 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Localization;
 using ZeusMed.DataAccess.Contexts;
 using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.AppointmentViewModel;
 using ZeusMed.UI.ViewModels;
+using Microsoft.AspNetCore.Localization;
 
 namespace ZeusMed.UI.Controllers;
 
 public class HomeController : Controller
 {
     private readonly AppDbContext _context;
+    private IStringLocalizer<HomeController> _localizer;
 
-    public HomeController(AppDbContext context)
+    public HomeController(AppDbContext context, IStringLocalizer<HomeController> localizer)
     {
         _context = context;
+        _localizer = localizer;
     }
 
     public async Task<IActionResult> Index()
@@ -23,6 +27,18 @@ public class HomeController : Controller
             Doctors = await _context.Doctors.ToListAsync(),
         };
         return View(homeVM);
+    }
+
+    [HttpPost]
+    public IActionResult SetLanguage(string culture,string returnUrl)
+    {
+        Response.Cookies.Append(
+            CookieRequestCultureProvider.DefaultCookieName,
+            CookieRequestCultureProvider.MakeCookieValue(requestCulture:new RequestCulture(culture)),
+            options:new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(years:1)}
+            );
+
+        return LocalRedirect(returnUrl);
     }
 
     [Route("/StatusCodeError/{statusCode}")]

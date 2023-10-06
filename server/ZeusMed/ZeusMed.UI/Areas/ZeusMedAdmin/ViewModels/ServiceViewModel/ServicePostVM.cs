@@ -1,6 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 using ZeusMed.Core.Entities;
+using ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.DoctorViewModel;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.ServiceViewModel;
 

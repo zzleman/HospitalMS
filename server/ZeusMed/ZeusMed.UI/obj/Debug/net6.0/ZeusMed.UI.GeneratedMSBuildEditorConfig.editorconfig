@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0FwcG9pbnRtZW50L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Appointment/CreateAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0FwcG9pbnRtZW50L0NyZWF0ZUFwcG9pbnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Appointment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0FwcG9pbnRtZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Auth/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0F1dGgvRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Auth/Login.cshtml]
@@ -30,6 +38,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0F1dGgvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Auth/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0F1dGgvUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Auth/SendEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0F1dGgvU2VuZEVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Auth/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvWmV1c01lZEFkbWluL1ZpZXdzL0F1dGgvU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Areas/ZeusMedAdmin/Views/Birth/Create.cshtml]
@@ -112,10 +132,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -174,6 +190,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Views/Shared/_SelectLanguage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TZWxlY3RMYW5ndWFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/leman/Desktop/HospitalMS/server/ZeusMed/ZeusMed.UI/Views/_ViewImports.cshtml]

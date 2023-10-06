@@ -1,10 +1,12 @@
 ﻿@model DoctorVM
+@using X.PagedList
+@using X.PagedList.Mvc.Core
 @{
 
     ViewData["Title"] = "Index";
 }
-
-<link rel="stylesheet" href="./assets/css/doctor.css">
+<script src="~/assets/js/contact.js"></script>
+<link rel="stylesheet" href="./assets/css/doctor.css?v=5">
 <!-- Breadcrumb Area Start -->
 <div class="breadcrumb-container" style="background-image: url('../assets/img/all-page-bg.jpeg')">
     <h1>Doctors</h1>
@@ -39,5 +41,17 @@
         }
     </div>
 </div>
+<br />
+
+<div class="centered-pagination" style="display:flex;justify-content:center;align-items:center">
+    <div class="pagination-container text-center">
+        @Html.PagedListPager(Model.Doctors, page => Url.Action("Index", new { page }), new X.PagedList.Web.Common.PagedListRenderOptions
+        {
+            LiElementClasses = new[] { "page-item" },
+            PageClasses = new[] { "page-link" }
+        })
+    </div>
+</div>
+
 
 <!-- Doctors Content Area End -->

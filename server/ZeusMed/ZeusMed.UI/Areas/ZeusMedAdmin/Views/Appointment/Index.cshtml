@@ -13,6 +13,7 @@
                     <th>#</th>
                     <th>Full Name</th>
                     <th>Phone Number</th>
+                    <th>Service</th>
                     <th>Doctor</th>
                     <th>Appointment Date</th>
                     <th>Appointment Time</th>
@@ -24,8 +25,9 @@
                 {
                     <tr>
                         <th>@count</th>
-                        <td>@appointment.Name + @appointment.Surname</td>
+                        <td>@appointment.Name @appointment.Surname</td>
                         <td>@appointment.Phone</td>
+                        <td>@appointment.Doctor.AssociatedService</td>
                         <td>@appointment.Doctor.Fullname</td>
                         <td>@appointment.AppointmentDate.ToString("dd/MM/yyyy")</td>
                         <td>@((DateTime.Today + appointment.AppointmentTime).ToString("HH:mm"))</td>

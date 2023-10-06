@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ZeusMed.Core.Entities;
 
 namespace ZeusMed.UI.Areas.ZeusMedAdmin.ViewModels.AppointmentViewModel;
@@ -25,10 +26,14 @@ public class AppointmentVM
 
     [DataType(DataType.Time)]
     public TimeSpan AppointmentTime { get; set; }
+
     public int SelectedDoctorId { get; set; }
 
     public List<Doctor> Doctors { get; set; }
 
-    public string QueueNumber { get; set; }
+    public int SelectedServiceId { get; set; }
+
+    public List<Service> Services { get; set; }
+
 }
 

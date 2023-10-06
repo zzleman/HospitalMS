@@ -46,7 +46,7 @@ public class AppointmentController : Controller
             {
                 timeSlots.Add(new SelectListItem
                 {
-                    Value = startTime.ToString("hh\\:mm"), 
+                    Value = startTime.ToString("hh\\:mm"),
                     Text = startTime.ToString("hh\\:mm")
                 });
             }
@@ -58,8 +58,6 @@ public class AppointmentController : Controller
 
         return View(appointmentVM);
     }
-
-
 
 
 
@@ -90,7 +88,7 @@ public class AppointmentController : Controller
             }
             else
             {
-                return RedirectToAction("Success","Home", new { area = string.Empty });
+                return RedirectToAction("Success", "Home", new { area = string.Empty });
             }
         }
 
@@ -99,6 +97,74 @@ public class AppointmentController : Controller
         return View(appointmentVM);
     }
 
+
+
+
+
+
+
+    public IActionResult CreateAppointment()
+    {
+        var appointmentVM = new AppointmentVM();
+
+        var doctors = _context.Doctors.ToList();
+        var services = _context.Services.ToList();
+
+        ViewBag.Doctors = new SelectList(doctors, "Id", "Fullname");
+        ViewBag.Services = new SelectList(services, "Id", "Title");
+        var timeSlotInterval = TimeSpan.FromMinutes(30);
+
+        var startTime = TimeSpan.FromHours(9);
+        var endTime = TimeSpan.FromHours(17.5);
+
+        var timeSlots = new List<SelectListItem>();
+
+        while (startTime <= endTime)
+        {
+            if (startTime.Hours != 13)
+            {
+                timeSlots.Add(new SelectListItem
+                {
+                    Value = startTime.ToString("hh\\:mm"),
+                    Text = startTime.ToString("hh\\:mm")
+                });
+            }
+
+            startTime = startTime.Add(timeSlotInterval);
+        }
+
+        ViewBag.TimeSlots = timeSlots;
+
+        return View(appointmentVM);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult CreateAppointment(AppointmentVM appointmentVM)
+    {
+        if (!ModelState.IsValid)
+        {
+            var appointment = new Appointment
+            {
+                Name = appointmentVM.Name,
+                Surname = appointmentVM.Surname,
+                Phone = appointmentVM.PhoneNumber,
+                ProblemDescription = appointmentVM.ProblemDescription,
+                AppointmentDate = appointmentVM.AppointmentDate,
+                AppointmentTime = appointmentVM.AppointmentTime,
+            };
+            appointment.DoctorId = appointmentVM.SelectedDoctorId;
+
+            _context.Appointments.Add(appointment);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Appointment");
+        }
+
+        var doctors = _context.Doctors.ToList();
+        ViewBag.Doctors = new SelectList(doctors, "Id", "Name", "Surname");
+        return View(appointmentVM);
+    }
 
     public IActionResult Edit(int id)
     {

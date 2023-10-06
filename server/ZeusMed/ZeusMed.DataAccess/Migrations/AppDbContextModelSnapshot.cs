@@ -187,6 +187,9 @@ namespace ZeusMed.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ServiceId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -411,6 +414,9 @@ namespace ZeusMed.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<int?>("AppointmentId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
@@ -421,6 +427,8 @@ namespace ZeusMed.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AppointmentId");
 
                     b.ToTable("Services");
                 });
@@ -540,6 +548,13 @@ namespace ZeusMed.DataAccess.Migrations
                     b.Navigation("Doctor");
                 });
 
+            modelBuilder.Entity("ZeusMed.Core.Entities.Service", b =>
+                {
+                    b.HasOne("ZeusMed.Core.Entities.Appointment", null)
+                        .WithMany("Services")
+                        .HasForeignKey("AppointmentId");
+                });
+
             modelBuilder.Entity("ZeusMed.Core.Entities.ServiceDetail", b =>
                 {
                     b.HasOne("ZeusMed.Core.Entities.Service", "Service")
@@ -548,6 +563,11 @@ namespace ZeusMed.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Service");
+                });
+
+            modelBuilder.Entity("ZeusMed.Core.Entities.Appointment", b =>
+                {
+                    b.Navigation("Services");
                 });
 
             modelBuilder.Entity("ZeusMed.Core.Entities.Doctor", b =>

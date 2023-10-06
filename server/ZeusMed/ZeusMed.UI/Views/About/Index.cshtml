@@ -1,18 +1,22 @@
-﻿@model AboutVM
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject IViewLocalizer localizer
+
+@model AboutVM
 @{
 
     ViewData["Title"] = "Index";
 }
 
-<link rel="stylesheet" href="./assets/css/about.css">
+<link rel="stylesheet" href="./assets/css/about.css?v=2">
 <script defer src="./assets/js/about.js"></script>
 <!-- Breadcrumb Area Start -->
 <div class="breadcrumb-container" style="background-image:url('../assets/img/all-page-bg.jpeg')">
-    <h1>About Us</h1>
+    <h1>@localizer["aboutUs"]</h1>
     <div class="breadcrumb-area" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/" style="color:darkturquoise ;">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page" style="color:white">About</li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">@localizer["aboutUs"]</li>
         </ol>
     </div>
 </div>
@@ -23,51 +27,35 @@
         <img src="~/assets/img/about-page-picture.jpeg" alt="">
     </div>
     <div class="main-p">
-        <p> <strong>As ZeusMed,</strong> we started our journey with the Metropol Medical Center opened in 2005 in Bahcelievler district of Istanbul..</p>
+        <p> <strong>@localizer["asZeusMed"],</strong> @localizer["aboutP-1"]</p>
         <p>
-            Since the day we were founded, we continue to provide services by aiming to be one of the reference institutions with
-            our determination to increase patient satisfaction, based on patient and community health, and continue to grow with a
-            quality service approach.
+            @localizer["aboutP-2"]
             <br>
             <br>
-            With the motto <strong>"There is health in ZeusMed"</strong>, we offer curative and preventive health services in a friendly and reliable
-            way without compromising scientific ethical principles. As Metropol Health Group, considering the population,
-            socio-cultural distribution and easy transportation opportunities of our region, İzmir's Karşıyaka, Balçova, Hatay,
-            Şemikler, Aliağa and Alsancak&nbsp; We continue to serve in the regions.
+            @localizer["aboutP-3-1"] :<strong>"@localizer["aboutP-3-2"]"</strong>,  @localizer["aboutP-3-3"]
         </p>
         <p>
-            As a health institution that follows and applies advanced technology in its field, we have adopted the principle of
-            providing patient-oriented service in our 7 centers located in Izmir with our expert physician staff and professional
-            team. In all our centers, everything has been considered to ensure that patients receive the most comfortable service
-            from the first moment they are examined to the time they are discharged.
+            @localizer["aboutP-4"]
         </p>
         <p>
-            To bring people back to health and keep them healthy, to meet the satisfaction of our patients who expect quality
-            healthcare services, correct diagnosis-correct treatment&nbsp; To provide health services with an approach without
-            compromising ethical values; With the awareness of social responsibility, we aim to contribute to the society's efforts
-            to increase the health level and quality of life. We work for your health as one of the most established health
-            institutions in Izmir, with our innovative and creative identity, which closely follows the developments in the world in
-            the field of health, and with our friendly employees who are experts in their fields, who value people, and who are
-            constantly supported by in-house training.
+            @localizer["aboutP-5"]
         </p>
         <div class="quality-p">
-            <h3>Quality service</h3>
+            <h3> @localizer["aboutQ"]</h3>
             <p>
-                Our experience, know-how, centers that bring together up-to-date technologies and service at international standards
-                With our understanding, we provide quality service to thousands of people in the shortest time possible.
+                @localizer["aboutQ-1"]
                 <br>
                 <br>
-                Our centers, which act by putting human health in their focus; their expert staff, their ethical principles and effective
-                continues to offer healthy days to Izmir with its treatment methods.
+                @localizer["aboutQ-2"]
             </p>
         </div>
     </div>
     <div class="zoom-image">
         <img class="thumbnail" src="./assets/img/zoom-image-1.jpeg"
-             alt="Opearation Room" width="250" height="250">
-        <img class="thumbnail" src="./assets/img/zoom-image-2.jpeg" alt="Reseption"
+             alt="@localizer["alt-1"]" width="250" height="250">
+        <img class="thumbnail" src="./assets/img/zoom-image-2.jpeg" alt="@localizer["alt-2"]"
              width="250" height="250">
-        <img class="thumbnail" src="./assets/img/zoom-image-3.jpeg" alt="Patient Room"
+        <img class="thumbnail" src="./assets/img/zoom-image-3.jpeg" alt="@localizer["alt-3"]"
              width="250" height="250">
         <!-- The Modal -->
         <div id="myModal" class="modal">

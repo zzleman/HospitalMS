@@ -1,17 +1,20 @@
 ﻿@model DoctorVM
+@using Microsoft.AspNetCore.Mvc.Localization
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject IViewLocalizer localizer
 @{
 
     ViewData["Title"] = "Index";
 }
-
-<link rel="stylesheet" href="./assets/css/doctor-detail.css">
+<script src="~/assets/js/contact.js"></script>
+<link rel="stylesheet" href="./assets/css/doctor-detail.css?v=2">
 <!-- Breadcrumb Area Start -->
 <div class="breadcrumb-container" style="background-image: url('../assets/img/all-page-bg.jpeg')">
-    <h1>Doctor Detail</h1>
+    <h1>@Model.Fullname</h1>
     <div class="breadcrumb-area" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/" style="color:darkturquoise ;">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page" style="color:white">Doctor Detail</li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">@Model.Fullname</li>
         </ol>
     </div>
 </div>
@@ -32,6 +35,6 @@
         </p>
     </div>
     <br>
-
+    <a href="/zeusmedadmin/appointment/create"><button class="appointment-button" style="background-color: #245BCD; color: white;">@localizer["makeAppointment"]</button></a>
 </div>
 <!-- Doctors Detail Area End -->
